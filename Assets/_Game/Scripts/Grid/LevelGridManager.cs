@@ -10,7 +10,7 @@ public class LevelGridManager : MonoBehaviour
     [SerializeField] private Tilemap _groundTilemap;
     [SerializeField] private List<TileData> _tileDatas;
     [Header("Tower Logic")]
-    [SerializeField] private GameObject _towerPrefab;
+    [SerializeField] private TowerData _selectedTowerData;
 
     private Dictionary<Vector2Int, GridNode> _grid = new Dictionary<Vector2Int, GridNode>();
     private Dictionary<TileBase, TileData> _dataLookup = new Dictionary<TileBase, TileData>();
@@ -122,32 +122,27 @@ public class LevelGridManager : MonoBehaviour
 
     public bool TryPlaceTower(Vector2Int gridPos)
     {
-        // 1. Check if the node exists in our dictionary
-        if (!_grid.ContainsKey(gridPos))
-        {
-            Debug.Log("Invalid Grid Position");
-            return false;
-        }
-
+        if (!_grid.ContainsKey(gridPos)) return false;
         GridNode node = _grid[gridPos];
 
-        // 2. Check the Rules (Is it buildable? Is it already empty?)
+        // 1. Check if placeable
         if (node.Data.isBuildable && !node.IsOccupied)
         {
-            // 3. Update the Data
-            node.IsOccupied = true; // Mark it as taken so we can't build here again
+            // 2. CHECK GOLD (New Logic)
+            // We ask the bank: "Do we have money?"
+            if (CurrencySystem.Instance.TrySpendGold(_selectedTowerData.cost))
+            {
+                // Success! We paid. Now build.
+                node.IsOccupied = true;
 
-            // 4. Spawn the Visuals
-            // We force Z to 0 so it sits perfectly on the 2D plane
-            Vector3 spawnPos = new Vector3(node.WorldPosition.x, node.WorldPosition.y, 0);
+                Vector3 spawnPos = new Vector3(node.WorldPosition.x, node.WorldPosition.y, 0);
+                Instantiate(_selectedTowerData.prefab, spawnPos, Quaternion.identity);
 
-            Instantiate(_towerPrefab, spawnPos, Quaternion.identity);
-
-            Debug.Log($"Built tower at {gridPos}");
-            return true;
+                Debug.Log($"Built tower! Gold Remaining: {CurrencySystem.Instance.CurrentGold}");
+                return true;
+            }
         }
 
-        Debug.Log("Cannot build here! (Not buildable or already occupied)");
         return false;
     }
 }

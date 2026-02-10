@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    [SerializeField] private int _goldReward = 10;
     [SerializeField] private float _maxHealth = 10f;
     private float _currentHealth;
 
@@ -24,8 +25,13 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        // TODO: We will add Coin gain logic here in Phase 3
-        Debug.Log("Enemy Died!");
+        // Access the Singleton to give money
+        if (CurrencySystem.Instance != null)
+        {
+            CurrencySystem.Instance.AddGold(_goldReward);
+        }
+
+        Debug.Log("Enemy Died and gave gold!");
         Destroy(gameObject);
     }
 }

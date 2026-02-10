@@ -53,8 +53,12 @@ public class EnemyMovement : MonoBehaviour
 
     private void ReachEndOfPath()
     {
-        // TODO: Deal damage to player here later
-        Debug.Log("Enemy Reached the End!");
-        Destroy(gameObject);
+        // Deal damage to the player
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.TakeDamage(1); // 1 damage per enemy
+        }
+
+        Destroy(gameObject); // Enemy vanishes into the base
     }
 }
