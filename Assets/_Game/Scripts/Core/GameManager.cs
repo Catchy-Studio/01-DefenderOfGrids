@@ -1,17 +1,17 @@
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement; // For restarting
+using UnityEngine.SceneManagement; // Required for reloading the scene
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
     [Header("Settings")]
-    [SerializeField] private int _maxLives = 20;
+    [SerializeField] private int _maxLives = 5; // Reduced for testing
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI _livesText;
-    [SerializeField] private GameObject _gameOverPanel; // We will make this later
+    [SerializeField] private GameObject _gameOverPanel; // <--- Drag your Panel here!
 
     public int CurrentLives { get; private set; }
     public bool IsGameOver { get; private set; }
@@ -42,8 +42,19 @@ public class GameManager : MonoBehaviour
     {
         IsGameOver = true;
         Debug.Log("GAME OVER!");
-        // Time.timeScale = 0; // Pause game
-        if (_gameOverPanel != null) _gameOverPanel.SetActive(true);
+
+        // Show the panel
+        if (_gameOverPanel != null)
+        {
+            _gameOverPanel.SetActive(true);
+        }
+    }
+
+    // Call this from the Restart Button
+    public void RestartGame()
+    {
+        // Reloads the current active scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     private void UpdateUI()

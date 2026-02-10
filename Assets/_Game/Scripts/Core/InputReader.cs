@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem; // Make sure Input System package is installed
+using UnityEngine.EventSystems;
 
 public class InputReader : MonoBehaviour
 {
@@ -22,19 +23,22 @@ public class InputReader : MonoBehaviour
 
     private void HandleClick()
     {
+        // 1. UI BLOCKER CHECK
+        // If the mouse is over a UI element (Button, Panel), STOP here.
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
+        // 2. Normal Logic
         Vector3 mousePos = Mouse.current.position.ReadValue();
-
-        // Ensure the Z position creates a ray that hits the world (usually -10 to 0)
         mousePos.z = -_mainCamera.transform.position.z;
-
         Vector3 worldPos = _mainCamera.ScreenToWorldPoint(mousePos);
 
-        // Get the node at this position
         GridNode node = LevelGridManager.Instance.GetNodeAtWorldPosition(worldPos);
 
         if (node != null)
         {
-            // Try to build!
             LevelGridManager.Instance.TryPlaceTower(node.GridPosition);
         }
     }
