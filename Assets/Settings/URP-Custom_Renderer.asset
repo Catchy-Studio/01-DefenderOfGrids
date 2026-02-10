@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7313304379187058569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 052a0051f28380a49905d797cf6fd45d, type: 3}
+  m_Name: MKToonPerObjectOutlines
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _layerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &-6881432014462896121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 473a86c9e274347dfbdde619584cebe9, type: 3}
+  m_Name: HighlightPlusRenderPassFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  renderPassEvent: 500
+  clearStencil: 0
+  previewInEditMode: 1
+  showInPreviewCamera: 1
+--- !u!114 &-5248773656591048886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb93b7e004ab854aadb649ea7719934, type: 3}
+  m_Name: KuwaharaGeneralized
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    intensity: 1
+    passes: 1
+    radius: 5
+    sharpness: 8
+    hardness: 8
+    detail: 0
+    detailStrength: 1
+    embossStrength: 0
+    embossAngle: 360
+    waterColor: 0.304
+    processDepth: 1
+    depthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.75
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0.25
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    depthPower: 0.595
+    sampleSky: 1
+    viewDepthCurve: 0
+    renderSize: 1
+    brightness: 0
+    contrast: 1
+    gamma: 1
+    hue: 0
+    saturation: 1
+    affectSceneView: 0
+    whenToInsert: 550
+    forceCurveTextureUpdate: 0
+--- !u!114 &-4216566821665846018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00045f12942b46c698459096c89274e, type: 3}
+  m_Name: CRT
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  injectionPoint: 600
+  fetchColorBuffer: 1
+  requirements: 0
+  passMaterial: {fileID: 2100000, guid: 07bcd2918ffedb14b891115a92583720, type: 2}
+  passIndex: 0
+  bindDepthStencilAttachment: 0
+  m_Version: 1
+--- !u!114 &-1878332245247344467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62c9c65cf3354c93be831c8bc075510, type: 3}
+  m_Name: SSAO
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_Settings:
+    AOMethod: 1
+    Downsample: 0
+    AfterOpaque: 0
+    Source: 1
+    NormalSamples: 1
+    Intensity: 0.5
+    DirectLightingStrength: 0.25
+    Radius: 0.25
+    Samples: 0
+    BlurQuality: 0
+    Falloff: 100
+    SampleCount: -1
+--- !u!114 &-1765827249303093612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2e666a0193a442ab1551414ba5f7c3, type: 3}
+  m_Name: QuibliPostProcess
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderersAfterOpaqueAndSky: []
+    renderersBeforePostProcess:
+    - CompoundRendererFeature.PostProcess.StylizedDetailRenderer, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    - CompoundRendererFeature.PostProcess.ColorGradingRenderer, Assembly-CSharp,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    renderersAfterPostProcess: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: URP-Custom_Renderer
+  m_EditorClassIdentifier: 
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
+      type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
+    probeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 53626a513ea68ce47b59dc1299fe3959,
+      type: 3}
+  probeVolumeResources:
+    probeVolumeDebugShader: {fileID: 0}
+    probeVolumeFragmentationDebugShader: {fileID: 0}
+    probeVolumeOffsetDebugShader: {fileID: 0}
+    probeVolumeSamplingDebugShader: {fileID: 0}
+    probeSamplingDebugMesh: {fileID: 0}
+    probeSamplingDebugTexture: {fileID: 0}
+    probeVolumeBlendStatesCS: {fileID: 0}
+  m_RendererFeatures:
+  - {fileID: -1878332245247344467}
+  - {fileID: -6881432014462896121}
+  - {fileID: -7313304379187058569}
+  - {fileID: -4216566821665846018}
+  m_RendererFeatureMap: adc0de57c6d2eee50738f0cf0a3e80a077283f286aec819afecce8e6d0be7bc5
+  m_UseNativeRenderPass: 0
+  xrSystemData: {fileID: 0}
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  m_AssetVersion: 2
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_CopyDepthMode: 1
+  m_DepthAttachmentFormat: 0
+  m_DepthTextureFormat: 0
+  m_AccurateGbufferNormals: 0
+  m_IntermediateTextureMode: 1
+--- !u!114 &523644661159941769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ddad8381a8994d87ea5cb57d77b6f, type: 3}
+  m_Name: OneBit
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    intensity: 1
+    edges: 0.76
+    noiseStrength: 1.44
+    noiseSeed: 1.7
+    blendMode: 13
+    colorMode: 0
+    color:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    color0:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    color1:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    gradient:
+      key0:
+        r: 0
+        g: 0
+        b: 0
+        a: 1
+      key1:
+        r: 0.33
+        g: 0.33
+        b: 0.33
+        a: 1
+      key2:
+        r: 0.66
+        g: 0.66
+        b: 0.66
+        a: 0
+      key3:
+        r: 1
+        g: 1
+        b: 1
+        a: 0
+      key4:
+        r: 0
+        g: 0
+        b: 0
+        a: 0
+      key5:
+        r: 0
+        g: 0
+        b: 0
+        a: 0
+      key6:
+        r: 0
+        g: 0
+        b: 0
+        a: 0
+      key7:
+        r: 0
+        g: 0
+        b: 0
+        a: 0
+      ctime0: 0
+      ctime1: 13107
+      ctime2: 32768
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: -1
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    luminanceMin: 0
+    luminanceMax: 1
+    circularRadius: 2
+    horizontalOffset: 1
+    verticalOffset: 1
+    redCount: 255
+    greenCount: 255
+    blueCount: 255
+    invertColor: 0
+    brightness: 0
+    contrast: 1
+    gamma: 1
+    hue: 0
+    saturation: 1
+    affectSceneView: 0
+    whenToInsert: 550
+    forceGradientTextureUpdate: 1
+  material: {fileID: 0}
+--- !u!114 &4883830252047388555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b76a5db6251bd74fb78ad4c7b95c46c, type: 3}
+  m_Name: Tonemapper
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    intensity: 1
+    tonemapperOperator: 0
+    exposure: 0
+    colorFilter:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    temperature: 0
+    tint: 0
+    vibrance: 0
+    vibranceBalance: {x: 1, y: 1, z: 1}
+    contrastMidpoint: 0.18
+    lift:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    liftBright: 1
+    midtones:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    midtonesBright: 1
+    gain:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    gainBright: 1
+    whiteLevel: 1
+    linearWhite: 1.5
+    linearColor: 1.5
+    cutOff: 0.025
+    agXPunchyLook: 1
+    brightness: 0
+    contrast: 1
+    gamma: 1
+    hue: 0
+    saturation: 1
+    blackPoint: 0
+    whitePoint: 1
+    toeStrength: 0
+    shoulderStrength: 0
+    redChannelMixer: {x: 1, y: 0, z: 0}
+    greenChannelMixer: {x: 0, y: 1, z: 0}
+    blueChannelMixer: {x: 0, y: 0, z: 1}
+    highlightTint:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    shadowTint:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+    splitBalance: 0
+    redsAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    yellowsAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    greensAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    cyansAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    bluesAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    magentasAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    whitesAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    neutralsAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    blacksAdjustment: {x: 0, y: 0, z: 0, w: 0}
+    advancedVibrance: 0
+    vibranceSaturation: 1
+    vibranceProtect: 0
+    vibranceColorBalance: {x: 1, y: 1, z: 1}
+    vibranceSkinTone: 0
+    vibranceSky: 0
+    vibranceFoliage: 0
+    vibranceWarmth: 0
+    vibranceCoolness: 0
+    affectSceneView: 0
+    whenToInsert: 550
+  material: {fileID: 0}
+--- !u!114 &5254156750921504748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cca7768aaaea4b0081f14e7f9d4b5ad, type: 3}
+  m_Name: FlatKitOutline
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings: {fileID: 0}
+  _effectMaterial: {fileID: 0}
+  _requiresColor: 0
+  _injectedBeforeTransparents: 0
+  _requirements: 4
+--- !u!114 &9110451584361897628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 770acbaed70db4ad696458511aa3f084, type: 3}
+  m_Name: FlatKitFog
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings: {fileID: 0}
+  _effectMaterial: {fileID: 0}
+  _requiresColor: 0
+  _injectedBeforeTransparents: 0
+  _requirements: 4
+  _lutDepth: {fileID: 0}
+  _lutHeight: {fileID: 0}

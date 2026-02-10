@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: KWTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: c3c3918af2df1ac47a2a1053dc11def3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 225338929434624
+    m_Localized: <#12e316>Kazan</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225340116422656
+    m_Localized: <#40f5ff>Donma</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225341014003712
+    m_Localized: "<SLOW> her y\u0131\u011F\u0131n i\xE7in %10"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225342146465792
+    m_Localized: <#858585><b>Siyah Top</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225343048241152
+    m_Localized: <BLACK_BALL> negatif puan verir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225344163926016
+    m_Localized: <#ffa436>Yarat</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225345287999488
+    m_Localized: "<#e5f257>De\u011Fi\u015Ftir</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225346407878656
+    m_Localized: <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225347531952128
+    m_Localized: "<#d4fdff><b><u>Top \xC7arpt\u0131\u011F\u0131nda</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225348651831296
+    m_Localized: <#ffa436>Relik</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225349754933248
+    m_Localized: <#d0eb21>Numbers II</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225350870618112
+    m_Localized: "<#5ff257>Z\u0131plama</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225352019857408
+    m_Localized: <#5ff257>Sekme</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225353135542272
+    m_Localized: <#e8a451><b>Efsanevi</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225354251227136
+    m_Localized: "<#1898d9>Par\xE7alanma</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225355136225280
+    m_Localized: "+1x <MULT> verir ve top puan\u0131n\u0131 ikiye katlar. <FREEZE>'i
+      temizler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225356277075968
+    m_Localized: <#ffa436>Relik</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225357170462720
+    m_Localized: "Oynay\u0131\u015F bi\xE7imini de\u011Fi\u015Ftiren pasif bonuslar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225358273564672
+    m_Localized: <#d0eb21>Numbers IV</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225359380860928
+    m_Localized: <#7aeb2a>Vurgula</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225360274247680
+    m_Localized: Vurgulaed balls earn double points <ON_POCKET>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225361394126848
+    m_Localized: <#f0871f>Birikebilir</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225362287513600
+    m_Localized: "Etkileri birden \xE7ok kez birikebilir. <ON_GAME_END>'de s\u0131f\u0131rlan\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225363424169984
+    m_Localized: <#519ae8><b>Nadir</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225364544049152
+    m_Localized: <#f0b81f>Faiz</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225365445824512
+    m_Localized: "Bilardo sonunda elindeki her 5 <sprite name=\"coin\"> i\xE7in +1
+      <sprite name=\"coin\">."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225366557315072
+    m_Localized: <#d4d4d4><b>BEYAZ_TOP</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225367689777152
+    m_Localized: <#d212e3>RMB</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225368826433536
+    m_Localized: "<#d4fdff><b><u>Vurdu\u011Funda</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225369954701312
+    m_Localized: "<#ffd6de><b>\u0130\u015Faret Topu</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225370885836800
+    m_Localized: "Bu ana topundur, <WHITE_BALL> olarak da bilinir. <STICKER> tak\u0131lamaz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225372035076096
+    m_Localized: <#d0eb21>Numbers I</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225373259812864
+    m_Localized: "<#ac47ff><b>Kal\u0131c\u0131</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225374417440768
+    m_Localized: "<#cd42ff>\xD6zel</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225375344381952
+    m_Localized: "<SPECIAL>, tak\u0131l\u0131 oldu\u011Fu topa <UNIQUE> bir \xF6zellik
+      verir.\nHer <BALL> her <SPECIAL>'den yaln\u0131zca bir kez ta\u015F\u0131yabilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225376489426944
+    m_Localized: "<#36ffd7>Yava\u015F</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225377672220672
+    m_Localized: "<#eb2aeb>G\xFC\xE7</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225378842431488
+    m_Localized: "<#7e87c4>A\u011F\u0131rl\u0131k</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225379995865088
+    m_Localized: <#ff3643><burn>Yanma</color></burn>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225380914417664
+    m_Localized: "Tur sonunda, top puan\u0131 x <BURN> say\u0131s\u0131 kadar puan
+      verir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225382067851264
+    m_Localized: "<#d4ffee><b><u>Tur Ba\u015F\u0131nda</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225383225479168
+    m_Localized: <#eb9e2a>Tur Skoru</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225384370524160
+    m_Localized: <#ffa436>Nadirlik</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225385595260928
+    m_Localized: <#f23c24><b>Lanetli</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225386715140096
+    m_Localized: "<#d4ffee><b><u>Oyun Bitti\u011Finde</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225387847602176
+    m_Localized: "<#90ff36>Kost\xFCm Stikeri</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225388975869952
+    m_Localized: "<#9de312>K\xFC\xE7\xFCk Bilardo</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225390104137728
+    m_Localized: <#12e3ce>LMB</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225391274348544
+    m_Localized: <#e39a12>Premium Bilardo</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225392419393536
+    m_Localized: "<#ff36eb>\xC7arpan</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225393577021440
+    m_Localized: <#ac57f2>Maksimum Stiker</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225394780786688
+    m_Localized: "<#cd42ff>\xD6zel Stiker</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225396013912064
+    m_Localized: "<#d4ffee><b><u>Tak\u0131l\u0131yken</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225397251231744
+    m_Localized: <#2aeba1>Cebe Puan</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225398434025472
+    m_Localized: "<#eb2178>E\u015Fsiz</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225399566487552
+    m_Localized: <#c7b72a>Lig</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225400862527488
+    m_Localized: <#12e3a1>Atla</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225402028544000
+    m_Localized: "<#94eb2a>Sekme Puan\u0131</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225403186171904
+    m_Localized: <#5cb8ff>Stiker</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225404327022592
+    m_Localized: <#94eb2a>Puan</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225405488844800
+    m_Localized: <#faac25>Tost</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225406403203072
+    m_Localized: "Periyodik olarak yak\u0131ndaki toplar\u0131 g\xFC\xE7lendiren
+      alevler atar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225407552442368
+    m_Localized: <#85e312>Bilardo</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225408710070272
+    m_Localized: <#d4fdff><b><u>Topla Sekince</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225409850920960
+    m_Localized: "<#c712e3>B\xFCy\xFCk Bilardo</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225410991771648
+    m_Localized: <#d4fdff><b><u>Sekince</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225412141010944
+    m_Localized: <#d4ffee><b><u>Her Tur</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225413273473024
+    m_Localized: "<#ffffff>Alt\u0131n \u0130\u015Faret Topu</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225414192025600
+    m_Localized: <ON_POCKET>, +5 <COIN> ve +100 puan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225415311904768
+    m_Localized: "<#c5c7bf><b>S\u0131radan</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225416435978240
+    m_Localized: <#d0eb21>Top</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225417631354880
+    m_Localized: <#d4ffee><b><u>Tur Bitiminde</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225418843508736
+    m_Localized: "<#d4ffee><b><u>Cebe Girdi\u011Finde</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225420097605632
+    m_Localized: "<rainb>G\xF6kku\u015Fa\u011F\u0131 Topu</rainb>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225421041324032
+    m_Localized: Bir <SPECIAL> <BALL>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225422203146240
+    m_Localized: "<#90ff36>Kost\xFCm</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225423125893120
+    m_Localized: "<COSTUME>, topunun g\xF6r\xFCn\xFC\u015F\xFCn\xFC ve \xF6zelliklerini
+      de\u011Fi\u015Ftirir.\nHer <BALL> yaln\u0131zca 1 <COSTUME> ta\u015F\u0131yabilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225424300298240
+    m_Localized: "<#d4ffee><b><u>Oyun Ba\u015Flang\u0131c\u0131nda</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225425445343232
+    m_Localized: <#cf51e8><b>Epik</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225426590388224
+    m_Localized: "<#7ee851><b>S\u0131rad\u0131\u015F\u0131</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225427768987648
+    m_Localized: "<#c712e3>\xD6zelle\u015Ftirilmi\u015F</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225428951781376
+    m_Localized: "<#5ff257>At\u0131\u015F</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225430084243456
+    m_Localized: "<#d4fdff><b><u>\xC7arp\u0131\u015F\u0131nca</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225431199928320
+    m_Localized: <#d0eb21>Numbers Topu</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225432131063808
+    m_Localized: <UNIQUE> <BALL> serisi. <CUSTOMIZED> olamaz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225433284497408
+    m_Localized: <#d0eb21>Numbers III</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225434416959488
+    m_Localized: "<#eb9e2a>G\xFCncel Skor</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225435545227264
+    m_Localized: "<#eb2005>Ba\u015Far\u0131s\u0131z</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225436686077952
+    m_Localized: <#d4fdff><b><u>Duvara Sekince</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225437835317248
+    m_Localized: <#eb9e2a>Hedef Skor</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225438753869824
+    m_Localized: "Bilardoyu bitirmek i\xE7in <SHOT> bitmeden \xF6nce bu skoru ge\xE7men
+      gerekiyor."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

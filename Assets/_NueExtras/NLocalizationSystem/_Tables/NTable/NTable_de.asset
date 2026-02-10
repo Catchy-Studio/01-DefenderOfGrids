@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NTable_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 4c1126ce84e736c49b4f3b65f864dabf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 677565464825856
+    m_Localized: 'Ziel-
+
+      Punkte'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 679121245425664
+    m_Localized: 'Aktueller
+
+      Score'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681106824744960
+    m_Localized: 'Zug-
+
+      Punkte'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681207311880192
+    m_Localized: LIGA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681343438016512
+    m_Localized: TISCH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681360919875584
+    m_Localized: ZUG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681578520367104
+    m_Localized: '#bossDescription'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681739992682496
+    m_Localized: "<wave>Ziehe die Wei\xDFe Kugel zum Ersetzen</wave>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682049238716416
+    m_Localized: 'SHOTS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682080037490688
+    m_Localized: 'REPOSITONS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682120130842624
+    m_Localized: ERSATZ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682146932445184
+    m_Localized: "Best\xE4tigen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682167488729088
+    m_Localized: Abbrechen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682194030284800
+    m_Localized: SPIEL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682212862709760
+    m_Localized: KARTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682228868173824
+    m_Localized: SHOP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682830566248448
+    m_Localized: Spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682881506070528
+    m_Localized: "\xDCberspringen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683096120217600
+    m_Localized: Punkte mindestens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683838755295232
+    m_Localized: Klassischer Tisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699930143870976
+    m_Localized: "\xDCberspringen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699979582132224
+    m_Localized: <wave>CHOOSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701239878209536
+    m_Localized: Tisch abgeschlossen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701373584232448
+    m_Localized: TOTAL PRIZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701416932364288
+    m_Localized: '#total'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701537615073280
+    m_Localized: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701654912978944
+    m_Localized: 'Interest: <#FFBE20>#interest'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701655709896704
+    m_Localized: 'Shots: <#FFBE20>#shot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701656443899904
+    m_Localized: 'Extras: <#FFBE20>#extra'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701657161125888
+    m_Localized: 'Reward: <#FFBE20>#reward'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703375701692416
+    m_Localized: Du gewinnst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703400905265152
+    m_Localized: You beat all leagues!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703438070992896
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703651707867136
+    m_Localized: Du verlierst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703824253145088
+    m_Localized: You demoted from your league.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704224020647936
+    m_Localized: Ziel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704224863703040
+    m_Localized: '- Drag and drop a <STICKER> to any <BALL> enhance it. Each <BALL>
+      can hold <MAX_STICKER>, default 4.
+
+      - Bought <STICKER> appear on the
+      right.
+
+      - To sell one, click it in inventory and confirm.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704225606094848
+    m_Localized: '- Hold <LMB> to take aim and increase shoot power. Release to shoot.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704226352680960
+    m_Localized: Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704227103461376
+    m_Localized: '- Complete all 8 <LEAGUE> to <WIN>.
+
+      - Each <LEAGUE> has
+      3 pools; <SMALL>, <BIG>, <PREMIUM>
+
+      - <PREMIUM> has some negative effects
+
+      -
+      To complete a <POOL>, you have to pass its <TARGET_SCORE>
+
+      - You can
+      <SKIP> <SMALL> or <BIG> to get extra reward'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704227866824704
+    m_Localized: '- <RELICW> gives you passive bonuses during your game.
+
+      -
+      Once you purchase a <RELICW>, you can see them on bottom of your table.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704229376774144
+    m_Localized: '- You can cancel powering with <RMB>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704230119165952
+    m_Localized: Steuerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704230886723584
+    m_Localized: Relikte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704231637504000
+    m_Localized: "Einf\xFChrung"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704232384090112
+    m_Localized: "Kost\xFCm & Spezial"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704233143259136
+    m_Localized: '- <COSTUME> changes your <BALL> visual and properties.
+
+      Each
+      <BALL> can only hold 1 <COSTUME>.
+
+      - <SPECIAL> gives attached <BALL>
+      a <UNIQUE> feature.
+
+      Each <BALL> can only hold each <SPECIAL> once.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704682764259328
+    m_Localized: Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705583956611072
+    m_Localized: Ausverkauft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705713380249600
+    m_Localized: Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705752638935040
+    m_Localized: Packs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705822348267520
+    m_Localized: Ausverkauft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705999062683648
+    m_Localized: Weiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706028636721152
+    m_Localized: Bald
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706060991582208
+    m_Localized: "Gl\xFCcksrad"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706128087863296
+    m_Localized: "Neu w\xFCrfeln"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 976201541210112
+    m_Localized: CLASSIC CUE
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

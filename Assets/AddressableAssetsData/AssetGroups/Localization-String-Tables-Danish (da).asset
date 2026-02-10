@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Danish (da)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Danish (da)
+  m_GUID: eef140c3eb279b445b9daf6913728503
+  m_SerializeEntries:
+  - m_GUID: 22c40eb58ccd54145992ae814426b2d3
+    m_Address: GameTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 381ae44d725537545a18efa7e33c772c
+    m_Address: SettingsTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c080e8eef19aac40a106633edaf11b2
+    m_Address: ShopTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a8d2fcf8da69384e9b9b1d4e62be3ff
+    m_Address: MenuTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b6890fa3626996459ec7d43d4f28f4f
+    m_Address: NStatTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cce45687515c554bbba9ee4ddc591f3
+    m_Address: RelicTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0e76194d15d9a347a88557d1263d700
+    m_Address: KWTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe05b12e1f0f56b4790fe4e92e86e310
+    m_Address: NTable_da
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-da
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 9e9fe5b98dc3c8d4392a278419d72f21, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 59de6705cabd7a045aa7f48717b24a27, type: 2}
+    - {fileID: 11400000, guid: 578737e2fdd3a244e82cbfa7f9efc618, type: 2}

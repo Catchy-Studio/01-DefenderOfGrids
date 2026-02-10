@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ShopTable_zh
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 69d2579f0a363cb4fa1adcbc39264b9d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 92334968832
+    m_Localized: Fire Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93291270144
+    m_Localized: 'Leaves a fire trail while moving. If any other ball touches the
+      fire trail, apply 1x <BURN> to them.
+
+      Always <BURN> self.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94377594880
+    m_Localized: Bounce Multiplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95220649984
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96311169024
+    m_Localized: Steel Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97175195648
+    m_Localized: '+1 <MULT> for each distance travelled. +1000% <WEIGHT>
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98265714688
+    m_Localized: Cross Bouncer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99121352704
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100211871744
+    m_Localized: Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101071704064
+    m_Localized: "<POWER> \u589E\u52A0 #Power"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102128668672
+    m_Localized: Sleepy Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102992695296
+    m_Localized: '<ON_POCKET>, this ball will not enter the table anymore.
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104083214336
+    m_Localized: Power Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104951435264
+    m_Localized: '<On_BOUNCE>, Discharge all power and convert it to point.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106033565696
+    m_Localized: Rock Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106876620800
+    m_Localized: '+100 <POINT>.
+
+      There will be no <BOUNCE_POINT>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107925196800
+    m_Localized: Cursed Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108789223424
+    m_Localized: "<WHILE_ATTACHED>, this ball counts as <BLACK_BALL>. \n<ON_POCKET>,
+      destroy the sticker.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109841993728
+    m_Localized: Golden Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110706020352
+    m_Localized: '<ON_BOUNCE_WALL>, 20% chance to earn 1<COIN>.
+
+      <ON_POCKET>,
+      earn 5<COIN>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111762984960
+    m_Localized: Pocket Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112622817280
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113688170496
+    m_Localized: Stray Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552197120
+    m_Localized: 'Ball point and pocket points are reversed.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115617550336
+    m_Localized: Mega Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116481576960
+    m_Localized: "<POINT> \u589E\u52A0 #Point"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117559513088
+    m_Localized: Jester Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118415151104
+    m_Localized: '<ON_TURN_START> moves randomly.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119501475840
+    m_Localized: Pocket Multiplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120344530944
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121422467072
+    m_Localized: Pocket Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122282299392
+    m_Localized: "<POCKET_POINT> \u589E\u52A0 #PocketPoint"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123372818432
+    m_Localized: Bomb Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124220067840
+    m_Localized: '<ON_HIT> Create a small explosion. Every 6 hits, create a big explosion.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125306392576
+    m_Localized: Bouncy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126183002112
+    m_Localized: "<BOUNCY> \u589E\u52A0 #Bounciness"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127286104064
+    m_Localized: Weight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128154324992
+    m_Localized: "<WEIGHT> \u589E\u52A0 #Weight"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129232261120
+    m_Localized: Mega Pocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130155008000
+    m_Localized: "<POCKET_POINT> \u589E\u52A0 #PocketPoint"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131232944128
+    m_Localized: Lucky Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132126330880
+    m_Localized: "<ON_POCKET>\uFF0C+5 <COIN>\uFF0C\u4E14\u6709 20% \u6982\u7387\u9500\u6BC1\u3002\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133216849920
+    m_Localized: Frost Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134106042368
+    m_Localized: '<ON_BALL_HIT> Apply 1x <FREEZE>. If the target ball has 3x <FREEZE>,
+      <SHATTER> it. Immune to <FREEZE>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135200755712
+    m_Localized: Ball Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136098336768
+    m_Localized: "<POINT> \u589E\u52A0 #Point"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137222410240
+    m_Localized: Space Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138115796992
+    m_Localized: 'Has an unique orbital movement.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139214704640
+    m_Localized: Pocket Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140082925568
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141144084480
+    m_Localized: Target Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141999722496
+    m_Localized: '<WHILE_ATTACHED>, 2x <BOUNCE_POINT>
+
+      <ON_POCKET>, destroy
+      the sticker.
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144822489088
+    m_Localized: Farmer Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145673932800
+    m_Localized: "<ON_TURN_END>\uFF0C\u82E5\u4FDD\u6301\u9759\u6B62\u5219 +2 <COIN>\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146764451840
+    m_Localized: Bounty Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147615895552
+    m_Localized: '<ON_COLLIDE> with <CUE_BALL>, +1 <MULT>.
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148702220288
+    m_Localized: Pocket Crosser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149557858304
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175117946880
+    m_Localized: Relic Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175977779200
+    m_Localized: Choose 1 of 3 random <RELIC>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177026355200
+    m_Localized: Costume Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177890381824
+    m_Localized: Choose 1 of 3 random <COSTUME_STICKER>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178951540736
+    m_Localized: Relic Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179786207232
+    m_Localized: Choose 1 of 3 random <RELIC>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180864143360
+    m_Localized: Relic Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181694615552
+    m_Localized: Choose 1 of 3 random <RELIC>
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

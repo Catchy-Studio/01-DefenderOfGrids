@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuTable_hu
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: hu
+  m_SharedData: {fileID: 11400000, guid: ed2a47b7c7e38e3488c1954e5a7dccd9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 18632658944
+    m_Localized: "\xDAJ J\xC1T\xC9K"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98102136832
+    m_Localized: "GY\u0170JTEM\xC9NY"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129479725056
+    m_Localized: "KIL\xC9P\xC9S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152695197696
+    m_Localized: "\u201CKorai hozz\xE1f\xE9r\xE9s\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204029284352
+    m_Localized: "<b>Megjegyz\xE9s:</b> Ez a j\xE1t\xE9k m\xE9g fejleszt\xE9s alatt
+      \xE1ll, \xE9s egyes funkci\xF3k hi\xE1nyosak lehetnek, vagy hib\xE1kat tartalmazhatnak.
+      Ha b\xE1rmilyen probl\xE9m\xE1ba \xFCtk\xF6z\xF6l, vagy visszajelz\xE9sed van,
+      \xF6r\xF6mmel fogadjuk!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234320547840
+    m_Localized: "H\xCDREK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268483153920
+    m_Localized: "FOLYTAT\xC1S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991459528704
+    m_Localized: "\xDAJ\n#value"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1531287425024
+    m_Localized: "FELOLD\xC1S"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1568784502784
+    m_Localized: VISSZA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1594537529344
+    m_Localized: "MATRIC\xC1K\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1629207646208
+    m_Localized: "M\u0170T\xC1RGYAK\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656596451328
+    m_Localized: "JELZ\xC9SEK\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820511617024
+    m_Localized: "Visszajelz\xE9s k\xFCld\xE9se"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5849419862016
+    m_Localized: "GY\u0170JTEM\xC9NY"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515013963776
+    m_Localized: "MATRIC\xC1K"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6547662426112
+    m_Localized: "M\u0170T\xC1RGYAK"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6573037965312
+    m_Localized: "JELZ\xC9SEK"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

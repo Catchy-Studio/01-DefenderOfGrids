@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Hungarian (hu)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Hungarian (hu)
+  m_GUID: 4825921e3fe390f44808b650f57a1660
+  m_SerializeEntries:
+  - m_GUID: 08aaa2abe042c9040a8a43a1460d8ffc
+    m_Address: KWTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b6d6294f2f8d634d8bb5f60ce7415e9
+    m_Address: NTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e5b6c08f0f4ff24082953c36c727878
+    m_Address: RelicTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25bc740047aa8b74087f45388bd19ffc
+    m_Address: GameTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 285070164ff90794fa8d5b1680ba3262
+    m_Address: MenuTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d51f9c7267457642978149a63acc779
+    m_Address: SettingsTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78e00fe1b88cc864db58f512bf312d0c
+    m_Address: ShopTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c600d5e5e243a04dbe0781002d95c29
+    m_Address: NStatTable_hu
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-hu
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 9e9fe5b98dc3c8d4392a278419d72f21, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ef566b2f1ce8461448d862717b62afc2, type: 2}
+    - {fileID: 11400000, guid: f1d80e1413ffa3040abece20e35a3558, type: 2}

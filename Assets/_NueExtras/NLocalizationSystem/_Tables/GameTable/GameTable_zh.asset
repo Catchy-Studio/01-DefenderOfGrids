@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTable_zh
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 9ed6cd6f36c95b94bb2eb05970384015, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 199514813616128
+    m_Localized: "\u6240\u6709\u888B\u53E3\u65B9\u5411\u53CD\u8F6C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199515665059840
+    m_Localized: Add 3 <BLACK_BALL>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199516491337728
+    m_Localized: Reduce Stripe Ball points by 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199517321809920
+    m_Localized: Reduce Costume Ball points by 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518152282112
+    m_Localized: Halves wall bounce points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518995337216
+    m_Localized: Reduce Solid Ball points by 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199519838392320
+    m_Localized: Extra big pool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358605158600704
+    m_Localized: Improved Luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358606123290624
+    m_Localized: "\u5728\u4E0B\u6B21\u8D2D\u4E70\u524D\u63D0\u5347 <RARITY>\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358607297695744
+    m_Localized: Relic Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358608287551488
+    m_Localized: "\u6253\u5F00\u4E00\u4E2A <RELIC> \u5305"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358609357099008
+    m_Localized: High Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358610204348416
+    m_Localized: "\u83B7\u5F97 10 \u4E2A <sprite name=\"coin\">"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358611244535808
+    m_Localized: Blocker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358612079202304
+    m_Localized: Block next Premium Pool's debuff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613115195392
+    m_Localized: Low Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613937278976
+    m_Localized: "\u83B7\u5F97 5 \u4E2A <sprite name=\"coin\">"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358614977466368
+    m_Localized: <rainb>Rainbow Ball</rainb>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358615803744256
+    m_Localized: <ON_GAME_START>, add 1x <RAINBOW_BALL>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362100230180864
+    m_Localized: <rainb>Rainbow Ball</rainb>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362101249396736
+    m_Localized: Number Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362102272806912
+    m_Localized: Black Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362103287828480
+    m_Localized: Stripe Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362104336404480
+    m_Localized: Cue Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362105380786176
+    m_Localized: Solid Ball
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319380144128
+    m_Localized: <TARGET_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9328754413568
+    m_Localized: "\u8981\u5B8C\u6210\u5F53\u524D\u5C40\uFF0C\u9700\u8981\u8FBE\u5230\u6B64<POINT>\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19319620096000
+    m_Localized: <CURRENT_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19435332554752
+    m_Localized: "\u672C\u5C40\u7D2F\u8BA1\u83B7\u5F97\u7684<POINT>\u3002\u8981\u5B8C\u6210\u6B64\u5C40\uFF0C\u9700\u8981\u8FBE\u5230<TARGET_SCORE>\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19723498016768
+    m_Localized: <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19918201802752
+    m_Localized: "\u5C06<TURN_SCORE>\u4E58\u4EE5<MULT>\u540E\u8F6C\u6362\u4E3A<CURRENT_SCORE>\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19974770380800
+    m_Localized: <TURN_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20075035217920
+    m_Localized: "\u8BE5\u56DE\u5408\u7D2F\u8BA1\u83B7\u5F97\u7684<POINT>\u3002\u5728<ON_TURN_START>\u65F6\u91CD\u7F6E\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20175719485440
+    m_Localized: "\u786C\u5E01"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20244459933696
+    m_Localized: "\u4E00\u79CD\u73CD\u8D35\u7684\u8D44\u6E90\u3002\u5177\u6709<INTEREST>\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20325019930624
+    m_Localized: <SHOT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20399791788032
+    m_Localized: "\u8FD9\u662F\u4F60\u5269\u4F59\u7684<SHOT>\u6570\u91CF\u3002\u82E5<SHOT>\u964D\u81F30\u4E14\u672A\u8FBE\u5230<TARGET_SCORE>\uFF0C\u4F60\u5C06<FAILED>\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20459862609920
+    m_Localized: <REPLACE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20544268783616
+    m_Localized: "\u70B9\u51FB\u201C\u66FF\u6362\u201D\u53EF\u5C06<CUE_BALL>\u79FB\u52A8\u5230\u7403\u53F0\u4E0A\u7684\u4EFB\u610F\u4F4D\u7F6E\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198756001107968
+    m_Localized: "\u5927\u578B\u7403\u5C40"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198756860940288
+    m_Localized: "\u5C0F\u578B\u7403\u5C40"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198757708189696
+    m_Localized: "\u9AD8\u7EA7\u7403\u5C40"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372894971973632
+    m_Localized: "\u5DF2\u9501\u5B9A"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

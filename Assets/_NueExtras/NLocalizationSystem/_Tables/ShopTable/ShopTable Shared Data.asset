@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ShopTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: ShopTable
+  m_TableCollectionNameGuidString: 69d2579f0a363cb4fa1adcbc39264b9d
+  m_Entries:
+  - m_Id: 92334968832
+    m_Key: DATA/Product/Title/Sticker_Costume_Fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93291270144
+    m_Key: DATA/Product/Desc/Sticker_Costume_Fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94377594880
+    m_Key: DATA/Product/Title/Sticker_Multiplier_Bounce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95220649984
+    m_Key: DATA/Product/Desc/Sticker_Multiplier_Bounce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96311169024
+    m_Key: DATA/Product/Title/Sticker_Costume_Steel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97175195648
+    m_Key: DATA/Product/Desc/Sticker_Costume_Steel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98265714688
+    m_Key: DATA/Product/Title/Sticker_Multiplier_Bounce_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99121352704
+    m_Key: DATA/Product/Desc/Sticker_Multiplier_Bounce_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100211871744
+    m_Key: DATA/Product/Title/Sticker_Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101071704064
+    m_Key: DATA/Product/Desc/Sticker_Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102128668672
+    m_Key: DATA/Product/Title/Sticker_Sleepy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102992695296
+    m_Key: DATA/Product/Desc/Sticker_Sleepy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104083214336
+    m_Key: DATA/Product/Title/Sticker_Costume_T2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104951435264
+    m_Key: DATA/Product/Desc/Sticker_Costume_T2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106033565696
+    m_Key: DATA/Product/Title/Sticker_Costume_Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106876620800
+    m_Key: DATA/Product/Desc/Sticker_Costume_Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107925196800
+    m_Key: DATA/Product/Title/Sticker_Curse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108789223424
+    m_Key: DATA/Product/Desc/Sticker_Curse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109841993728
+    m_Key: DATA/Product/Title/Sticker_Costume_Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110706020352
+    m_Key: DATA/Product/Desc/Sticker_Costume_Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111762984960
+    m_Key: DATA/Product/Title/Sticker_CoinOnPocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112622817280
+    m_Key: DATA/Product/Desc/Sticker_CoinOnPocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113688170496
+    m_Key: DATA/Product/Title/Sticker_Costume_T3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552197120
+    m_Key: DATA/Product/Desc/Sticker_Costume_T3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115617550336
+    m_Key: DATA/Product/Title/Sticker_Point_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116481576960
+    m_Key: DATA/Product/Desc/Sticker_Point_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117559513088
+    m_Key: DATA/Product/Title/Sticker_Costume_T4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118415151104
+    m_Key: DATA/Product/Desc/Sticker_Costume_T4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119501475840
+    m_Key: DATA/Product/Title/Sticker_Multiplier_Pocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120344530944
+    m_Key: DATA/Product/Desc/Sticker_Multiplier_Pocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121422467072
+    m_Key: DATA/Product/Title/Sticker_Point_Pocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122282299392
+    m_Key: DATA/Product/Desc/Sticker_Point_Pocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123372818432
+    m_Key: DATA/Product/Title/Sticker_Costume_Bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124220067840
+    m_Key: DATA/Product/Desc/Sticker_Costume_Bomb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125306392576
+    m_Key: DATA/Product/Title/Sticker_Bounciness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126183002112
+    m_Key: DATA/Product/Desc/Sticker_Bounciness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127286104064
+    m_Key: DATA/Product/Title/Sticker_Weight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128154324992
+    m_Key: DATA/Product/Desc/Sticker_Weight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129232261120
+    m_Key: DATA/Product/Title/Sticker_Point_Pocket_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130155008000
+    m_Key: DATA/Product/Desc/Sticker_Point_Pocket_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131232944128
+    m_Key: DATA/Product/Title/Sticker_Lucky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132126330880
+    m_Key: DATA/Product/Desc/Sticker_Lucky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133216849920
+    m_Key: DATA/Product/Title/Sticker_Costume_Frost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134106042368
+    m_Key: DATA/Product/Desc/Sticker_Costume_Frost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135200755712
+    m_Key: DATA/Product/Title/Sticker_Point_Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136098336768
+    m_Key: DATA/Product/Desc/Sticker_Point_Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137222410240
+    m_Key: DATA/Product/Title/Sticker_Costume_T1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138115796992
+    m_Key: DATA/Product/Desc/Sticker_Costume_T1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139214704640
+    m_Key: DATA/Product/Title/Sticker_CoinOnPocket_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140082925568
+    m_Key: DATA/Product/Desc/Sticker_CoinOnPocket_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141144084480
+    m_Key: DATA/Product/Title/Sticker_Target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141999722496
+    m_Key: DATA/Product/Desc/Sticker_Target
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144822489088
+    m_Key: DATA/Product/Title/Sticker_Farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145673932800
+    m_Key: DATA/Product/Desc/Sticker_Farmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146764451840
+    m_Key: DATA/Product/Title/Sticker_Bounty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147615895552
+    m_Key: DATA/Product/Desc/Sticker_Bounty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148702220288
+    m_Key: DATA/Product/Title/Sticker_Multiplier_Pocket_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149557858304
+    m_Key: DATA/Product/Desc/Sticker_Multiplier_Pocket_Upgraded
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175117946880
+    m_Key: DATA/Product/Title/Pack_Relic 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175977779200
+    m_Key: DATA/Product/Desc/Pack_Relic 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177026355200
+    m_Key: DATA/Product/Title/Pack_Sticker_Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177890381824
+    m_Key: DATA/Product/Desc/Pack_Sticker_Costume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178951540736
+    m_Key: DATA/Product/Title/Pack_Relic 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179786207232
+    m_Key: DATA/Product/Desc/Pack_Relic 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180864143360
+    m_Key: DATA/Product/Title/Pack_Relic 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181694615552
+    m_Key: DATA/Product/Desc/Pack_Relic 2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 49370435184230492
+  references:
+    version: 2
+    RefIds:
+    - rid: 49370435184230492
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1757228390182

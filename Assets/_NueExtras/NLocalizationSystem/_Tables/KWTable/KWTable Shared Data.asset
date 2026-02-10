@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: KWTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: KWTable
+  m_TableCollectionNameGuidString: c3c3918af2df1ac47a2a1053dc11def3
+  m_Entries:
+  - m_Id: 225338929434624
+    m_Key: DATA/KW/Title/WIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225340116422656
+    m_Key: DATA/KW/Title/FREEZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225341014003712
+    m_Key: DATA/KW/Desc/FREEZE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225342146465792
+    m_Key: DATA/KW/Title/BLACK_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225343048241152
+    m_Key: DATA/KW/Desc/BLACK_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225344163926016
+    m_Key: DATA/KW/Title/SPAWN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225345287999488
+    m_Key: DATA/KW/Title/REPLACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225346407878656
+    m_Key: DATA/KW/Title/COIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225347531952128
+    m_Key: DATA/KW/Title/ON_BALL_HIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225348651831296
+    m_Key: DATA/KW/Title/RELICW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225349754933248
+    m_Key: DATA/KW/Title/NUMBERS_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225350870618112
+    m_Key: DATA/KW/Title/BOUNCY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225352019857408
+    m_Key: DATA/KW/Title/BOUNCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225353135542272
+    m_Key: DATA/KW/Title/LEGENDARY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225354251227136
+    m_Key: DATA/KW/Title/SHATTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225355136225280
+    m_Key: DATA/KW/Desc/SHATTER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225356277075968
+    m_Key: DATA/KW/Title/RELIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225357170462720
+    m_Key: DATA/KW/Desc/RELIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225358273564672
+    m_Key: DATA/KW/Title/NUMBERS_1000
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225359380860928
+    m_Key: DATA/KW/Title/HIGHLIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225360274247680
+    m_Key: DATA/KW/Desc/HIGHLIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225361394126848
+    m_Key: DATA/KW/Title/STACKABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225362287513600
+    m_Key: DATA/KW/Desc/STACKABLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225363424169984
+    m_Key: DATA/KW/Title/RARE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225364544049152
+    m_Key: DATA/KW/Title/INTEREST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225365445824512
+    m_Key: DATA/KW/Desc/INTEREST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225366557315072
+    m_Key: DATA/KW/Title/WHITE_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225367689777152
+    m_Key: DATA/KW/Title/RMB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225368826433536
+    m_Key: DATA/KW/Title/ON_HIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225369954701312
+    m_Key: DATA/KW/Title/CUE_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225370885836800
+    m_Key: DATA/KW/Desc/CUE_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225372035076096
+    m_Key: DATA/KW/Title/NUMBERS_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225373259812864
+    m_Key: DATA/KW/Title/PERM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225374417440768
+    m_Key: DATA/KW/Title/SPECIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225375344381952
+    m_Key: DATA/KW/Desc/SPECIAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225376489426944
+    m_Key: DATA/KW/Title/SLOW
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225377672220672
+    m_Key: DATA/KW/Title/POWER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225378842431488
+    m_Key: DATA/KW/Title/WEIGHT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225379995865088
+    m_Key: DATA/KW/Title/BURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225380914417664
+    m_Key: DATA/KW/Desc/BURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225382067851264
+    m_Key: DATA/KW/Title/ON_TURN_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225383225479168
+    m_Key: DATA/KW/Title/TURN_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225384370524160
+    m_Key: DATA/KW/Title/RARITY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225385595260928
+    m_Key: DATA/KW/Title/CURSED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225386715140096
+    m_Key: DATA/KW/Title/ON_GAME_END
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225387847602176
+    m_Key: DATA/KW/Title/COSTUME_STICKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225388975869952
+    m_Key: DATA/KW/Title/SMALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225390104137728
+    m_Key: DATA/KW/Title/LMB
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225391274348544
+    m_Key: DATA/KW/Title/PREMIUM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225392419393536
+    m_Key: DATA/KW/Title/MULT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225393577021440
+    m_Key: DATA/KW/Title/MAX_STICKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225394780786688
+    m_Key: DATA/KW/Title/SPECIAL_STICKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225396013912064
+    m_Key: DATA/KW/Title/WHILE_ATTACHED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225397251231744
+    m_Key: DATA/KW/Title/POCKET_POINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225398434025472
+    m_Key: DATA/KW/Title/UNIQUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225399566487552
+    m_Key: DATA/KW/Title/LEAGUE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225400862527488
+    m_Key: DATA/KW/Title/SKIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225402028544000
+    m_Key: DATA/KW/Title/BOUNCE_POINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225403186171904
+    m_Key: DATA/KW/Title/STICKER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225404327022592
+    m_Key: DATA/KW/Title/POINT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225405488844800
+    m_Key: DATA/KW/Title/TOAST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225406403203072
+    m_Key: DATA/KW/Desc/TOAST
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225407552442368
+    m_Key: DATA/KW/Title/POOL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225408710070272
+    m_Key: DATA/KW/Title/ON_BOUNCE_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225409850920960
+    m_Key: DATA/KW/Title/BIG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225410991771648
+    m_Key: DATA/KW/Title/ON_BOUNCE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225412141010944
+    m_Key: DATA/KW/Title/EACH_TURN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225413273473024
+    m_Key: DATA/KW/Title/GOLDEN_CUE_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225414192025600
+    m_Key: DATA/KW/Desc/GOLDEN_CUE_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225415311904768
+    m_Key: DATA/KW/Title/COMMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225416435978240
+    m_Key: DATA/KW/Title/BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225417631354880
+    m_Key: DATA/KW/Title/ON_TURN_END
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225418843508736
+    m_Key: DATA/KW/Title/ON_POCKET
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225420097605632
+    m_Key: DATA/KW/Title/RAINBOW_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225421041324032
+    m_Key: DATA/KW/Desc/RAINBOW_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225422203146240
+    m_Key: DATA/KW/Title/COSTUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225423125893120
+    m_Key: DATA/KW/Desc/COSTUME
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225424300298240
+    m_Key: DATA/KW/Title/ON_GAME_START
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225425445343232
+    m_Key: DATA/KW/Title/EPIC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225426590388224
+    m_Key: DATA/KW/Title/UNCOMMON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225427768987648
+    m_Key: DATA/KW/Title/CUSTOMIZED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225428951781376
+    m_Key: DATA/KW/Title/SHOT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225430084243456
+    m_Key: DATA/KW/Title/ON_COLLIDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225431199928320
+    m_Key: DATA/KW/Title/NUMBERS_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225432131063808
+    m_Key: DATA/KW/Desc/NUMBERS_BALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225433284497408
+    m_Key: DATA/KW/Title/NUMBERS_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225434416959488
+    m_Key: DATA/KW/Title/CURRENT_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225435545227264
+    m_Key: DATA/KW/Title/FAILED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225436686077952
+    m_Key: DATA/KW/Title/ON_BOUNCE_WALL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225437835317248
+    m_Key: DATA/KW/Title/TARGET_SCORE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225438753869824
+    m_Key: DATA/KW/Desc/TARGET_SCORE
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 49370424867029062
+  references:
+    version: 2
+    RefIds:
+    - rid: 49370424867029062
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1757185335310

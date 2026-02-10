@@ -1,0 +1,307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ShopTable_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 69d2579f0a363cb4fa1adcbc39264b9d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 92334968832
+    m_Localized: "Feuer\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93291270144
+    m_Localized: "Hinterl\xE4sst beim Bewegen eine Feuer\xADspur. Ber\xFChrt eine
+      andere Kugel die Spur, erh\xE4lt sie 1\xD7 <BURN>.\nIst stets unter <BURN>.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94377594880
+    m_Localized: "Abpraller\u2011Multiplikator"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95220649984
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96311169024
+    m_Localized: "Stahl\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97175195648
+    m_Localized: "+1 <MULT> pro zur\xFCckgelegter Distanz. +1000% <WEIGHT>.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98265714688
+    m_Localized: "Kreuz\u2011Abpraller"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99121352704
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100211871744
+    m_Localized: Kraft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101071704064
+    m_Localized: "Erh\xF6ht <POWER> um #Kraft"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102128668672
+    m_Localized: "Schl\xE4friger Sticker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102992695296
+    m_Localized: "<ON_POCKET>, diese Kugel kehrt nicht mehr auf den Tisch zur\xFCck.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104083214336
+    m_Localized: "Kraft\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104951435264
+    m_Localized: "<On_BOUNCE>, entl\xE4dt alle Kraft und wandelt sie in Punkte um.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106033565696
+    m_Localized: "Fels\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106876620800
+    m_Localized: '+100 <POINT>.
+
+      Keine <BOUNCE_POINT> mehr.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107925196800
+    m_Localized: Verfluchter Sticker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108789223424
+    m_Localized: "<WHILE_ATTACHED> z\xE4hlt diese Kugel als <BLACK_BALL>.\n<ON_POCKET>
+      zerst\xF6rt den Sticker.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109841993728
+    m_Localized: "Gold\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110706020352
+    m_Localized: '<ON_BOUNCE_WALL>, 20% Chance auf 1<COIN>.
+
+      <ON_POCKET>, erhalte
+      5<COIN>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111762984960
+    m_Localized: "Taschen\u2011M\xFCnze"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112622817280
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113688170496
+    m_Localized: "Invertiertes Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552197120
+    m_Localized: 'Kugelpunkte und Taschenpunkte sind vertauscht.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115617550336
+    m_Localized: "Mega\u2011Punkte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116481576960
+    m_Localized: "Erh\xF6ht <POINT> um #Point"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117559513088
+    m_Localized: "Narren\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118415151104
+    m_Localized: "<ON_TURN_START> bewegt sich zuf\xE4llig.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119501475840
+    m_Localized: "Taschen\u2011Multiplikator"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120344530944
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121422467072
+    m_Localized: Taschenpunkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122282299392
+    m_Localized: "Erh\xF6ht <POCKET_POINT> um #PocketPoint"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123372818432
+    m_Localized: "Bomben\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124220067840
+    m_Localized: "<ON_HIT> erzeugt eine kleine Explosion. Jede 6 Treffer eine gro\xDFe
+      Explosion.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125306392576
+    m_Localized: "Elastizit\xE4t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126183002112
+    m_Localized: "Erh\xF6ht <BOUNCY> um #Bounciness"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127286104064
+    m_Localized: Gewicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128154324992
+    m_Localized: "Erh\xF6ht <WEIGHT> um #Gewicht"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129232261120
+    m_Localized: "Mega\u2011Tasche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130155008000
+    m_Localized: "Erh\xF6ht <POCKET_POINT> um #PocketPoint"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131232944128
+    m_Localized: "Gl\xFCcks\u2011Sticker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132126330880
+    m_Localized: "<ON_POCKET>, +5 <COIN> und 20% Chance auf Zerst\xF6rung.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133216849920
+    m_Localized: "Frost\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134106042368
+    m_Localized: "<ON_BALL_HIT> wendet 1\xD7 <FREEZE> an. Hat das Ziel 3\xD7 <FREEZE>,
+      <SHATTER> es.\nImmun gegen <FREEZE>.\n\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135200755712
+    m_Localized: Kugelpunkte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136098336768
+    m_Localized: "Erh\xF6ht <POINT> um #Point"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137222410240
+    m_Localized: "Weltraum\u2011Kost\xFCm"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138115796992
+    m_Localized: "Hat eine einzigartige Orbit\u2011Bewegung.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139214704640
+    m_Localized: "Taschen\u2011Gold"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140082925568
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141144084480
+    m_Localized: "Ziel\u2011Sticker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141999722496
+    m_Localized: "<WHILE_ATTACHED>, 2\xD7 <BOUNCE_POINT>\n<ON_POCKET>, zerst\xF6rt
+      den Sticker.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144822489088
+    m_Localized: "Bauern\u2011Sticker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145673932800
+    m_Localized: '<ON_TURN_END>, wenn stehen geblieben, +2 <COIN>
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146764451840
+    m_Localized: "Kopfgeld\u2011Sticker"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147615895552
+    m_Localized: '<ON_COLLIDE> mit <CUE_BALL>, +1 <MULT>.
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148702220288
+    m_Localized: "Taschen\u2011Querl\xE4ufer"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149557858304
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175117946880
+    m_Localized: "Relikt\u2011Paket"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175977779200
+    m_Localized: "W\xE4hle 1 von 3 zuf\xE4lligen <RELIC>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177026355200
+    m_Localized: "Kost\xFCm\u2011Paket"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177890381824
+    m_Localized: "W\xE4hle 1 von 3 zuf\xE4lligen <COSTUME_STICKER>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178951540736
+    m_Localized: "Relikt\u2011Paket"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179786207232
+    m_Localized: "W\xE4hle 1 von 3 zuf\xE4lligen <RELIC>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180864143360
+    m_Localized: "Relikt\u2011Paket"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181694615552
+    m_Localized: "W\xE4hle 1 von 3 zuf\xE4lligen <RELIC>"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

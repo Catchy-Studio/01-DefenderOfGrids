@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f18a64eb2f09436aa25e9410afb962af, type: 3}
+  m_Name: Keyword Catalog
+  m_EditorClassIdentifier: 
+  keywordList:
+  - {fileID: 11400000, guid: 8099b55a1c8b5da4b97bf6e6394d33f5, type: 2}
+  - {fileID: 11400000, guid: d7086e71d795ff24a9d7e3d73d71aa3b, type: 2}
+  - {fileID: 11400000, guid: f8de464befe093040ada96cea0dd07b9, type: 2}
+  - {fileID: 11400000, guid: ab011497819cc7d458ae0b34dd803478, type: 2}
+  - {fileID: 11400000, guid: a6a18dd1fc86c5947b5b3bf7790449d3, type: 2}
+  - {fileID: 11400000, guid: 0a016c8103542f648a0e9c1fd1db7279, type: 2}
+  - {fileID: 11400000, guid: 2f86ca5d87854c1438f81418a12768e6, type: 2}
+  - {fileID: 11400000, guid: b02f6c447064d8e40abc8963e6b2386e, type: 2}
+  - {fileID: 11400000, guid: e856090f7ee475f43b9094626c9e4917, type: 2}
+  - {fileID: 11400000, guid: 12c607dcde08ae64687be3d44b0fec07, type: 2}
+  - {fileID: 11400000, guid: d643e3ec31181e64580b9c27781a68b9, type: 2}
+  - {fileID: 11400000, guid: 3c7627dd5b481c548ad1680c9367eb22, type: 2}
+  - {fileID: 11400000, guid: bc6e69bf9dd753443a622b9a77e7ecf9, type: 2}
+  - {fileID: 11400000, guid: 68ff00aafd4a64b42ad8a85c9a144b13, type: 2}
+  - {fileID: 11400000, guid: 57582241ad7ae7e4abdd9890dd34a80d, type: 2}
+  - {fileID: 11400000, guid: f31d2d0103256ef47808ae2dd047b55c, type: 2}
+  - {fileID: 11400000, guid: 64d540d85021abd43805a78d8bed2b50, type: 2}
+  - {fileID: 11400000, guid: 51be5ba964a721046852a8eae5a69b45, type: 2}
+  - {fileID: 11400000, guid: 2f13d22009f734c49af1cd55ce2eef8e, type: 2}
+  - {fileID: 11400000, guid: da1d1d4bd879a774292768225cd6494a, type: 2}
+  - {fileID: 11400000, guid: 302a1a12f1fae784fb39112d395ac886, type: 2}
+  - {fileID: 11400000, guid: e57f91189ebf1cf498cc973cab07ec29, type: 2}
+  - {fileID: 11400000, guid: 80061aaef9a60d94c851ff20e64aba64, type: 2}
+  - {fileID: 11400000, guid: 5d2a3d13a8d7bcc4ba4b03fc7bef0fef, type: 2}
+  - {fileID: 11400000, guid: 5e19c5e6aa8383c4fa15c30b81d16a34, type: 2}
+  - {fileID: 11400000, guid: f392c78a202542e45b767fc5f7aa3986, type: 2}
+  - {fileID: 11400000, guid: 8178717d80349a74f9efa9fb3c1c7806, type: 2}
+  - {fileID: 11400000, guid: 337f7f4d71f1ab74a8f6c7573c8455e6, type: 2}
+  - {fileID: 11400000, guid: 2a8e9f0df2297e640b6ed15eef89a598, type: 2}
+  - {fileID: 11400000, guid: 7790b6aa148978646b45d089bb94902e, type: 2}
+  - {fileID: 11400000, guid: bd6f84cb9b9a63a46b1768fd5445f63e, type: 2}
+  - {fileID: 11400000, guid: 54f9c1e3eec0b9b478a501aef75f4da6, type: 2}
+  - {fileID: 11400000, guid: 1a195f984f06b8b4d8fcf7aa5eca5379, type: 2}
+  - {fileID: 11400000, guid: 8aec3c41e7dfc6243912a82ffbc4c959, type: 2}
+  - {fileID: 11400000, guid: 0ca31d137ccb6c441bcf139f29d9be10, type: 2}
+  - {fileID: 11400000, guid: e623ae3d07ba83e429094a7b9e4d87f6, type: 2}
+  - {fileID: 11400000, guid: a0930b804165e6844b34fc3bfc07dd5d, type: 2}
+  - {fileID: 11400000, guid: ed6329310278af04cad7866c152759c6, type: 2}
+  - {fileID: 11400000, guid: 1d0e8f9b3384c644f85ee5a516a3a8f3, type: 2}
+  - {fileID: 11400000, guid: 5637a4069092341419a4ab873ce58ff5, type: 2}
+  - {fileID: 11400000, guid: aeee2e62a8fe1bc4ca1e6367eff8c3b2, type: 2}
+  - {fileID: 11400000, guid: cfe31808fb344b447bd67dff319664e5, type: 2}
+  - {fileID: 11400000, guid: ef34cef831768cf42a2731c83a6b6126, type: 2}
+  - {fileID: 11400000, guid: 1aaebc2ca285239408f0c8faceb5ca44, type: 2}
+  - {fileID: 11400000, guid: f0503a25e581e1545ba5f5d0b68e4f41, type: 2}
+  - {fileID: 11400000, guid: e8847f518f3b72944ba1d15e077d9622, type: 2}
+  - {fileID: 11400000, guid: 9c0b2526a88b01a4db170cb6f6e2f50c, type: 2}
+  - {fileID: 11400000, guid: 097d2c609e5ac1343a3b4701a78f78f3, type: 2}
+  - {fileID: 11400000, guid: 770894102860e414fa8dbb17b6ba2ec5, type: 2}
+  relatedPathList:
+  - Assets/_NueExtras/TooltipSystem/_KeywordSubSystem/Keywords

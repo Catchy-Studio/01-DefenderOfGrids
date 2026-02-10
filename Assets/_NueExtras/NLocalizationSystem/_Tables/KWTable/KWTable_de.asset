@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: KWTable_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: c3c3918af2df1ac47a2a1053dc11def3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 225338929434624
+    m_Localized: <#12e316>Win</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225340116422656
+    m_Localized: <#40f5ff>Einfrieren</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225341014003712
+    m_Localized: <SLOW> 10% for each stack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225342146465792
+    m_Localized: <#858585><b>Schwarze Kugel</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225343048241152
+    m_Localized: <BLACK_BALL> gives negative points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225344163926016
+    m_Localized: <#ffa436>Spawn</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225345287999488
+    m_Localized: <#e5f257>Replace</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225346407878656
+    m_Localized: <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225347531952128
+    m_Localized: <#d4fdff><b><u>On Ball Hit</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225348651831296
+    m_Localized: <#ffa436>Relic</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225349754933248
+    m_Localized: <#d0eb21>Numbers II</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225350870618112
+    m_Localized: <#5ff257>Federung</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225352019857408
+    m_Localized: <#5ff257>Abpraller</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225353135542272
+    m_Localized: "<#e8a451><b>Legend\xE4r</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225354251227136
+    m_Localized: <#1898d9>Shatter</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225355136225280
+    m_Localized: Gives +1x <MULT> and double ball point. Clear <FREEZE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225356277075968
+    m_Localized: <#ffa436>Relic</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225357170462720
+    m_Localized: Passive bonuses that change how you play.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225358273564672
+    m_Localized: <#d0eb21>Numbers IV</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225359380860928
+    m_Localized: <#7aeb2a>Highlight</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225360274247680
+    m_Localized: Highlighted balls earn double points <ON_POCKET>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225361394126848
+    m_Localized: <#f0871f>Stackable</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225362287513600
+    m_Localized: Can stack its effects multiple times. Resets on <ON_GAME_END>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225363424169984
+    m_Localized: <#519ae8><b>Selten</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225364544049152
+    m_Localized: <#f0b81f>Interest</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225365445824512
+    m_Localized: +1 <sprite name="coin"> per 5 <sprite name="coin"> you have at the
+      end of the pool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225366557315072
+    m_Localized: <#d4d4d4><b>WEISSE_KUGEL</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225367689777152
+    m_Localized: <#d212e3>Rechtsklick</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225368826433536
+    m_Localized: <#d4fdff><b><u>On Hit</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225369954701312
+    m_Localized: "<#ffd6de><b>Wei\xDFe Kugel</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225370885836800
+    m_Localized: This is your main ball, also called as <WHITE_BALL>. Can not attach
+      <STICKER>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225372035076096
+    m_Localized: <#d0eb21>Numbers I</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225373259812864
+    m_Localized: <#ac47ff><b>Dauerhaft</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225374417440768
+    m_Localized: <#cd42ff>Spezial</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225375344381952
+    m_Localized: '<SPECIAL> gives attached ball a <UNIQUE> feature.
+
+      Each <BALL>
+      can only hold each <SPECIAL> once.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225376489426944
+    m_Localized: <#36ffd7>Verlangsamen</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225377672220672
+    m_Localized: <#eb2aeb>Kraft</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225378842431488
+    m_Localized: <#7e87c4>Gewicht</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225379995865088
+    m_Localized: <#ff3643><burn>Burn</color></burn>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225380914417664
+    m_Localized: On turn end, gives point equal to ball point X <BURN> count.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225382067851264
+    m_Localized: <#d4ffee><b><u>On Turn Start</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225383225479168
+    m_Localized: <#eb9e2a>Zugscore</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225384370524160
+    m_Localized: <#ffa436>Seltenheit</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225385595260928
+    m_Localized: <#f23c24><b>Verflucht</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225386715140096
+    m_Localized: <#d4ffee><b><u>Spielende</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225387847602176
+    m_Localized: "<#90ff36>Kost\xFCm\u2011Sticker</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225388975869952
+    m_Localized: <#9de312>Kleiner Tisch</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225390104137728
+    m_Localized: <#12e3ce>Linksklick</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225391274348544
+    m_Localized: "<#e39a12>Premium\u2011Tisch</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225392419393536
+    m_Localized: <#ff36eb>Multiplikator</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225393577021440
+    m_Localized: <#ac57f2>Max. Sticker</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225394780786688
+    m_Localized: "<#cd42ff>Spezial\u2011Sticker</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225396013912064
+    m_Localized: "<#d4ffee><b><u>W\xE4hrend ausger\xFCstet</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225397251231744
+    m_Localized: <#2aeba1>Taschenpunkte</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225398434025472
+    m_Localized: <#eb2178>Einzigartig</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225399566487552
+    m_Localized: <#c7b72a>Liga</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225400862527488
+    m_Localized: "<#12e3a1>\xDCberspringen</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225402028544000
+    m_Localized: <#94eb2a>Abprallpunkte</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225403186171904
+    m_Localized: <#5cb8ff>Sticker</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225404327022592
+    m_Localized: <#94eb2a>Punkte</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225405488844800
+    m_Localized: <#faac25>Toast</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225406403203072
+    m_Localized: Periodically shoot flames that boost nearby balls.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225407552442368
+    m_Localized: <#85e312>Tisch</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225408710070272
+    m_Localized: <#d4fdff><b><u>Beim Abprall mit Kugel</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225409850920960
+    m_Localized: "<#c712e3>Gro\xDFer Tisch</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225410991771648
+    m_Localized: <#d4fdff><b><u>Beim Abprall</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225412141010944
+    m_Localized: <#d4ffee><b><u>Jeder Zug</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225413273473024
+    m_Localized: "<#ffffff>Goldene Wei\xDFe</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225414192025600
+    m_Localized: <ON_POCKET>, +5 <COIN> and +100 points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225415311904768
+    m_Localized: "<#c5c7bf><b>Gew\xF6hnlich</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225416435978240
+    m_Localized: <#d0eb21>Kugel</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225417631354880
+    m_Localized: <#d4ffee><b><u>Zugende</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225418843508736
+    m_Localized: <#d4ffee><b><u>Beim Versenken</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225420097605632
+    m_Localized: <rainb>Regenbogenkugel</rainb>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225421041324032
+    m_Localized: A <SPECIAL> <BALL>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225422203146240
+    m_Localized: <#90ff36>Costume</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225423125893120
+    m_Localized: '<COSTUME> changes your ball''s visual and properties.
+
+      Each
+      <BALL> can only hold 1 <COSTUME>.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225424300298240
+    m_Localized: <#d4ffee><b><u>On Game Start</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225425445343232
+    m_Localized: <#cf51e8><b>Epic</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225426590388224
+    m_Localized: <#7ee851><b>Uncommon</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225427768987648
+    m_Localized: <#c712e3>Customized</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225428951781376
+    m_Localized: <#5ff257>Shot</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225430084243456
+    m_Localized: <#d4fdff><b><u>On Collide</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225431199928320
+    m_Localized: <#d0eb21>Zahlenkugel</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225432131063808
+    m_Localized: <UNIQUE> <BALL> series. Can not be <CUSTOMIZED>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225433284497408
+    m_Localized: <#d0eb21>Numbers III</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225434416959488
+    m_Localized: <#eb9e2a>Current Score</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225435545227264
+    m_Localized: <#eb2005>Failed</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225436686077952
+    m_Localized: <#d4fdff><b><u>On Bounce With Wall</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225437835317248
+    m_Localized: <#eb9e2a>Target Score</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225438753869824
+    m_Localized: You need to pass this score before you run out of <SHOT> to finish
+      the pool.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

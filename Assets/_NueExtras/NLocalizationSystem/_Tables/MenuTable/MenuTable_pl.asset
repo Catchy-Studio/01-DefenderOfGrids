@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuTable_pl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: ed2a47b7c7e38e3488c1954e5a7dccd9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 18632658944
+    m_Localized: NOWA GRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98102136832
+    m_Localized: KOLEKCJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129479725056
+    m_Localized: "WYJ\u015A\u0106"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152695197696
+    m_Localized: "\u201CWczesny dost\u0119p\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204029284352
+    m_Localized: "<b>Uwaga:</b> Ta gra wci\u0105\u017C jest w fazie rozwoju i niekt\xF3re
+      funkcje mog\u0105 by\u0107 niekompletne lub zawiera\u0107 b\u0142\u0119dy.
+      Je\u015Bli napotkasz jakiekolwiek problemy lub masz uwagi, ch\u0119tnie je
+      us\u0142yszymy!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234320547840
+    m_Localized: "WIADOMO\u015ACI"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268483153920
+    m_Localized: KONTYNUUJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991459528704
+    m_Localized: 'NOWA
+
+      #value'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1531287425024
+    m_Localized: ODBLOKUJ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1568784502784
+    m_Localized: "POWR\xD3T"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1594537529344
+    m_Localized: 'NAKLEJKI
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1629207646208
+    m_Localized: 'RELIKWIE
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656596451328
+    m_Localized: "WSKAZ\xD3WKI\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820511617024
+    m_Localized: "Prze\u015Blij opini\u0119"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5849419862016
+    m_Localized: KOLEKCJA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515013963776
+    m_Localized: NAKLEJKI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6547662426112
+    m_Localized: RELIKWIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6573037965312
+    m_Localized: "WSKAZ\xD3WKI"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

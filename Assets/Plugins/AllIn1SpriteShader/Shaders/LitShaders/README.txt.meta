@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c50dead506bf46441879aa02888ab376
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156513
+  packageName: All In 1 Sprite Shader
+  packageVersion: 4.41
+  assetPath: Assets/Plugins/AllIn1SpriteShader/Shaders/LitShaders/README.txt
+  uploadId: 814992

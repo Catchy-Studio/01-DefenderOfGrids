@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: ed2a47b7c7e38e3488c1954e5a7dccd9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 18632658944
+    m_Localized: "YEN\u0130 OYUN"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98102136832
+    m_Localized: "KOLEKS\u0130YON"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129479725056
+    m_Localized: "\xC7IKI\u015E"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152695197696
+    m_Localized: "\u201CErken Eri\u015Fim\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234320547840
+    m_Localized: HABERLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268483153920
+    m_Localized: DEVAM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991459528704
+    m_Localized: "YEN\u0130\n#value"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1531287425024
+    m_Localized: "K\u0130L\u0130D\u0130 A\xC7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1568784502784
+    m_Localized: "GER\u0130 D\xD6N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1594537529344
+    m_Localized: "\xC7IKARTMALAR\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1629207646208
+    m_Localized: "ER\u0130TLER\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656596451328
+    m_Localized: "\u0130PU\xC7LARI\n#current/#max"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820511617024
+    m_Localized: Geri Bildirim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5849419862016
+    m_Localized: "KOLEKS\u0130YON"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515013963776
+    m_Localized: "\xC7IKARTMALAR"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6547662426112
+    m_Localized: "ER\u0130TLER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6573037965312
+    m_Localized: "\u0130PU\xC7LARI"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204029284352
+    m_Localized: "<b>Duyuru:</b> Bu oyun h\xE2l\xE2 geli\u015Ftirme a\u015Famas\u0131nda;
+      baz\u0131 \xF6zellikler eksik olabilir veya hatalar i\xE7erebilir. Herhangi
+      bir yerelle\u015Ftirme/oyun i\xE7i sorunla kar\u015F\u0131la\u015F\u0131rsan\u0131z
+      l\xFCtfen bize bildirin. Sab\u0131r\u0131n\u0131z i\xE7in te\u015Fekk\xFCrler!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307248229765120
+    m_Localized: 'Hedef: #progress'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307369248018432
+    m_Localized: 'Mevcut: #progress'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307754863939584
+    m_Localized: 'Toplanan: #progress'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308041808859136
+    m_Localized: "\u0130LERLEME"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368214938210304
+    m_Localized: "\xC7OK\nYAKINDA\n"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

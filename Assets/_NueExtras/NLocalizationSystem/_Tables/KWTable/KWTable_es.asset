@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: KWTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: c3c3918af2df1ac47a2a1053dc11def3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 225338929434624
+    m_Localized: <#12e316>Victoria</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225340116422656
+    m_Localized: "<#40f5ff>Congelaci\xF3n</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225341014003712
+    m_Localized: "<SLOW> 10% por cada acumulaci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225342146465792
+    m_Localized: <#858585><b>Bola negra</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225343048241152
+    m_Localized: <BLACK_BALL> da puntos negativos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225344163926016
+    m_Localized: <#ffa436>Generar</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225345287999488
+    m_Localized: <#e5f257>Reemplazar</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225346407878656
+    m_Localized: <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225347531952128
+    m_Localized: <#d4fdff><b><u>Al golpear una bola</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225348651831296
+    m_Localized: <#ffa436>Reliquia</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225349754933248
+    m_Localized: "<#d0eb21>N\xFAmeros II</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225350870618112
+    m_Localized: <#5ff257>Elasticidad</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225352019857408
+    m_Localized: <#5ff257>Rebote</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225353135542272
+    m_Localized: <#e8a451><b>Legendario</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225354251227136
+    m_Localized: <#1898d9>Fragmentar</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225355136225280
+    m_Localized: Otorga +1x <MULT> y duplica los puntos de bola. Elimina <FREEZE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225356277075968
+    m_Localized: <#ffa436>Reliquia</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225357170462720
+    m_Localized: Bonificaciones pasivas que cambian tu forma de jugar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225358273564672
+    m_Localized: "<#d0eb21>N\xFAmeros IV</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225359380860928
+    m_Localized: <#7aeb2a>Resaltar</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225360274247680
+    m_Localized: Las bolas resaltadas obtienen el doble de puntos <ON_POCKET>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225361394126848
+    m_Localized: <#f0871f>Acumulable</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225362287513600
+    m_Localized: Sus efectos pueden acumularse varias veces. Se reinicia al <ON_GAME_END>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225363424169984
+    m_Localized: <#519ae8><b>Raro</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225364544049152
+    m_Localized: "<#f0b81f>Inter\xE9s</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225365445824512
+    m_Localized: +1 <sprite name="coin"> por cada 5 <sprite name="coin"> que tengas
+      al finalizar la mesa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225366557315072
+    m_Localized: <#d4d4d4><b>Bola blanca</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225367689777152
+    m_Localized: "<#d212e3>Bot\xF3n derecho</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225368826433536
+    m_Localized: <#d4fdff><b><u>Al golpear</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225369954701312
+    m_Localized: <#ffd6de><b>Bola blanca</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225370885836800
+    m_Localized: "Es tu bola principal, tambi\xE9n llamada <WHITE_BALL>. No puede
+      llevar <STICKER>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225372035076096
+    m_Localized: "<#d0eb21>N\xFAmeros I</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225373259812864
+    m_Localized: <#ac47ff><b>Permanentemente</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225374417440768
+    m_Localized: <#cd42ff>Especial</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225375344381952
+    m_Localized: "<SPECIAL> otorga a la bola equipada una caracter\xEDstica <UNIQUE>.\nCada
+      <BALL> solo puede tener cada <SPECIAL> una vez."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225376489426944
+    m_Localized: <#36ffd7>Lento</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225377672220672
+    m_Localized: <#eb2aeb>Potencia</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225378842431488
+    m_Localized: <#7e87c4>Peso</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225379995865088
+    m_Localized: <#ff3643><burn>Quemadura</color></burn>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225380914417664
+    m_Localized: "Al final del turno, otorga puntos iguales a los puntos de la bola
+      \xD7 acumulaciones de <BURN>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225382067851264
+    m_Localized: <#d4ffee><b><u>Inicio del turno</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225383225479168
+    m_Localized: "<#eb9e2a>Puntuaci\xF3n del turno</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225384370524160
+    m_Localized: <#ffa436>Rareza</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225385595260928
+    m_Localized: <#f23c24><b>Maldito</color></b>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225386715140096
+    m_Localized: <#d4ffee><b><u>Fin de la partida</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225387847602176
+    m_Localized: <#90ff36>Pegatina de traje</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225388975869952
+    m_Localized: "<#9de312>Mesa peque\xF1a</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225390104137728
+    m_Localized: "<#12e3ce>Bot\xF3n izquierdo</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225391274348544
+    m_Localized: <#e39a12>Mesa premium</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225392419393536
+    m_Localized: <#ff36eb>Multiplicador</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225393577021440
+    m_Localized: "<#ac57f2>Pegatinas m\xE1x.</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225394780786688
+    m_Localized: <#cd42ff>Pegatina especial</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225396013912064
+    m_Localized: "<#d4ffee><b><u>Mientras est\xE1 equipado</color></b></u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225397251231744
+    m_Localized: <#2aeba1>Puntos de tronera</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225398434025472
+    m_Localized: "<#eb2178>\xDAnico</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225399566487552
+    m_Localized: <#c7b72a>Liga</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225400862527488
+    m_Localized: <#12e3a1>Saltar</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225402028544000
+    m_Localized: <#94eb2a>Puntos por rebote</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225403186171904
+    m_Localized: <#5cb8ff>Pegatina</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225404327022592
+    m_Localized: <#94eb2a>Puntos</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225405488844800
+    m_Localized: <#faac25>Tostada</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225406403203072
+    m_Localized: "Dispara llamas peri\xF3dicamente que impulsan las bolas cercanas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225407552442368
+    m_Localized: <#85e312>Billar</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225408710070272
+    m_Localized: <#d4fdff><b><u>Al rebotar con una bola</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225409850920960
+    m_Localized: <#c712e3>Mesa grande</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225410991771648
+    m_Localized: <#d4fdff><b><u>Al rebotar</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225412141010944
+    m_Localized: <#d4ffee><b><u>Cada turno</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225413273473024
+    m_Localized: <#ffffff>Bola blanca dorada</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225414192025600
+    m_Localized: <ON_POCKET>, +5 <COIN> y +100 puntos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225415311904768
+    m_Localized: "<#c5c7bf><b>Com\xFAn</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225416435978240
+    m_Localized: <#d0eb21>Bola</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225417631354880
+    m_Localized: <#d4ffee><b><u>Fin del turno</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225418843508736
+    m_Localized: <#d4ffee><b><u>Al embocar</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225420097605632
+    m_Localized: "<rainb>Bola arco\xEDris</rainb>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225421041324032
+    m_Localized: Una <BALL> <SPECIAL>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225422203146240
+    m_Localized: <#90ff36>Traje</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225423125893120
+    m_Localized: <COSTUME> cambia el aspecto y las propiedades de tu bola.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225424300298240
+    m_Localized: <#d4ffee><b><u>Inicio de la partida</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225425445343232
+    m_Localized: "<#cf51e8><b>\xC9pico</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225426590388224
+    m_Localized: "<#7ee851><b>Poco com\xFAn</color></b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225427768987648
+    m_Localized: <#c712e3>Personalizado</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225428951781376
+    m_Localized: <#5ff257>Tiro</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225430084243456
+    m_Localized: <#d4fdff><b><u>Al colisionar</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225431199928320
+    m_Localized: <#d0eb21>Bola numerada</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225432131063808
+    m_Localized: Serie de <BALL> <UNIQUE>. No se puede <CUSTOMIZED>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225433284497408
+    m_Localized: "<#d0eb21>N\xFAmeros III</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225434416959488
+    m_Localized: "<#eb9e2a>Puntuaci\xF3n actual</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225435545227264
+    m_Localized: <#eb2005>Fallido</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225436686077952
+    m_Localized: <#d4fdff><b><u>Al rebotar en la banda</color></b></u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225437835317248
+    m_Localized: "<#eb9e2a>Puntuaci\xF3n objetivo</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225438753869824
+    m_Localized: "Debes superar esta puntuaci\xF3n antes de quedarte sin <SHOT> para
+      terminar la mesa."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

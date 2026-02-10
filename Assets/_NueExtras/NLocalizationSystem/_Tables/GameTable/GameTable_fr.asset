@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTable_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 9ed6cd6f36c95b94bb2eb05970384015, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 199514813616128
+    m_Localized: All pockets are reversed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199515665059840
+    m_Localized: Add 3 <BLACK_BALL>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199516491337728
+    m_Localized: "Reduce Bille ray\xE9e points by 50%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199517321809920
+    m_Localized: Reduce Costume Ball points by 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518152282112
+    m_Localized: Halves wall bounce points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518995337216
+    m_Localized: Reduce Bille pleine points by 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199519838392320
+    m_Localized: Extra big pool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358605158600704
+    m_Localized: Improved Luck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358606123290624
+    m_Localized: Increased <RARITY> until your next purchase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358607297695744
+    m_Localized: Relic Pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358608287551488
+    m_Localized: Open a <RELIC> pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358609357099008
+    m_Localized: High Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358610204348416
+    m_Localized: Gives 10 <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358611244535808
+    m_Localized: Blocker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358612079202304
+    m_Localized: Block next Premium Pool's debuff.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613115195392
+    m_Localized: Low Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613937278976
+    m_Localized: Gives 5 <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358614977466368
+    m_Localized: <rainb>Bille arc-en-ciel</rainb>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358615803744256
+    m_Localized: <ON_GAME_START>, add 1x <RAINBOW_BALL>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362100230180864
+    m_Localized: <rainb>Bille arc-en-ciel</rainb>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362101249396736
+    m_Localized: "Bille num\xE9rot\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362102272806912
+    m_Localized: Bille noire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362103287828480
+    m_Localized: "Bille ray\xE9e"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362104336404480
+    m_Localized: Bille blanche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362105380786176
+    m_Localized: Bille pleine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319380144128
+    m_Localized: <TARGET_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9328754413568
+    m_Localized: You need to reach this <POINT> to complete current pool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19319620096000
+    m_Localized: <CURRENT_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19435332554752
+    m_Localized: Total collected <POINT> during pool. You need to reach <TARGET_SCORE>
+      to complete the pool.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19723498016768
+    m_Localized: <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19918201802752
+    m_Localized: Convert <TURN_SCORE> into <CURRENT_SCORE> by multiplying it with
+      <MULT> value.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19974770380800
+    m_Localized: <TURN_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20075035217920
+    m_Localized: Total collected <POINT> during the turn. <ON_TURN_START> resets.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20175719485440
+    m_Localized: Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20244459933696
+    m_Localized: A valuable resource. Has <INTEREST>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20325019930624
+    m_Localized: <SHOT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20399791788032
+    m_Localized: This is your remaining <SHOT> count. If <SHOT> count reaches 0 and
+      you could not pass <TARGET_SCORE>, you <FAILED>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20459862609920
+    m_Localized: <REPLACE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20544268783616
+    m_Localized: You can replace <CUE_BALL> to anywhere on table by clicking REMPLACER
+      button.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198756001107968
+    m_Localized: Big Pool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198756860940288
+    m_Localized: Small Pool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198757708189696
+    m_Localized: Premium Pool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372894971973632
+    m_Localized: LOCKED
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

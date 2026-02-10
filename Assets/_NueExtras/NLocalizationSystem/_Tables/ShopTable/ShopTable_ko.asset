@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ShopTable_ko
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 69d2579f0a363cb4fa1adcbc39264b9d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 92334968832
+    m_Localized: "\uBD88\uAF43 \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93291270144
+    m_Localized: "\uC774\uB3D9 \uC911 \uBD88\uAF43 \uC790\uCDE8\uB97C \uB0A8\uAE41\uB2C8\uB2E4.
+      \uB2E4\uB978 \uACF5\uC774 \uC790\uCDE8\uC5D0 \uB2FF\uC73C\uBA74 1x <BURN> \uC801\uC6A9.\n\uD56D\uC0C1
+      \uC790\uC2E0\uC5D0\uAC8C <BURN> \uC0C1\uD0DC.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94377594880
+    m_Localized: "\uBC14\uC6B4\uC2A4 \uBC30\uC218"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95220649984
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96311169024
+    m_Localized: "\uC2A4\uD2F8 \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97175195648
+    m_Localized: "\uC774\uB3D9 \uAC70\uB9AC\uB9C8\uB2E4 +1 <MULT>. <WEIGHT> +1000%.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98265714688
+    m_Localized: "\uD06C\uB85C\uC2A4 \uBC14\uC6B4\uC11C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99121352704
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100211871744
+    m_Localized: "\uD30C\uC6CC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101071704064
+    m_Localized: "<POWER>\uC744 #\uD30C\uC6CC\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102128668672
+    m_Localized: "\uC878\uC74C \uC2A4\uD2F0\uCEE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102992695296
+    m_Localized: "<ON_POCKET> \uC774\uD6C4 \uC774 \uACF5\uC740 \uB2E4\uC2DC \uD14C\uC774\uBE14\uC5D0
+      \uB4E4\uC5B4\uC624\uC9C0 \uC54A\uC74C.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104083214336
+    m_Localized: "\uD30C\uC6CC \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104951435264
+    m_Localized: "<On_BOUNCE>, \uBAA8\uB4E0 \uD30C\uC6CC\uB97C \uBC29\uCD9C\uD558\uACE0
+      \uC810\uC218\uB85C \uBCC0\uD658.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106033565696
+    m_Localized: "\uB85D \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106876620800
+    m_Localized: "+100 <POINT>.\n\uB354 \uC774\uC0C1 <BOUNCE_POINT> \uC5C6\uC74C.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107925196800
+    m_Localized: "\uC800\uC8FC \uC2A4\uD2F0\uCEE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108789223424
+    m_Localized: "<WHILE_ATTACHED> \uB3D9\uC548 \uC774 \uACF5\uC740 <BLACK_BALL>\uB85C
+      \uAC04\uC8FC\uB429\uB2C8\uB2E4.\n<ON_POCKET> \uC2DC \uC2A4\uD2F0\uCEE4 \uD30C\uAD34.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109841993728
+    m_Localized: "\uACE8\uB4DC \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110706020352
+    m_Localized: "<ON_BOUNCE_WALL>, 20% \uD655\uB960\uB85C 1<COIN> \uD68D\uB4DD.\n<ON_POCKET>
+      \uC2DC 5<COIN> \uD68D\uB4DD.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111762984960
+    m_Localized: "\uD3EC\uCF13 \uCF54\uC778"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112622817280
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113688170496
+    m_Localized: "\uC5ED\uC804 \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552197120
+    m_Localized: "\uACF5 \uC810\uC218\uC640 \uD3EC\uCF13 \uC810\uC218\uAC00 \uB4A4\uBC14\uB01D\uB2C8\uB2E4.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115617550336
+    m_Localized: "\uBA54\uAC00 \uC810\uC218"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116481576960
+    m_Localized: "<POINT>\uC744 #Point\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117559513088
+    m_Localized: "\uC5B4\uB9BF\uAD11\uB300 \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118415151104
+    m_Localized: "<ON_TURN_START> \uBB34\uC791\uC704\uB85C \uC774\uB3D9\uD569\uB2C8\uB2E4.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119501475840
+    m_Localized: "\uD3EC\uCF13 \uBC30\uC218"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120344530944
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121422467072
+    m_Localized: "\uD3EC\uCF13 \uC810\uC218"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122282299392
+    m_Localized: "<POCKET_POINT>\uC744 #PocketPoint\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123372818432
+    m_Localized: "\uD3ED\uD0C4 \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124220067840
+    m_Localized: "<ON_HIT> \uC791\uC740 \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4.
+      6\uD68C\uB9C8\uB2E4 \uD070 \uD3ED\uBC1C\uC744 \uC77C\uC73C\uD0B5\uB2C8\uB2E4.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125306392576
+    m_Localized: "\uD0C4\uC131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126183002112
+    m_Localized: "<BOUNCY>\uC744 #Bounciness\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127286104064
+    m_Localized: "\uBB34\uAC8C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128154324992
+    m_Localized: "<WEIGHT>\uC744 #\uBB34\uAC8C\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129232261120
+    m_Localized: "\uBA54\uAC00 \uD3EC\uCF13"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130155008000
+    m_Localized: "<POCKET_POINT>\uC744 #PocketPoint\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131232944128
+    m_Localized: "\uD589\uC6B4 \uC2A4\uD2F0\uCEE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132126330880
+    m_Localized: "<ON_POCKET>, +5 <COIN> \uBC0F 20% \uD655\uB960\uB85C \uD30C\uAD34.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133216849920
+    m_Localized: "\uC11C\uB9AC \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134106042368
+    m_Localized: "<ON_BALL_HIT> 1x <FREEZE> \uC801\uC6A9. \uB300\uC0C1\uC5D0 <FREEZE>
+      3\uC911\uCCA9 \uC2DC <SHATTER>.\n<FREEZE> \uBA74\uC5ED.\n\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135200755712
+    m_Localized: "\uACF5 \uC810\uC218"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136098336768
+    m_Localized: "<POINT>\uC744 #Point\uB9CC\uD07C \uC99D\uAC00"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137222410240
+    m_Localized: "\uC2A4\uD398\uC774\uC2A4 \uCF54\uC2A4\uD2AC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138115796992
+    m_Localized: "\uACE0\uC720\uD55C \uADA4\uB3C4 \uC6B4\uB3D9\uC744 \uD569\uB2C8\uB2E4.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139214704640
+    m_Localized: "\uD3EC\uCF13 \uACE8\uB4DC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140082925568
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141144084480
+    m_Localized: "\uD0C0\uAC9F \uC2A4\uD2F0\uCEE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141999722496
+    m_Localized: "<WHILE_ATTACHED>, <BOUNCE_POINT> 2\uBC30.\n<ON_POCKET> \uC2DC \uC2A4\uD2F0\uCEE4
+      \uD30C\uAD34.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144822489088
+    m_Localized: "\uB18D\uBD80 \uC2A4\uD2F0\uCEE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145673932800
+    m_Localized: "<ON_TURN_END>, \uAC00\uB9CC\uD788 \uC788\uC5C8\uB2E4\uBA74 +2 <COIN>\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146764451840
+    m_Localized: "\uD604\uC0C1\uAE08 \uC2A4\uD2F0\uCEE4"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147615895552
+    m_Localized: "<ON_COLLIDE> <CUE_BALL>\uACFC \uCDA9\uB3CC \uC2DC +1 <MULT>.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148702220288
+    m_Localized: "\uD3EC\uCF13 \uD06C\uB85C\uC11C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149557858304
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175117946880
+    m_Localized: "\uC720\uBB3C \uD328\uD0A4\uC9C0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175977779200
+    m_Localized: "\uBB34\uC791\uC704 <RELIC> 3\uAC1C \uC911 1\uAC1C \uC120\uD0DD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177026355200
+    m_Localized: "\uCF54\uC2A4\uD2AC \uD328\uD0A4\uC9C0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177890381824
+    m_Localized: "\uBB34\uC791\uC704 <COSTUME_STICKER> 3\uAC1C \uC911 1\uAC1C \uC120\uD0DD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178951540736
+    m_Localized: "\uC720\uBB3C \uD328\uD0A4\uC9C0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179786207232
+    m_Localized: "\uBB34\uC791\uC704 <RELIC> 3\uAC1C \uC911 1\uAC1C \uC120\uD0DD"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180864143360
+    m_Localized: "\uC720\uBB3C \uD328\uD0A4\uC9C0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181694615552
+    m_Localized: "\uBB34\uC791\uC704 <RELIC> 3\uAC1C \uC911 1\uAC1C \uC120\uD0DD"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

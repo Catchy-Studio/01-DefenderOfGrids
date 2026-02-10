@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: ed2a47b7c7e38e3488c1954e5a7dccd9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 18632658944
+    m_Localized: NUEVO JUEGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98102136832
+    m_Localized: "COLECCI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129479725056
+    m_Localized: SALIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152695197696
+    m_Localized: "\u201CAcceso anticipado\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204029284352
+    m_Localized: "<b>Aviso:</b> Este juego a\xFAn est\xE1 en desarrollo, y algunas
+      funciones pueden no estar completas o contener errores. Si encuentras alg\xFAn
+      problema o tienes comentarios, \xA1nos encantar\xEDa saber de ti!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234320547840
+    m_Localized: NOTICIAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268483153920
+    m_Localized: CONTINUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991459528704
+    m_Localized: 'NUEVO
+
+      #value'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1531287425024
+    m_Localized: DESBLOQUEAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1568784502784
+    m_Localized: REGRESAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1594537529344
+    m_Localized: 'PEGATINAS
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1629207646208
+    m_Localized: 'RELIQUIAS
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656596451328
+    m_Localized: 'PISTAS
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820511617024
+    m_Localized: Enviar comentarios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5849419862016
+    m_Localized: "COLECCI\xD3N"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515013963776
+    m_Localized: PEGATINAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6547662426112
+    m_Localized: RELIQUIAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6573037965312
+    m_Localized: PISTAS
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

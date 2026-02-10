@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NStatTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 2a71179d63b9bc140ab873d35d34760d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7585672974336
+    m_Localized: Yok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7586549583872
+    m_Localized: Puan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7587325530112
+    m_Localized: Puan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7588109864960
+    m_Localized: "A\u011F\u0131rl\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7588881616896
+    m_Localized: "A\u011F\u0131rl\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7589657563136
+    m_Localized: Sekme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7590429315072
+    m_Localized: Sekme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7591205261312
+    m_Localized: "Sekme\xC7arpan\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7592081870848
+    m_Localized: "Sekme \xC7arpan\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7592870400000
+    m_Localized: "Cebe\xC7arpan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7593667317760
+    m_Localized: "Cebe \xC7arpan\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7594497789952
+    m_Localized: "\xC7ekim"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7595324067840
+    m_Localized: "\xC7ekim"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7596112596992
+    m_Localized: "\u0130tme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7596867571712
+    m_Localized: "\u0130tme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7597622546432
+    m_Localized: "G\xFC\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7598385909760
+    m_Localized: "G\xFC\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7599170244608
+    m_Localized: CebePuan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7599941996544
+    m_Localized: Cebe Puan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7600713748480
+    m_Localized: UykuTuru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7601506471936
+    m_Localized: Uyku Turu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7602299195392
+    m_Localized: Lanet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7603075141632
+    m_Localized: Lanetli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7603922391040
+    m_Localized: Hayalet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7604706725888
+    m_Localized: Hedef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7605474283520
+    m_Localized: "\xD6l\xE7ek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7606275395584
+    m_Localized: "\xD6l\xE7ek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7607063924736
+    m_Localized: CepteJeton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7607865036800
+    m_Localized: Cebe Jeton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7608645177344
+    m_Localized: "\u015Eansl\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7609450483712
+    m_Localized: "\u015Eansl\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7610205458432
+    m_Localized: "\xC7ift\xE7i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7610993987584
+    m_Localized: "\xC7ift\xE7i"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7611824459776
+    m_Localized: "\xD6d\xFCl"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7612726235136
+    m_Localized: "\xD6d\xFCl"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7613577678848
+    m_Localized: Yakma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7614483648512
+    m_Localized: Yakma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7615288954880
+    m_Localized: Dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7616069095424
+    m_Localized: Dondurma
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

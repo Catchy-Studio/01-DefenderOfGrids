@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ShopTable_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 69d2579f0a363cb4fa1adcbc39264b9d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 92334968832
+    m_Localized: Costume de feu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93291270144
+    m_Localized: "Laisse une tra\xEEn\xE9e de feu en se d\xE9pla\xE7ant. Si une autre
+      bille la touche, applique 1\xD7 <BURN>.\nSubit toujours <BURN>.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94377594880
+    m_Localized: Multiplicateur de rebond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95220649984
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96311169024
+    m_Localized: Costume d'acier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97175195648
+    m_Localized: '+1 <MULT> par distance parcourue. +1000 % <WEIGHT>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98265714688
+    m_Localized: "Rebond crois\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99121352704
+    m_Localized: <ON_BOUNCE>, +#BounceMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100211871744
+    m_Localized: Puissance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101071704064
+    m_Localized: Augmente <POWER> de #Puissance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102128668672
+    m_Localized: Autocollant somnolent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102992695296
+    m_Localized: '<ON_POCKET>, cette bille ne reviendra plus sur la table.
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104083214336
+    m_Localized: Costume de puissance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104951435264
+    m_Localized: "<On_BOUNCE>, d\xE9charge toute la puissance et la convertit en
+      points.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106033565696
+    m_Localized: Costume rocheux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106876620800
+    m_Localized: '+100 <POINT>.
+
+      Plus de <BOUNCE_POINT>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107925196800
+    m_Localized: Autocollant maudit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108789223424
+    m_Localized: "<WHILE_ATTACHED>, cette bille compte comme <BLACK_BALL>.\n<ON_POCKET>,
+      d\xE9truit l'autocollant.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109841993728
+    m_Localized: "Costume dor\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110706020352
+    m_Localized: '<ON_BOUNCE_WALL>, 20 % de chance de gagner 1<COIN>.
+
+      <ON_POCKET>,
+      gagne 5<COIN>.
+
+      (<COSTUME>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111762984960
+    m_Localized: "Pi\xE8ce en poche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112622817280
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113688170496
+    m_Localized: "Costume invers\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552197120
+    m_Localized: "Les points de bille et de poche sont invers\xE9s.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115617550336
+    m_Localized: "M\xE9ga points"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116481576960
+    m_Localized: Augmente <POINT> de #Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117559513088
+    m_Localized: Costume de bouffon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118415151104
+    m_Localized: "<ON_TURN_START> se d\xE9place al\xE9atoirement.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119501475840
+    m_Localized: Multiplicateur de poche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120344530944
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121422467072
+    m_Localized: Points de poche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122282299392
+    m_Localized: Augmente <POCKET_POINT> de #PocketPoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123372818432
+    m_Localized: Costume explosif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124220067840
+    m_Localized: "<ON_HIT> cr\xE9e une petite explosion. Toutes les 6 touches, cr\xE9e
+      une grande explosion.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125306392576
+    m_Localized: "\xC9lasticit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126183002112
+    m_Localized: Augmente <BOUNCY> de #Bounciness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127286104064
+    m_Localized: Poids
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128154324992
+    m_Localized: Augmente <WEIGHT> de #Poids
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129232261120
+    m_Localized: "M\xE9ga poche"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130155008000
+    m_Localized: Augmente <POCKET_POINT> de #PocketPoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131232944128
+    m_Localized: Autocollant chanceux
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132126330880
+    m_Localized: "<ON_POCKET>, +5 <COIN> et 20 % de chances d'\xEAtre d\xE9truit.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133216849920
+    m_Localized: "Costume gel\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134106042368
+    m_Localized: "<ON_BALL_HIT> applique 1\xD7 <FREEZE>. Si la cible a 3\xD7 <FREEZE>,
+      <SHATTER>.\nImmunit\xE9 \xE0 <FREEZE>.\n\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135200755712
+    m_Localized: Points de bille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136098336768
+    m_Localized: Augmente <POINT> de #Point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137222410240
+    m_Localized: Costume spatial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138115796992
+    m_Localized: "Poss\xE8de un mouvement orbital unique.\n(<COSTUME>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139214704640
+    m_Localized: Or de poche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140082925568
+    m_Localized: <ON_POCKET>, +#CoinOnPocket<COIN>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141144084480
+    m_Localized: Autocollant cible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141999722496
+    m_Localized: "<WHILE_ATTACHED>, 2\xD7 <BOUNCE_POINT>.\n<ON_POCKET>, d\xE9truit
+      l'autocollant.\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144822489088
+    m_Localized: Autocollant fermier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145673932800
+    m_Localized: "<ON_TURN_END>, si rest\xE9e immobile, +2 <COIN>\n(<SPECIAL>)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146764451840
+    m_Localized: Autocollant prime
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147615895552
+    m_Localized: '<ON_COLLIDE> avec la <CUE_BALL>, +1 <MULT>.
+
+      (<SPECIAL>)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148702220288
+    m_Localized: "Traverse\u2011poches"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149557858304
+    m_Localized: <ON_POCKET>, +#PocketMultiplier <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175117946880
+    m_Localized: Pack de reliques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175977779200
+    m_Localized: "Choisissez 1 des 3 <RELIC> al\xE9atoires"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177026355200
+    m_Localized: Pack de costumes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177890381824
+    m_Localized: "Choisissez 1 des 3 <COSTUME_STICKER> al\xE9atoires"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178951540736
+    m_Localized: Pack de reliques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179786207232
+    m_Localized: "Choisissez 1 des 3 <RELIC> al\xE9atoires"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180864143360
+    m_Localized: Pack de reliques
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181694615552
+    m_Localized: "Choisissez 1 des 3 <RELIC> al\xE9atoires"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: RelicTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: RelicTable
+  m_TableCollectionNameGuidString: 7086eed8084770d4e8bc845281fb8d6f
+  m_Entries:
+  - m_Id: 702346153984
+    m_Key: DATA/Relic/Title/Relic_FlareSocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703260512256
+    m_Key: DATA/Relic/Desc/Relic_FlareSocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704338448384
+    m_Key: DATA/Relic/Title/Relic_BlackHoleCore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705189892096
+    m_Key: DATA/Relic/Desc/Relic_BlackHoleCore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706242662400
+    m_Key: DATA/Relic/Title/Relic_EmergencyKit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 707127660544
+    m_Key: DATA/Relic/Desc/Relic_EmergencyKit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708184625152
+    m_Key: DATA/Relic/Title/Relic_Numbers_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 709069623296
+    m_Key: DATA/Relic/Desc/Relic_Numbers_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 710118199296
+    m_Key: DATA/Relic/Title/Relic_BankShotBillionaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 710973837312
+    m_Key: DATA/Relic/Desc/Relic_BankShotBillionaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712039190528
+    m_Key: DATA/Relic/Title/Relic_Numbers_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712886439936
+    m_Key: DATA/Relic/Desc/Relic_Numbers_100
+    m_Metadata:
+      m_Items: []
+  - m_Id: 713943404544
+    m_Key: DATA/Relic/Title/Relic_FinalFortune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 714828402688
+    m_Key: DATA/Relic/Desc/Relic_FinalFortune
+    m_Metadata:
+      m_Items: []
+  - m_Id: 715914727424
+    m_Key: DATA/Relic/Title/Relic_SteadyIncome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 716753588224
+    m_Key: DATA/Relic/Desc/Relic_SteadyIncome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 717797969920
+    m_Key: DATA/Relic/Title/Relic_DetailOriented
+    m_Metadata:
+      m_Items: []
+  - m_Id: 718636830720
+    m_Key: DATA/Relic/Desc/Relic_DetailOriented
+    m_Metadata:
+      m_Items: []
+  - m_Id: 719706378240
+    m_Key: DATA/Relic/Title/Relic_LastReserves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 720541044736
+    m_Key: DATA/Relic/Desc/Relic_LastReserves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 721614786560
+    m_Key: DATA/Relic/Title/Relic_Numbers_1000
+    m_Metadata:
+      m_Items: []
+  - m_Id: 722462035968
+    m_Key: DATA/Relic/Desc/Relic_Numbers_1000
+    m_Metadata:
+      m_Items: []
+  - m_Id: 723527389184
+    m_Key: DATA/Relic/Title/Relic_BallOfChaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 724387221504
+    m_Key: DATA/Relic/Desc/Relic_BallOfChaos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 725469351936
+    m_Key: DATA/Relic/Title/Relic_CriticalShot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 726329184256
+    m_Key: DATA/Relic/Desc/Relic_CriticalShot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 727386148864
+    m_Key: DATA/Relic/Title/Relic_GoldenCueBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 728254369792
+    m_Key: DATA/Relic/Desc/Relic_GoldenCueBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 729340694528
+    m_Key: DATA/Relic/Title/Relic_UndoCharm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 730208915456
+    m_Key: DATA/Relic/Desc/Relic_UndoCharm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 731291045888
+    m_Key: DATA/Relic/Title/Relic_StickySituation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732142489600
+    m_Key: DATA/Relic/Desc/Relic_StickySituation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 733270757376
+    m_Key: DATA/Relic/Title/Relic_QuickDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 734134784000
+    m_Key: DATA/Relic/Desc/Relic_QuickDraw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 735191748608
+    m_Key: DATA/Relic/Title/Relic_Numbers_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 736068358144
+    m_Key: DATA/Relic/Desc/Relic_Numbers_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 737154682880
+    m_Key: DATA/Relic/Title/Relic_AuroraMarker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 738018709504
+    m_Key: DATA/Relic/Desc/Relic_AuroraMarker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 739088257024
+    m_Key: DATA/Relic/Title/Relic_NegativeBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 739927117824
+    m_Key: DATA/Relic/Desc/Relic_NegativeBall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 740992471040
+    m_Key: DATA/Relic/Title/Relic_Trickshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 741864886272
+    m_Key: DATA/Relic/Desc/Relic_Trickshot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 742959599616
+    m_Key: DATA/Relic/Title/Relic_RiskyPocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 743815237632
+    m_Key: DATA/Relic/Desc/Relic_RiskyPocket
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 49370435184230487
+  references:
+    version: 2
+    RefIds:
+    - rid: 49370435184230487
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1757227699099

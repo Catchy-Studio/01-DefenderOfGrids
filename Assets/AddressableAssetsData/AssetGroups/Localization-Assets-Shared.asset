@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: 3764e91e421c9264ca3c6a624096b600
+  m_SerializeEntries:
+  - m_GUID: 2a71179d63b9bc140ab873d35d34760d
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/NStatTable/NStatTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c1126ce84e736c49b4f3b65f864dabf
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/NTable/NTable Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69d2579f0a363cb4fa1adcbc39264b9d
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/ShopTable/ShopTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7086eed8084770d4e8bc845281fb8d6f
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/RelicTable/RelicTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72d4025546383a64d83831c930f21055
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/SettingsTable/SettingsTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ed6cd6f36c95b94bb2eb05970384015
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/GameTable/GameTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3c3918af2df1ac47a2a1053dc11def3
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/KWTable/KWTable Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed2a47b7c7e38e3488c1954e5a7dccd9
+    m_Address: Assets/_NueExtras/NLocalizationSystem/_Tables/MenuTable/MenuTable
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 9e9fe5b98dc3c8d4392a278419d72f21, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 335bdc0a2fd41cb478bb9832d85f51ac, type: 2}
+    - {fileID: 11400000, guid: e2eb2ad7be2a4104fbc77fcd1b154ed8, type: 2}

@@ -1,0 +1,92 @@
+﻿GridBackground {
+    --grid-background-color: #1e1e1e;
+    --line-color: rgba(255, 255, 255, 0.1);
+    --thick-line-color: rgba(255, 255, 255, 0.2);
+    --spacing: 25;
+}
+
+SkillDataNode {
+    min-width: 250px;
+    min-height: 150px;
+}
+
+SkillDataNode #title {
+    background-color: rgba(63, 63, 63, 0.8);
+    border-bottom-width: 2px;
+    border-color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding: 8px;
+}
+
+SkillDataNode #title-label {
+    -unity-text-align: middle-center;
+    font-size: 14px;
+}
+
+/* Port styling with color indicators */
+SkillDataNode Port {
+    height: 24px;
+    margin: 2px;
+}
+
+/* Input ports (Requirements) - Orange */
+SkillDataNode Port.input {
+    border-color: rgba(255, 153, 0, 0.8);
+    border-width: 2px;
+}
+
+SkillDataNode Port.input > #connector {
+    background-color: rgba(255, 153, 0, 0.6);
+    border-color: rgba(255, 153, 0, 1);
+    border-width: 2px;
+}
+
+SkillDataNode Port.input:hover > #connector {
+    background-color: rgba(255, 153, 0, 0.9);
+}
+
+/* Output ports (Unlocks) - Cyan */
+SkillDataNode Port.output {
+    border-color: rgba(0, 204, 255, 0.8);
+    border-width: 2px;
+}
+
+SkillDataNode Port.output > #connector {
+    background-color: rgba(0, 204, 255, 0.6);
+    border-color: rgba(0, 204, 255, 1);
+    border-width: 2px;
+}
+
+SkillDataNode Port.output:hover > #connector {
+    background-color: rgba(0, 204, 255, 0.9);
+}
+
+/* Port labels */
+SkillDataNode Port > #type {
+    font-size: 9px;
+    -unity-font-style: bold;
+}
+
+SkillDataNode.selected #title {
+    background-color: rgba(0, 120, 215, 0.8);
+}
+
+/* Edge styling with better visibility */
+Edge {
+    --edge-width: 3;
+    --edge-color: rgba(150, 150, 150, 0.8);
+}
+
+Edge.selected {
+    --edge-width: 5;
+    --edge-color: rgba(255, 255, 0, 1);
+}
+
+/* Color edges based on connection type */
+Edge:hover {
+    --edge-width: 4;
+    --edge-color: rgba(255, 255, 255, 1);
+}
+

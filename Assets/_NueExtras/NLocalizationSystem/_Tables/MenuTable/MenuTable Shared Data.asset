@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: MenuTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: MenuTable
+  m_TableCollectionNameGuidString: ed2a47b7c7e38e3488c1954e5a7dccd9
+  m_Entries:
+  - m_Id: 18632658944
+    m_Key: menu.button.newGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98102136832
+    m_Key: menu.button.collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129479725056
+    m_Key: menu.button.quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152695197696
+    m_Key: menu.other.earlyAccess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204029284352
+    m_Key: menu.other.notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234320547840
+    m_Key: menu.other.news
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268483153920
+    m_Key: menu.button.continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991459528704
+    m_Key: menu.collection.newValue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1531287425024
+    m_Key: menu.collection.unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1568784502784
+    m_Key: menu.collection.return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1594537529344
+    m_Key: menu.collection.stickers.(C/M)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1629207646208
+    m_Key: menu.collection.relics.(C/M)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656596451328
+    m_Key: menu.collection.cues.(C/M)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820511617024
+    m_Key: menu.other.giveFeedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5849419862016
+    m_Key: menu.collection.collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515013963776
+    m_Key: menu.collection.stickers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6547662426112
+    m_Key: menu.collection.relics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6573037965312
+    m_Key: menu.collection.cues
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307248229765120
+    m_Key: menu.collectionProgress.targetProgress.(Progress)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307369248018432
+    m_Key: menu.collectionProgress.currentProgress.(Progress)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307754863939584
+    m_Key: menu.collectionProgress.collectedProgress.(Progress)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 308041808859136
+    m_Key: menu.common.PROGRESS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368214938210304
+    m_Key: menu.collection.willBeComing
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 49370367918604461
+  references:
+    version: 2
+    RefIds:
+    - rid: 49370367918604461
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1757010798299

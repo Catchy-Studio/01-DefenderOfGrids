@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: NTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 4c1126ce84e736c49b4f3b65f864dabf, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 677565464825856
+    m_Localized: 'Hedef
+
+      Puan'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 679121245425664
+    m_Localized: "G\xFCncel\nSkor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681106824744960
+    m_Localized: "Tur\nPuan\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681207311880192
+    m_Localized: "L\u0130G"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681343438016512
+    m_Localized: "B\u0130LARDO"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681360919875584
+    m_Localized: TUR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681578520367104
+    m_Localized: '#bossDescription'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681739992682496
+    m_Localized: "<wave>\u0130\u015Faret Topunu de\u011Fi\u015Ftirmek i\xE7in s\xFCr\xFCkle</wave>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682049238716416
+    m_Localized: "At\u0131\u015F:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682080037490688
+    m_Localized: "Yer De\u011Fi\u015Ftirmeler:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682120130842624
+    m_Localized: "DE\u011E\u0130\u015ET\u0130R"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682146932445184
+    m_Localized: Onayla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682167488729088
+    m_Localized: "\u0130ptal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682194030284800
+    m_Localized: OYUN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682212862709760
+    m_Localized: "HAR\u0130TA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682228868173824
+    m_Localized: "MA\u011EAZA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682830566248448
+    m_Localized: Oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682881506070528
+    m_Localized: Atla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683096120217600
+    m_Localized: "En az \u015Fu skoru yap"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683838755295232
+    m_Localized: Klasik Bilardo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699930143870976
+    m_Localized: Atla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699979582132224
+    m_Localized: "<wave>SE\xC7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701239878209536
+    m_Localized: "Bilardo Tamamland\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701373584232448
+    m_Localized: "TOPLAM \xD6D\xDCL"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701416932364288
+    m_Localized: '#total'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701537615073280
+    m_Localized: Devam Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701654912978944
+    m_Localized: 'Faiz: <#FFBE20>#interest'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701655709896704
+    m_Localized: "At\u0131\u015F: <#FFBE20>#shot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701656443899904
+    m_Localized: 'Ekstralar: <#FFBE20>#extra'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701657161125888
+    m_Localized: "\xD6d\xFCl: <#FFBE20>#reward"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703375701692416
+    m_Localized: "Kazand\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703400905265152
+    m_Localized: "T\xFCm ligleri ge\xE7tin!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703438070992896
+    m_Localized: "Ana Men\xFC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703651707867136
+    m_Localized: Kaybettin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703824253145088
+    m_Localized: "Ligden d\xFC\u015Ft\xFCn."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704224020647936
+    m_Localized: Hedef
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704224863703040
+    m_Localized: "- Bir <STICKER>'\u0131 herhangi bir <BALL>'a s\xFCr\xFCkleyip b\u0131rak,
+      g\xFC\xE7lendir.\nHer <BALL> <MAX_STICKER> ta\u015F\u0131yabilir, varsay\u0131lan
+      4.\n- Sat\u0131n al\u0131nan <STICKER> sa\u011Fda g\xF6r\xFCn\xFCr.\n- Birini
+      satmak i\xE7in envanterde \xFCzerine t\u0131kla ve onayla."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704225606094848
+    m_Localized: "Hedef almak ve at\u0131\u015F g\xFCc\xFCn\xFC art\u0131rmak i\xE7in
+      <LMB>'yi bas\u0131l\u0131 tut. B\u0131rak\u0131nca at\u0131\u015F yapar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704226352680960
+    m_Localized: Stikerlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704227103461376
+    m_Localized: "- T\xFCm 8 <LEAGUE>'i tamamla ve <WIN>.\n- Her <LEAGUE> i\xE7inde
+      3 bilardo vard\u0131r; <SMALL>, <BIG>, <PREMIUM>\n- <PREMIUM> baz\u0131 negatif
+      etkiler i\xE7erir\n- Bir <POOL>'u tamamlamak i\xE7in <TARGET_SCORE>'unu ge\xE7melisin\n-
+      Ekstra \xF6d\xFCl i\xE7in <SMALL> veya <BIG>'i <SKIP> edebilirsin"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704227866824704
+    m_Localized: "- <RELICW> sana oyun s\u0131ras\u0131nda pasif bonuslar verir.\n-
+      Bir <RELICW> sat\u0131n ald\u0131\u011F\u0131nda, onlar\u0131 masan\u0131n
+      alt k\u0131sm\u0131nda g\xF6rebilirsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704229376774144
+    m_Localized: "G\xFC\xE7lendirmeyi <RMB> ile iptal edebilirsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704230119165952
+    m_Localized: Kontroller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704230886723584
+    m_Localized: Relikler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704231637504000
+    m_Localized: "\xD6\u011Fretici"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704232384090112
+    m_Localized: "Kost\xFCm & \xD6zel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704233143259136
+    m_Localized: "- <COSTUME>, <BALL>'\u0131n g\xF6r\xFCn\xFC\u015F\xFCn\xFC ve \xF6zelliklerini
+      de\u011Fi\u015Ftirir.\nHer <BALL> yaln\u0131zca 1 <COSTUME> ta\u015F\u0131yabilir.\n-
+      <SPECIAL>, tak\u0131l\u0131 oldu\u011Fu <BALL>'a <UNIQUE> bir \xF6zellik verir.\nHer
+      <BALL> her <SPECIAL>'den yaln\u0131zca bir kez ta\u015F\u0131yabilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704682764259328
+    m_Localized: Stikerlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705583956611072
+    m_Localized: "Sat\u0131ld\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705713380249600
+    m_Localized: Stikerlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705752638935040
+    m_Localized: Paketler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705822348267520
+    m_Localized: "Sat\u0131ld\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705999062683648
+    m_Localized: Devam Et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706028636721152
+    m_Localized: "Yak\u0131nda Gelecek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706060991582208
+    m_Localized: "\u015Eansl\u0131 \xC7ark"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706128087863296
+    m_Localized: "Yeniden \xC7evir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 976201541210112
+    m_Localized: "Klasik \u0130staka"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

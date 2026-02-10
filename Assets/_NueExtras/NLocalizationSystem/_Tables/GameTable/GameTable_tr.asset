@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTable_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 9ed6cd6f36c95b94bb2eb05970384015, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 199514813616128
+    m_Localized: "T\xFCm cepler tersine \xE7evrildi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199515665059840
+    m_Localized: 3 <BLACK_BALL> ekle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199516491337728
+    m_Localized: "Reduce \xC7izgili Top points by 50%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199517321809920
+    m_Localized: "Kost\xFCml\xFC Top puan\u0131 %50 azal\u0131r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518152282112
+    m_Localized: "Duvar sekme puanlar\u0131n\u0131 yar\u0131ya indirir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518995337216
+    m_Localized: "Reduce D\xFCz Top points by 50%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199519838392320
+    m_Localized: "Ekstra b\xFCy\xFCk bilardo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358605158600704
+    m_Localized: "Geli\u015Ftirilmi\u015F \u015Eans"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358606123290624
+    m_Localized: "Bir sonraki sat\u0131n al\u0131m\u0131na kadar <RARITY> art\u0131r\u0131l\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358607297695744
+    m_Localized: Relik Paketi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358608287551488
+    m_Localized: "Bir <RELIC> paketi a\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358609357099008
+    m_Localized: "Y\xFCksek Para"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358610204348416
+    m_Localized: 10 <sprite name="coin"> verir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358611244535808
+    m_Localized: Engelleyici
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358612079202304
+    m_Localized: Bir sonraki Premium Bilardo'nun negatif etkisini engeller.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613115195392
+    m_Localized: "D\xFC\u015F\xFCk Para"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613937278976
+    m_Localized: 5 <sprite name="coin"> verir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358614977466368
+    m_Localized: "<rainb>G\xF6kku\u015Fa\u011F\u0131 Topu</rainb>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358615803744256
+    m_Localized: <ON_GAME_START>, 1x <RAINBOW_BALL> ekle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362100230180864
+    m_Localized: "<rainb>G\xF6kku\u015Fa\u011F\u0131 Topu</rainb>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362101249396736
+    m_Localized: "Say\u0131 Topu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362102272806912
+    m_Localized: Siyah Top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362103287828480
+    m_Localized: "\xC7izgili Top"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362104336404480
+    m_Localized: "\u0130\u015Faret Topu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362105380786176
+    m_Localized: "D\xFCz Top"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9319380144128
+    m_Localized: <TARGET_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9328754413568
+    m_Localized: "Bu havuzu tamamlamak i\xE7in bu <POINT> de\u011Ferine ula\u015Fmal\u0131s\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19319620096000
+    m_Localized: <CURRENT_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19435332554752
+    m_Localized: "Havuz boyunca toplanan toplam <POINT>. Havuzu tamamlamak i\xE7in
+      <TARGET_SCORE> de\u011Ferine ula\u015Fmal\u0131s\u0131n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19723498016768
+    m_Localized: <MULT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19918201802752
+    m_Localized: "<TURN_SCORE> de\u011Ferini <MULT> ile \xE7arparak <CURRENT_SCORE>
+      de\u011Ferine d\xF6n\xFC\u015Ft\xFCr\xFCr."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19974770380800
+    m_Localized: <TURN_SCORE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20075035217920
+    m_Localized: "Tur boyunca toplanan toplam <POINT>. <ON_TURN_START> s\u0131f\u0131rlan\u0131r."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20175719485440
+    m_Localized: Para
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20244459933696
+    m_Localized: "De\u011Ferli bir kaynakt\u0131r. <INTEREST> \xF6zelli\u011Fine
+      sahiptir"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20325019930624
+    m_Localized: <SHOT>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20399791788032
+    m_Localized: "Kalan <SHOT> say\u0131nd\u0131r. <SHOT> 0\u2019a d\xFC\u015Ferse
+      ve <TARGET_SCORE> de\u011Ferini ge\xE7emezsen, <FAILED>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20459862609920
+    m_Localized: <REPLACE>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20544268783616
+    m_Localized: "<CUE_BALL> konumunu masada istedi\u011Fin yere DE\u011E\u0130\u015ET\u0130R
+      d\xFC\u011Fmesine basarak de\u011Fi\u015Ftirebilirsin."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198756001107968
+    m_Localized: "B\xFCy\xFCk Havuz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198756860940288
+    m_Localized: "K\xFC\xE7\xFCk Havuz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198757708189696
+    m_Localized: Premium Havuz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 372894971973632
+    m_Localized: "K\u0130L\u0130TL\u0130"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

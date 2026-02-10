@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTable_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 9ed6cd6f36c95b94bb2eb05970384015, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 199514813616128
+    m_Localized: "Todas las troneras est\xE1n invertidas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199515665059840
+    m_Localized: "A\xF1ade 3 <BLACK_BALL>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199516491337728
+    m_Localized: Reduce los puntos de la bola rayada un 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199517321809920
+    m_Localized: Reduce los puntos de la bola de traje un 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518152282112
+    m_Localized: Los puntos por rebote en banda se reducen a la mitad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199518995337216
+    m_Localized: Reduce los puntos de la bola lisa un 50%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 199519838392320
+    m_Localized: Mesa extra grande.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358605158600704
+    m_Localized: Suerte mejorada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358606123290624
+    m_Localized: "Aumenta la <RARITY> hasta tu pr\xF3xima compra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358607297695744
+    m_Localized: Lote de reliquias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358608287551488
+    m_Localized: Abre un lote de <RELIC>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358609357099008
+    m_Localized: Muchas monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358610204348416
+    m_Localized: Da 10 <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358611244535808
+    m_Localized: Bloqueador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358612079202304
+    m_Localized: "Bloquea la pr\xF3xima desventaja de la mesa <PREMIUM>."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613115195392
+    m_Localized: Pocas monedas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358613937278976
+    m_Localized: Da 5 <sprite name="coin">
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358614977466368
+    m_Localized: "<rainb>Bola arco\xEDris</rainb>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 358615803744256
+    m_Localized: "<ON_GAME_START>, a\xF1ade 1x <RAINBOW_BALL>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362100230180864
+    m_Localized: "<rainb>Bola arco\xEDris</rainb>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362101249396736
+    m_Localized: Bola numerada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362102272806912
+    m_Localized: Bola negra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362103287828480
+    m_Localized: Bola rayada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362104336404480
+    m_Localized: Bola blanca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 362105380786176
+    m_Localized: Bola lisa
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

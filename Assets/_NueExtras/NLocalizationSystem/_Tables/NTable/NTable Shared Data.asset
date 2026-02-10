@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: NTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: NTable
+  m_TableCollectionNameGuidString: 4c1126ce84e736c49b4f3b65f864dabf
+  m_Entries:
+  - m_Id: 677565464825856
+    m_Key: InfoPanel/Left/TargetScoreRoot/TargetScoreRoot/TargetPoint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 679121245425664
+    m_Key: InfoPanel/Left/CurrentScoreRoot/CurrentScoreRoot/CurrentScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681106824744960
+    m_Key: InfoPanel/Left/TurnScoreRoot/TurnScoreRoot/CurrentScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681207311880192
+    m_Key: InfoPanel/Top/TopInfo/TopInfo/LeagueText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681343438016512
+    m_Key: InfoPanel/Top/TopInfo/TopInfo/PoolText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681360919875584
+    m_Key: InfoPanel/Top/TopInfo/TopInfo/TurnText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681578520367104
+    m_Key: InfoPanel/Top/BossRoot/BossRoot/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 681739992682496
+    m_Key: InfoPanel/Top/ReplaceInfoTextRoot/ReplaceInfoTextRoot/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682049238716416
+    m_Key: InfoPanel/Bottom/BottomRect/BottomRect/ShotCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682080037490688
+    m_Key: InfoPanel/Bottom/BottomRect/BottomRect/RepositionCount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682120130842624
+    m_Key: InfoPanel/Bottom/Buttons/ReplaceButton/ReplaceButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682146932445184
+    m_Key: InfoPanel/Bottom/Buttons/ConfirmReposition/ConfirmReposition/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682167488729088
+    m_Key: InfoPanel/Bottom/Buttons/CancelReposition/CancelReposition/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682194030284800
+    m_Key: InfoPanel/CornerRect/CornerRect/GameText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682212862709760
+    m_Key: InfoPanel/CornerRect/CornerRect/MapText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682228868173824
+    m_Key: InfoPanel/CornerRect/CornerRect/ShopText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682830566248448
+    m_Key: EncounterCard/Root/CardFrame05_Purple (1)/ButtonRoot/PlayButton/PlayButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 682881506070528
+    m_Key: EncounterCard/Root/CardFrame05_Purple (1)/ButtonRoot/SkipButton/SkipButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683096120217600
+    m_Key: EncounterCard/Root/CardFrame05_Purple (1)/CardFrame05_Purple (1)/ScoreAtLeast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 683838755295232
+    m_Key: EncounterCard/Root/CardFrame05_Purple (1)/CardFrame05_Purple (1)/Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699930143870976
+    m_Key: Display_Choice3/Canvas/Inside/SkipButton/SkipButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699979582132224
+    m_Key: Display_Choice3/Canvas/Inside/ChoiceRoot/ChoiceRoot/Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701239878209536
+    m_Key: Display_EncounterFinished/Canvas (1)/Canvas (1)/Text_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701373584232448
+    m_Key: Display_EncounterFinished/Canvas (1)/Canvas (1)/TotalPrize_Label
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701416932364288
+    m_Key: Display_EncounterFinished/Canvas (1)/Canvas (1)/TotalPrize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701537615073280
+    m_Key: Display_EncounterFinished/Canvas (1)/ButtonRoot/ContinueButton/ContinueButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701654912978944
+    m_Key: Display_EncounterFinished/Canvas (1)/Layout/Layout/InterestText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701655709896704
+    m_Key: Display_EncounterFinished/Canvas (1)/Layout/Layout/Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701656443899904
+    m_Key: Display_EncounterFinished/Canvas (1)/Layout/Layout/ExtraText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701657161125888
+    m_Key: Display_EncounterFinished/Canvas (1)/Layout/Layout/RewardText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703375701692416
+    m_Key: Display_GameWin/Canvas/PopupTemplate/PopupTemplate/Text_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703400905265152
+    m_Key: Display_GameWin/Canvas/PopupTemplate/PopupTemplate/Text_Title (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703438070992896
+    m_Key: Display_GameWin/Canvas/PopupTemplate/MenuButton/MenuButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703651707867136
+    m_Key: Display_GameLose/Canvas/PopupTemplate/PopupTemplate/Text_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703824253145088
+    m_Key: Display_GameLose/Canvas/PopupTemplate/PopupTemplate/Text_Title (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704224020647936
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Objective/Page_Objective/Title
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704224863703040
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Stickers/Page_Stickers/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704225606094848
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Controls/Page_Controls/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704226352680960
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Stickers/Page_Stickers/Title
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704227103461376
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Objective/Page_Objective/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704227866824704
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Relics/Page_Relics/Text (TMP)
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704229376774144
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Controls/Page_Controls/Text
+      (TMP)_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704230119165952
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Controls/Page_Controls/Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704230886723584
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_Relics/Page_Relics/Title (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704231637504000
+    m_Key: Display_Tutorial/Root/Canvas/Common/Common/Title (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704232384090112
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_CostumeAndSpecial/Page_CostumeAndSpecial/Title
+      (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704233143259136
+    m_Key: Display_Tutorial/Root/Canvas/PageRoot/Page_CostumeAndSpecial/Page_CostumeAndSpecial/Text
+      (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704682764259328
+    m_Key: ShopInventoryPanel/Root/ShopInventoryCanvas/Right/Right/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705583956611072
+    m_Key: ShopSlot_Default/TopCenter/TopCenter/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705713380249600
+    m_Key: ShopPanel/Root/ShopCanvas/Inside/DefaultRoot/DefaultRoot/Text (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705752638935040
+    m_Key: ShopPanel/Root/ShopCanvas/Inside/PackRoot/PackRoot/Text (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705822348267520
+    m_Key: ShopSlot_Passive/ShopSlot_Passive/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705999062683648
+    m_Key: ShopPanel/Root/ShopCanvas/Inside/Buttons/ContinueButton/ContinueButton/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706028636721152
+    m_Key: ShopPanel/Root/ShopCanvas/Inside/Buttons/Spin/Spin/Text (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706060991582208
+    m_Key: ShopPanel/Root/ShopCanvas/Inside/Buttons/Spin/Spin/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706128087863296
+    m_Key: ShopPanel/Root/ShopCanvas/Inside/Buttons/REROLL/REROLL/Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 976201541210112
+    m_Key: NLOCAL_TEXT/CLASSIC CUE
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 49370367918604395
+  references:
+    version: 2
+    RefIds:
+    - rid: 49370367918604395
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1757000844855

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 24f3523d785070a428bc0e3353cc9e1e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156513
+  packageName: All In 1 Sprite Shader
+  packageVersion: 4.41
+  assetPath: Assets/Plugins/AllIn1SpriteShader/Scripts/SetGlobalTime.cs
+  uploadId: 814992

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenuTable_it
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: ed2a47b7c7e38e3488c1954e5a7dccd9, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 18632658944
+    m_Localized: NUOVA PARTITA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98102136832
+    m_Localized: COLLEZIONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129479725056
+    m_Localized: USCITA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152695197696
+    m_Localized: "\u201CAccesso Anticipato\u201D"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204029284352
+    m_Localized: "<b>Avviso:</b> Questo gioco \xE8 ancora in fase di sviluppo e alcune
+      funzionalit\xE0 potrebbero essere incomplete o presentare bug. Se riscontri
+      problemi o vuoi inviare feedback, saremo felici di sentirti!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234320547840
+    m_Localized: NOTIZIE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268483153920
+    m_Localized: CONTINUA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 991459528704
+    m_Localized: 'NUOVO
+
+      #value'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1531287425024
+    m_Localized: SBLOCCA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1568784502784
+    m_Localized: RITORNO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1594537529344
+    m_Localized: 'ADESIVI
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1629207646208
+    m_Localized: 'RELICHE
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1656596451328
+    m_Localized: 'SEGNALI
+
+      #current/#max'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2820511617024
+    m_Localized: Dare un feedback
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5849419862016
+    m_Localized: COLLEZIONE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6515013963776
+    m_Localized: ADESIVI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6547662426112
+    m_Localized: RELICHE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6573037965312
+    m_Localized: INDIZI
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
