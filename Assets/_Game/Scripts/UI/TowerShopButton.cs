@@ -5,30 +5,61 @@ using TMPro;
 public class TowerShopButton : MonoBehaviour
 {
     [Header("Data")]
-    [SerializeField] private TowerData _towerData; // Drag Tower_Archer here
+    [SerializeField] private TowerData _towerData;
 
     [Header("UI References")]
     [SerializeField] private TextMeshProUGUI _costText;
     [SerializeField] private TextMeshProUGUI _nameText;
-    [SerializeField] private Image _iconImage; // Optional: If you have icons
+
+    // Add this to change the button color
+    private Image _buttonImage;
+    private Color _defaultColor = Color.white;
+    private Color _selectedColor = Color.green; // Or any color you like
 
     private void Start()
     {
-        // Auto-fill the text from the Data (So you don't have to type "50 Gold" manually)
+        _buttonImage = GetComponent<Image>();
+        _defaultColor = _buttonImage.color;
+
         if (_towerData != null)
         {
             if (_costText != null) _costText.text = _towerData.cost.ToString();
             if (_nameText != null) _nameText.text = _towerData.towerName;
-            // if (_iconImage != null) _iconImage.sprite = _towerData.icon; 
         }
 
-        // Add the click listener automatically
         GetComponent<Button>().onClick.AddListener(OnButtonClicked);
+
+        // SUBSCRIBE to the event
+        if (LevelGridManager.Instance != null)
+        {
+            LevelGridManager.Instance.OnTowerSelected += UpdateSelectionVisual;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        // ALWAYS Unsubscribe when object is destroyed to prevent errors
+        if (LevelGridManager.Instance != null)
+        {
+            LevelGridManager.Instance.OnTowerSelected -= UpdateSelectionVisual;
+        }
     }
 
     private void OnButtonClicked()
     {
-        // Tell the Manager to switch towers
         LevelGridManager.Instance.SelectTower(_towerData);
+    }
+
+    private void UpdateSelectionVisual(TowerData selectedData)
+    {
+        // If the selected tower is ME, turn Green. Otherwise, turn White.
+        if (selectedData == _towerData)
+        {
+            _buttonImage.color = _selectedColor;
+        }
+        else
+        {
+            _buttonImage.color = _defaultColor;
+        }
     }
 }

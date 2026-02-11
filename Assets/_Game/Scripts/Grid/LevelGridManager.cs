@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -14,6 +15,7 @@ public class LevelGridManager : MonoBehaviour
 
     private Dictionary<Vector2Int, GridNode> _grid = new Dictionary<Vector2Int, GridNode>();
     private Dictionary<TileBase, TileData> _dataLookup = new Dictionary<TileBase, TileData>();
+    public event Action<TowerData> OnTowerSelected;
 
     private void Awake()
     {
@@ -150,6 +152,7 @@ public class LevelGridManager : MonoBehaviour
     public void SelectTower(TowerData data)
     {
         _selectedTowerData = data;
+        OnTowerSelected?.Invoke(data);
         Debug.Log($"Selected Tower: {data.towerName}");
     }
 }
