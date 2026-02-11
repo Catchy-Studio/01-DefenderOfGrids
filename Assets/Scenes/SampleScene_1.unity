@@ -755,7 +755,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdf7a52c285ebb4488a0eb68e1d0d4c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CurrencySystem
-  _startingGold: 100
+  _startingGold: 1000
   _goldText: {fileID: 1814678517}
 --- !u!4 &524641430
 Transform:

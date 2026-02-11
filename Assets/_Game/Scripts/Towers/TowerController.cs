@@ -8,6 +8,7 @@ public class TowerController : MonoBehaviour
 
     [Header("Setup")]
     [SerializeField] private GameObject _bulletPrefab;
+    [SerializeField] private Transform _firePoint;
     [SerializeField] private LayerMask _enemyLayer; // We will select "Enemy" here
 
     private Transform _target;
@@ -59,15 +60,36 @@ public class TowerController : MonoBehaviour
         _fireCountdown -= Time.deltaTime;
     }
 
+    /* OLD SHOOT
     private void Shoot()
     {
         GameObject bulletGO = Instantiate(_bulletPrefab, transform.position, Quaternion.identity);
-        Bullet bullet = bulletGO.GetComponent<Bullet>();
 
-        if (bullet != null)
+        // Try to find ANY script that has a "Seek" method
+        // Ideally we would use an Interface "IProjectile", but let's be fast.
+
+        Bullet normalBullet = bulletGO.GetComponent<Bullet>();
+        if (normalBullet != null)
         {
-            bullet.Seek(_target);
+            normalBullet.Seek(_target);
+            return;
         }
+
+        ExplosiveBullet explosive = bulletGO.GetComponent<ExplosiveBullet>();
+        if (explosive != null)
+        {
+            explosive.Seek(_target);
+            return;
+        }
+    }*/
+
+    private void Shoot()
+    {
+        GameObject bulletGO = Instantiate(_bulletPrefab, _firePoint.position, Quaternion.identity);
+
+        // This line searches for ANY method named "Seek" on the bullet and calls it.
+        // It works for Bullet, ExplosiveBullet, AND IceBullet automatically!
+        bulletGO.SendMessage("Seek", _target, SendMessageOptions.DontRequireReceiver);
     }
 
     private void OnDrawGizmosSelected()
