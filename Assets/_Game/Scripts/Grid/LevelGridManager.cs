@@ -10,6 +10,7 @@ public class LevelGridManager : MonoBehaviour
     [Header("References")]
     [SerializeField] private Tilemap _groundTilemap;
     [SerializeField] private List<TileData> _tileDatas;
+    [SerializeField] private TowerOptionsUI _optionsUI;
     [Header("Tower Logic")]
     [SerializeField] private TowerData _selectedTowerData;
 
@@ -125,21 +126,32 @@ public class LevelGridManager : MonoBehaviour
 
     public bool TryPlaceTower(Vector2Int gridPos)
     {
+        // 1. Check if the node exists
         if (!_grid.ContainsKey(gridPos)) return false;
         GridNode node = _grid[gridPos];
 
-        // 1. Check if placeable
+        // 2. Check the Rules (Is it buildable? Is it already empty?)
         if (node.Data.isBuildable && !node.IsOccupied)
         {
-            // 2. CHECK GOLD (New Logic)
-            // We ask the bank: "Do we have money?"
+            // 3. CHECK GOLD
             if (CurrencySystem.Instance.TrySpendGold(_selectedTowerData.cost))
             {
                 // Success! We paid. Now build.
                 node.IsOccupied = true;
 
+                // Calculate position
                 Vector3 spawnPos = new Vector3(node.WorldPosition.x, node.WorldPosition.y, 0);
-                Instantiate(_selectedTowerData.prefab, spawnPos, Quaternion.identity);
+
+                // Spawn the tower
+                GameObject towerObj = Instantiate(_selectedTowerData.prefab, spawnPos, Quaternion.identity);
+
+                // --- PASS THE COST TO THE TOWER ---
+                TowerController controller = towerObj.GetComponent<TowerController>();
+                if (controller != null)
+                {
+                    controller.BaseCost = _selectedTowerData.cost;
+                }
+                // ----------------------------------
 
                 Debug.Log($"Built tower! Gold Remaining: {CurrencySystem.Instance.CurrentGold}");
                 return true;
@@ -166,8 +178,17 @@ public class LevelGridManager : MonoBehaviour
         if (clickedNode.IsOccupied)
         {
             _selectedNode = clickedNode;
-            Debug.Log($"Clicked on tower at {gridPos}. Showing Upgrade UI (TODO).");
-
+            // Find the tower object at that position (Physics check is easiest here)
+            Collider2D[] hits = Physics2D.OverlapPointAll(clickedNode.WorldPosition);
+            foreach (var hit in hits)
+            {
+                TowerController tower = hit.GetComponent<TowerController>();
+                if (tower != null)
+                {
+                    _optionsUI.Show(tower); // <--- OPEN THE MENU
+                    return;
+                }
+            }
             // TODO: Open Upgrade UI here later
         }
         // CASE B: The Node is Empty -> BUILD

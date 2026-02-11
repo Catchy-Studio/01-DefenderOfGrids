@@ -5,6 +5,8 @@ public class TowerController : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private float _range = 3f;
     [SerializeField] private float _fireRate = 1f;
+    public int Level { get; private set; } = 1;
+    public int BaseCost { get; set; }
 
     [Header("Setup")]
     [SerializeField] private GameObject _bulletPrefab;
@@ -13,6 +15,18 @@ public class TowerController : MonoBehaviour
 
     private Transform _target;
     private float _fireCountdown = 0f;
+
+    public int GetUpgradeCost()
+    {
+        // Simple Math: Upgrade costs 100% of base cost * Level
+        return BaseCost * Level;
+    }
+
+    public int GetSellValue()
+    {
+        // Refund 50% of what you spent
+        return (int)(BaseCost * 0.5f);
+    }
 
     private void Start()
     {
@@ -90,6 +104,26 @@ public class TowerController : MonoBehaviour
         // This line searches for ANY method named "Seek" on the bullet and calls it.
         // It works for Bullet, ExplosiveBullet, AND IceBullet automatically!
         bulletGO.SendMessage("Seek", _target, SendMessageOptions.DontRequireReceiver);
+    }
+
+    public void Upgrade()
+    {
+        Level++;
+
+        // Boost Stats!
+        _range += 0.5f;        // +0.5 Range
+        _fireRate *= 1.2f;     // +20% Speed
+
+        // Optional: Make it bigger to show it's stronger
+        transform.localScale *= 1.1f;
+
+        Debug.Log($"Tower Upgraded to Level {Level}!");
+    }
+
+    public void Sell()
+    {
+        Debug.Log("Tower Sold!");
+        Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()
