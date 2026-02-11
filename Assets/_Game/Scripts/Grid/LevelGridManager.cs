@@ -145,4 +145,11 @@ public class LevelGridManager : MonoBehaviour
 
         return false;
     }
+
+    // Add this anywhere in the class (maybe near the bottom with other Public APIs)
+    public void SelectTower(TowerData data)
+    {
+        _selectedTowerData = data;
+        Debug.Log($"Selected Tower: {data.towerName}");
+    }
 }
