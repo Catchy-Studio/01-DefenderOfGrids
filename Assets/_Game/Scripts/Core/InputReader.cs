@@ -39,7 +39,7 @@ public class InputReader : MonoBehaviour
 
         if (node != null)
         {
-            LevelGridManager.Instance.TryPlaceTower(node.GridPosition);
+            LevelGridManager.Instance.HandleGridClick(node.GridPosition);
         }
     }
 }

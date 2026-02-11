@@ -16,6 +16,7 @@ public class LevelGridManager : MonoBehaviour
     private Dictionary<Vector2Int, GridNode> _grid = new Dictionary<Vector2Int, GridNode>();
     private Dictionary<TileBase, TileData> _dataLookup = new Dictionary<TileBase, TileData>();
     public event Action<TowerData> OnTowerSelected;
+    private GridNode _selectedNode;
 
     private void Awake()
     {
@@ -154,5 +155,32 @@ public class LevelGridManager : MonoBehaviour
         _selectedTowerData = data;
         OnTowerSelected?.Invoke(data);
         Debug.Log($"Selected Tower: {data.towerName}");
+    }
+
+    public void HandleGridClick(Vector2Int gridPos)
+    {
+        if (!_grid.ContainsKey(gridPos)) return;
+        GridNode clickedNode = _grid[gridPos];
+
+        // CASE A: The Node has a Tower -> SELECT IT
+        if (clickedNode.IsOccupied)
+        {
+            _selectedNode = clickedNode;
+            Debug.Log($"Clicked on tower at {gridPos}. Showing Upgrade UI (TODO).");
+
+            // TODO: Open Upgrade UI here later
+        }
+        // CASE B: The Node is Empty -> BUILD
+        else if (clickedNode.Data.isBuildable)
+        {
+            // Only build if we have a tower selected in the shop
+            if (_selectedTowerData != null)
+            {
+                TryPlaceTower(gridPos);
+
+                // Deselect the node if we just built something new
+                _selectedNode = null;
+            }
+        }
     }
 }
