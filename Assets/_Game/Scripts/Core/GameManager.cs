@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private TextMeshProUGUI _livesText;
-    [SerializeField] private GameObject _gameOverPanel; // <--- Drag your Panel here!
+    [SerializeField] private GameObject _gameOverPanel;
+    [SerializeField] private GameObject _victoryPanel;
 
     public int CurrentLives { get; private set; }
     public bool IsGameOver { get; private set; }
@@ -60,5 +61,33 @@ public class GameManager : MonoBehaviour
     private void UpdateUI()
     {
         if (_livesText != null) _livesText.text = $"Lives: {CurrentLives}";
+    }
+
+    // ... inside GameManager class ...
+
+    public int EnemiesAlive { get; private set; } = 0;
+
+    // Call this when an enemy spawns
+    public void OnEnemySpawned()
+    {
+        EnemiesAlive++;
+    }
+
+    public void OnEnemyDestroyed()
+    {
+        EnemiesAlive--;
+
+        // Check for Victory
+        if (EnemiesAlive <= 0 && WaveManager.Instance.IsAllWavesSpawned)
+        {
+            Victory();
+        }
+    }
+
+    private void Victory()
+    {
+        Debug.Log("VICTORY!");
+        if (_victoryPanel != null) _victoryPanel.SetActive(true);
+        Time.timeScale = 0; // Pause the game joyfully
     }
 }

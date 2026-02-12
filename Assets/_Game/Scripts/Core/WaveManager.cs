@@ -5,6 +5,21 @@ using TMPro;
 
 public class WaveManager : MonoBehaviour
 {
+
+    public static WaveManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     [Header("Configuration")]
     [SerializeField] private List<WaveData> _waves;
     [SerializeField] private Transform _pathParent;
@@ -16,6 +31,7 @@ public class WaveManager : MonoBehaviour
     private int _currentWaveIndex = 0;
     private Transform[] _waypoints;
     private bool _isSpawning = false;
+    public bool IsAllWavesSpawned => _currentWaveIndex >= _waves.Count && !_isSpawning;
 
     private void Start()
     {
@@ -72,6 +88,7 @@ public class WaveManager : MonoBehaviour
     {
         GameObject enemy = Instantiate(prefab);
         EnemyMovement movement = enemy.GetComponent<EnemyMovement>();
+        GameManager.Instance.OnEnemySpawned();
         if (movement != null)
         {
             movement.Initialize(_waypoints);

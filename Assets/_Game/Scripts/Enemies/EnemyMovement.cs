@@ -99,6 +99,7 @@ public class EnemyMovement : MonoBehaviour
         if (GameManager.Instance != null)
         {
             GameManager.Instance.TakeDamage(1); // 1 damage per enemy
+            GameManager.Instance.OnEnemyDestroyed();
         }
 
         Destroy(gameObject); // Enemy vanishes into the base

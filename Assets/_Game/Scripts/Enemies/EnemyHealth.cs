@@ -29,8 +29,8 @@ public class EnemyHealth : MonoBehaviour
         if (CurrencySystem.Instance != null)
         {
             CurrencySystem.Instance.AddGold(_goldReward);
+            GameManager.Instance.OnEnemyDestroyed();
         }
-
         Debug.Log("Enemy Died and gave gold!");
         Destroy(gameObject);
     }
