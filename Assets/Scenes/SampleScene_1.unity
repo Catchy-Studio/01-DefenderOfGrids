@@ -660,11 +660,11 @@ RectTransform:
   - {fileID: 1814678519}
   - {fileID: 345506508}
   - {fileID: 508239608}
-  - {fileID: 1002436734}
-  - {fileID: 1505307600}
   - {fileID: 1680138125}
   - {fileID: 1160847262}
   - {fileID: 778092570}
+  - {fileID: 1002436734}
+  - {fileID: 1505307600}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -730,7 +730,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -6813,10 +6813,6 @@ MonoBehaviour:
   _waves:
   - {fileID: 11400000, guid: 709bbb9afcedd72488f53d6982aadb43, type: 2}
   - {fileID: 11400000, guid: 4fca11e16207d7446aa60a40b886d6ec, type: 2}
-  - {fileID: 11400000, guid: 6cdb3fed7c1066145814a08f4dd0c4a2, type: 2}
-  - {fileID: 11400000, guid: 1ec7029716d3ee94db6c0f1213b6d576, type: 2}
-  - {fileID: 11400000, guid: 73d6cff9b6068c645ab707d016a2b00a, type: 2}
-  - {fileID: 11400000, guid: 000bfa2917777be4a89f562ea1260275, type: 2}
   _pathParent: {fileID: 1262217580}
   _waveText: {fileID: 0}
   _nextWaveButton: {fileID: 508239604}
