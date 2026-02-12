@@ -166,6 +166,10 @@ public class LevelGridManager : MonoBehaviour
     public void SelectTower(TowerData data)
     {
         _selectedTowerData = data;
+        if (_optionsUI != null)
+        {
+            _optionsUI.Hide();
+        }
         OnTowerSelected?.Invoke(data);
         Debug.Log($"Selected Tower: {data.towerName}");
     }
@@ -197,7 +201,6 @@ public class LevelGridManager : MonoBehaviour
         // CASE A: The Node has a Tower -> SELECT IT
         if (clickedNode.IsOccupied)
         {
-            _selectedNode = clickedNode;
             // Find the tower object at that position (Physics check is easiest here)
             Collider2D[] hits = Physics2D.OverlapPointAll(clickedNode.WorldPosition);
             foreach (var hit in hits)
@@ -206,21 +209,23 @@ public class LevelGridManager : MonoBehaviour
                 if (tower != null)
                 {
                     _optionsUI.Show(tower); // <--- OPEN THE MENU
+                    _selectedNode = clickedNode;
                     return;
                 }
             }
             // TODO: Open Upgrade UI here later
         }
-        // CASE B: The Node is Empty -> BUILD
-        else if (clickedNode.Data.isBuildable)
+        // CASE B: We clicked something else (Grass, Path, Empty space)
+        // 1. Always Close the UI first
+        _optionsUI.Hide();
+        _selectedNode = null;
+
+        // 2. Now check if we wanted to BUILD something new
+        if (clickedNode.Data.isBuildable)
         {
-            // Only build if we have a tower selected in the shop
             if (_selectedTowerData != null)
             {
                 TryPlaceTower(gridPos);
-
-                // Deselect the node if we just built something new
-                _selectedNode = null;
             }
         }
     }
