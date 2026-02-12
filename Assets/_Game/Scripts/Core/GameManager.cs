@@ -90,4 +90,15 @@ public class GameManager : MonoBehaviour
         if (_victoryPanel != null) _victoryPanel.SetActive(true);
         Time.timeScale = 0; // Pause the game joyfully
     }
+
+    public void OpenMainMenu()
+    {
+        // Make sure your Level 1 scene is added to Build Settings!
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
