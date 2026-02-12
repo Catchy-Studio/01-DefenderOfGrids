@@ -185,4 +185,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   _goldReward: 12
-  _maxHealth: 8
+  _maxHealth: 20
