@@ -150,10 +150,11 @@ public class LevelGridManager : MonoBehaviour
                 if (controller != null)
                 {
                     controller.BaseCost = _selectedTowerData.cost;
+                    controller.TowerName = _selectedTowerData.towerName;
                 }
                 // ----------------------------------
 
-                Debug.Log($"Built tower! Gold Remaining: {CurrencySystem.Instance.CurrentGold}");
+                //Debug.Log($"Built tower! Gold Remaining: {CurrencySystem.Instance.CurrentGold}");
                 return true;
             }
         }
@@ -167,6 +168,25 @@ public class LevelGridManager : MonoBehaviour
         _selectedTowerData = data;
         OnTowerSelected?.Invoke(data);
         Debug.Log($"Selected Tower: {data.towerName}");
+    }
+
+    public void SellTower(TowerController tower)
+    {
+        // 1. Find the Grid Node under this tower
+        GridNode node = GetNodeAtWorldPosition(tower.transform.position);
+
+        if (node != null)
+        {
+            node.IsOccupied = false; // <--- CRITICAL FIX: Mark the spot as free!
+            Debug.Log($"Freed up node at {node.GridPosition}");
+        }
+
+        // 2. Refund Gold
+        int refundAmount = tower.GetSellValue();
+        CurrencySystem.Instance.AddGold(refundAmount);
+
+        // 3. Destroy the Tower
+        Destroy(tower.gameObject);
     }
 
     public void HandleGridClick(Vector2Int gridPos)

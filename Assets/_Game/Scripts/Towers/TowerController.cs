@@ -7,6 +7,7 @@ public class TowerController : MonoBehaviour
     [SerializeField] private float _fireRate = 1f;
     public int Level { get; private set; } = 1;
     public int BaseCost { get; set; }
+    public string TowerName { get; set; }
 
     [Header("Setup")]
     [SerializeField] private GameObject _bulletPrefab;

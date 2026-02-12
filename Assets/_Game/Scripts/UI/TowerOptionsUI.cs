@@ -44,7 +44,7 @@ public class TowerOptionsUI : MonoBehaviour
         if (_selectedTower == null) return;
 
         // Update Text
-        _infoText.text = $"Lvl {_selectedTower.Level} Tower";
+        _infoText.text = $"Lvl {_selectedTower.Level} {_selectedTower.TowerName}";
 
         // Calculate Costs
         int upgradeCost = _selectedTower.GetUpgradeCost();
@@ -74,14 +74,10 @@ public class TowerOptionsUI : MonoBehaviour
     {
         if (_selectedTower == null) return;
 
-        int value = _selectedTower.GetSellValue();
-        CurrencySystem.Instance.AddGold(value);
+        // Use the Manager to handle the logic cleanly
+        LevelGridManager.Instance.SellTower(_selectedTower);
 
-        _selectedTower.Sell();
-
-        // Important: We need to tell the Grid that this spot is free again!
-        // (We will fix this in Step 5)
-
+        // Close the menu
         Hide();
     }
 }
