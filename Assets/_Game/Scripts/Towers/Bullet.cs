@@ -1,3 +1,7 @@
+using __Project.Systems.NUpgradeSystem;
+using _Game.Scripts.Data;
+using _NueCore.NStatSystem;
+using UnityEditor.Localization.Plugins.XLIFF.V20;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -6,6 +10,22 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float _damage = 2f;
 
     private Transform _target;
+
+    private float _damageBoostRate;
+    
+    public float GetTotalDamage(TowerTypes towerType, float baseDamage)
+    {
+        var d = baseDamage;
+        d += (d * _damageBoostRate / 100f);
+
+        return d;
+    }
+
+
+    public void SetDamageBoost(float bonusPercent)
+    {
+        _damageBoostRate = bonusPercent;
+    }
 
     public void Seek(Transform target)
     {

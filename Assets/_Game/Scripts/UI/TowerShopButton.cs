@@ -1,3 +1,7 @@
+using __Project.Systems.DamageNumberSystem;
+using __Project.Systems.NUpgradeSystem;
+using _Game.Scripts.Data;
+using _NueCore.NStatSystem;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -47,7 +51,39 @@ public class TowerShopButton : MonoBehaviour
 
     private void OnButtonClicked()
     {
+        if (!CanSelectTower(out var reason))
+        {
+            var number =NumberStatic.GetDamageNumber(NumberTypes.Warning);
+            number.enableLeftText = true;
+            number.leftText = reason;
+            number.transform.position = transform.position;
+            return;
+        }
         LevelGridManager.Instance.SelectTower(_towerData);
+    }
+
+    public bool CanSelectTower(out string reason)
+    {
+        reason = "";
+
+        var towerType = _towerData.TowerType;
+        if (towerType is TowerTypes.Arrow && !UpgradeStatic.HasStat(NStatEnum.Unlock_ArrowTower))
+        {
+            reason = "Unlock Arrow Tower to play!";
+            return false;
+        }
+        if (towerType is TowerTypes.Cannon && !UpgradeStatic.HasStat(NStatEnum.Unlock_CannonTower))
+        {
+            reason = "Unlock Cannon Tower to play!";
+            return false;
+        }
+        if (towerType is TowerTypes.Ice && !UpgradeStatic.HasStat(NStatEnum.Unlock_IceTower))
+        {
+            reason = "Unlock Ice Tower to play!";
+            return false;
+        }
+        
+        return true;
     }
 
     private void UpdateSelectionVisual(TowerData selectedData)

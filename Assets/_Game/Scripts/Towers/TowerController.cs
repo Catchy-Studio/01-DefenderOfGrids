@@ -1,8 +1,12 @@
+using __Project.Systems.NUpgradeSystem;
+using _Game.Scripts.Data;
+using _NueCore.NStatSystem;
 using UnityEngine;
 
 public class TowerController : MonoBehaviour
 {
-    [Header("Stats")]
+    [Header("Stats")] 
+    [SerializeField] private TowerData data;
     [SerializeField] private float _range = 3f;
     [SerializeField] private float _fireRate = 1f;
     public int Level { get; private set; } = 1;
@@ -16,7 +20,27 @@ public class TowerController : MonoBehaviour
 
     private Transform _target;
     private float _fireCountdown = 0f;
-
+    public float GetTotalRange()
+    {
+        var t = _range;
+        var towerType = data.TowerType;
+        if (towerType is TowerTypes.Arrow)
+        {
+            t += (t*UpgradeStatic.GetTotalStat(NStatEnum.ArrowTower_Range)/100f);
+        }
+        else if (towerType is TowerTypes.Cannon)
+        {
+            t += (t*UpgradeStatic.GetTotalStat(NStatEnum.CannonTower_Range)/100f);
+        }
+        else if (towerType is TowerTypes.Ice)
+        {
+            t += (t*UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Range)/100f);
+        }
+        return t;
+    }
+    
+    
+    
     public int GetUpgradeCost()
     {
         // Simple Math: Upgrade costs 100% of base cost * Level
@@ -37,7 +61,7 @@ public class TowerController : MonoBehaviour
     private void UpdateTarget()
     {
         // Physics2D.OverlapCircle checks our specific LayerMask
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, _range, _enemyLayer);
+        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, GetTotalRange(), _enemyLayer);
 
         float shortestDistance = Mathf.Infinity;
         GameObject nearestEnemy = null;
@@ -52,7 +76,7 @@ public class TowerController : MonoBehaviour
             }
         }
 
-        if (nearestEnemy != null && shortestDistance <= _range)
+        if (nearestEnemy != null && shortestDistance <= GetTotalRange())
         {
             _target = nearestEnemy.transform;
         }
@@ -98,10 +122,32 @@ public class TowerController : MonoBehaviour
         }
     }*/
 
+    private float GetDamageBoost()
+    {
+        var d = 0f;
+        var towerType = data.TowerType;
+        if (towerType is TowerTypes.Arrow)
+        {
+            d =UpgradeStatic.GetTotalStat(NStatEnum.ArrowTower_Damage);
+        }
+        else if (towerType is TowerTypes.Cannon)
+        {
+            d =UpgradeStatic.GetTotalStat(NStatEnum.CannonTower_Damage);
+        }
+        else if (towerType is TowerTypes.Ice)
+        {
+            d = UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Damage);
+        }
+
+        return d;
+    }
     private void Shoot()
     {
         GameObject bulletGO = Instantiate(_bulletPrefab, _firePoint.position, Quaternion.identity);
-
+        if (bulletGO.TryGetComponent<Bullet>(out var bullet))
+        {
+            bullet.SetDamageBoost(GetDamageBoost());
+        }
         // This line searches for ANY method named "Seek" on the bullet and calls it.
         // It works for Bullet, ExplosiveBullet, AND IceBullet automatically!
         bulletGO.SendMessage("Seek", _target, SendMessageOptions.DontRequireReceiver);
@@ -130,6 +176,6 @@ public class TowerController : MonoBehaviour
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(transform.position, _range);
+        Gizmos.DrawWireSphere(transform.position, GetTotalRange());
     }
 }
