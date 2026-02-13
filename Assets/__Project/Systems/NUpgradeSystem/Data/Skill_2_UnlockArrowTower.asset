@@ -10,37 +10,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
-  m_Name: Skill_4_Skill2
+  m_Name: Skill_2_UnlockArrowTower
   m_EditorClassIdentifier: 
-  id: skill_4_skill2
-  sprite: {fileID: 21300000, guid: 695fbddd7238dc94c8f102d9191c2886, type: 3}
-  title: Skill 2
-  description: <FAME>
+  id: skill_2_unlockarrowtower
+  sprite: {fileID: -7630237011073246913, guid: 4a34d5f78f29f494c90fa0bf6d7983ca, type: 3}
+  title: Unlock Arrow Tower
+  description: Unlock <ARROW_TOWER>
   rarity: 0
   tags: 4
   category: 0
   revealDepth: 1
-  isAutoUnlocked: 0
+  isAutoUnlocked: 1
   isPermaLocked: 0
   targetSkillsToRevealList: []
   revealStatRequirements: []
   skillTierList:
   - statList:
       statList:
-      - statEnum: 1001
+      - statEnum: 1002
         key: 
         container: {fileID: 0}
         value: 1
         statCategory: 0
     requiredResourceList: []
   requiredSkillList:
-  - {fileID: 11400000, guid: 30f1beb40b8299645b2fbbc73a686131, type: 2}
+  - {fileID: 11400000, guid: 5b75cb0ec0f360a41a37c26fba068092, type: 2}
   requireMaxSkills: 0
   purchasedEvent:
     m_PersistentCalls:
       m_Calls: []
   requiredSkillPortTypes:
-  - BottomInput
+  - LeftInput
   requiredSkillOutputPortTypes:
-  - TopOutput
-  tierConfigString: (Unlock_Hero)1
+  - RightOutput
+  tierConfigString: (Unlock_ArrowTower)1

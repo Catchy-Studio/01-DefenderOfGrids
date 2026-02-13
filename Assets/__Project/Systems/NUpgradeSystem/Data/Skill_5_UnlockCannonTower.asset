@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
-  m_Name: Skill_1_Start
+  m_Name: Skill_5_UnlockCannonTower
   m_EditorClassIdentifier: 
-  id: skill_1_start
-  sprite: {fileID: 21300000, guid: 2b001e38390d34d5ea00e85609c2a1c9, type: 3}
-  title: Start
-  description: Start
+  id: skill_5_unlockcannontower
+  sprite: {fileID: -6204943402206193772, guid: c23b227411756e844b62de3f55fbd9b0, type: 3}
+  title: Unlock Cannon Tower
+  description: Unlock <CANNON_TOWER>
   rarity: 0
   tags: 4
   category: 0
-  revealDepth: 0
+  revealDepth: 1
   isAutoUnlocked: 0
   isPermaLocked: 0
   targetSkillsToRevealList: []
@@ -27,17 +27,22 @@ MonoBehaviour:
   skillTierList:
   - statList:
       statList:
-      - statEnum: 1001
+      - statEnum: 1003
         key: 
         container: {fileID: 0}
         value: 1
         statCategory: 0
-    requiredResourceList: []
-  requiredSkillList: []
+    requiredResourceList:
+    - StockType: 0
+      Amount: 50
+  requiredSkillList:
+  - {fileID: 11400000, guid: 5b75cb0ec0f360a41a37c26fba068092, type: 2}
   requireMaxSkills: 0
   purchasedEvent:
     m_PersistentCalls:
       m_Calls: []
-  requiredSkillPortTypes: []
-  requiredSkillOutputPortTypes: []
-  tierConfigString: (Unlock_Hero)1
+  requiredSkillPortTypes:
+  - BottomInput
+  requiredSkillOutputPortTypes:
+  - TopOutput
+  tierConfigString: (Price)50c;(Unlock_CannonTower)1

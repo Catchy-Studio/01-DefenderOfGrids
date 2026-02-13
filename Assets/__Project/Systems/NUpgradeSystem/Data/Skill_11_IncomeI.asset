@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
+  m_Name: Skill_11_IncomeI
+  m_EditorClassIdentifier: 
+  id: skill_11_incomei
+  sprite: {fileID: 2100262628, guid: fd5385e4cea8b844ea50af9da11e09fc, type: 3}
+  title: Income I
+  description: 'Increase <COIN> gain by +#Global_IncomePercent%
+
+    (+<t_Global_IncomePercent>%)'
+  rarity: 0
+  tags: 4
+  category: 0
+  revealDepth: 1
+  isAutoUnlocked: 0
+  isPermaLocked: 0
+  targetSkillsToRevealList: []
+  revealStatRequirements: []
+  skillTierList:
+  - statList:
+      statList:
+      - statEnum: 3002
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 10
+  - statList:
+      statList:
+      - statEnum: 3002
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 20
+  - statList:
+      statList:
+      - statEnum: 3002
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 30
+  - statList:
+      statList:
+      - statEnum: 3002
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 40
+  - statList:
+      statList:
+      - statEnum: 3002
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 50
+  requiredSkillList:
+  - {fileID: 11400000, guid: 5b75cb0ec0f360a41a37c26fba068092, type: 2}
+  requireMaxSkills: 0
+  purchasedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  requiredSkillPortTypes:
+  - RightInput
+  requiredSkillOutputPortTypes:
+  - LeftOutput
+  tierConfigString: (Global_IncomePercent)10/10/10/10/10;(Price)10c/20c/30c/40c/50c

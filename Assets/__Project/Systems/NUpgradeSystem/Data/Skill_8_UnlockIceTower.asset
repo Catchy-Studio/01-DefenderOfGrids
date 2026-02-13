@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
-  m_Name: Skill_5_Skill2
+  m_Name: Skill_8_UnlockIceTower
   m_EditorClassIdentifier: 
-  id: skill_5_skill2
-  sprite: {fileID: 21300000, guid: 28df830b98d0a3f44b58e73d78060ab0, type: 3}
-  title: Skill 2
-  description: <FAME>
+  id: skill_8_unlockicetower
+  sprite: {fileID: -1604862082099773515, guid: 9691ae6c4ba11bf4da9aa4246a5044f0, type: 3}
+  title: Unlock Ice Tower
+  description: Unlock <ICE_TOWER>
   rarity: 0
   tags: 4
   category: 0
@@ -27,20 +27,22 @@ MonoBehaviour:
   skillTierList:
   - statList:
       statList:
-      - statEnum: 1001
+      - statEnum: 1004
         key: 
         container: {fileID: 0}
         value: 1
         statCategory: 0
-    requiredResourceList: []
+    requiredResourceList:
+    - StockType: 0
+      Amount: 150
   requiredSkillList:
-  - {fileID: 11400000, guid: 9f5e0c00777434a40b003bba00d1af3a, type: 2}
+  - {fileID: 11400000, guid: 5b75cb0ec0f360a41a37c26fba068092, type: 2}
   requireMaxSkills: 0
   purchasedEvent:
     m_PersistentCalls:
       m_Calls: []
   requiredSkillPortTypes:
-  - LeftInput
+  - TopInput
   requiredSkillOutputPortTypes:
-  - RightOutput
-  tierConfigString: (Unlock_Hero)1
+  - BottomOutput
+  tierConfigString: (Price)150c;(Unlock_IceTower)1

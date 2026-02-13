@@ -12,11 +12,30 @@ namespace _NueCore.NStatSystem
         N3 = 3,
         N4 = 4,
         
+        CoinPerEnemy = 100,
+        InGameGoldPerEnemy = 101,
+        
+        Global_RangePercent = 3000,
+        Global_DamagePercent = 3001,
+        Global_IncomePercent = 3002,
+        
         Coin = 9000,
         Gem =9001,
         Emerald =9002,
+        
+        ArrowTower_Damage = 20001,
+        ArrowTower_Range = 20002,
+        
+        IceTower_Damage = 20100,
+        IceTower_Range = 20101,
+        
+        CannonTower_Damage = 20200,
+        CannonTower_Range = 20201,
        
         Unlock_Game = 1001,
+        Unlock_ArrowTower =1002,
+        Unlock_CannonTower =1003,
+        Unlock_IceTower =1004
         
     }
     public static class NCustomStats

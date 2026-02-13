@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
+  m_Name: Skill_13_GoldPerEnemy
+  m_EditorClassIdentifier: 
+  id: skill_13_goldperenemy
+  sprite: {fileID: -8953913159172069822, guid: b883d2db32245d44e84df2ec6572792e, type: 3}
+  title: Gold Per Enemy
+  description: 'Increase <GOLD> drop per <ENEMY> by +#InGameGoldPerEnemy%
+
+    (+<t_InGameGoldPerEnemy>%)'
+  rarity: 0
+  tags: 4
+  category: 0
+  revealDepth: 1
+  isAutoUnlocked: 0
+  isPermaLocked: 0
+  targetSkillsToRevealList: []
+  revealStatRequirements: []
+  skillTierList:
+  - statList:
+      statList:
+      - statEnum: 101
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 10
+  - statList:
+      statList:
+      - statEnum: 101
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 20
+  - statList:
+      statList:
+      - statEnum: 101
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 30
+  - statList:
+      statList:
+      - statEnum: 101
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 40
+  - statList:
+      statList:
+      - statEnum: 101
+        key: 
+        container: {fileID: 0}
+        value: 10
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 50
+  requiredSkillList:
+  - {fileID: 11400000, guid: f86329e00d8f53a42bc4c83986d7f074, type: 2}
+  requireMaxSkills: 0
+  purchasedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  requiredSkillPortTypes:
+  - RightInput
+  requiredSkillOutputPortTypes:
+  - BottomOutput
+  tierConfigString: (InGameGoldPerEnemy)10/10/10/10/10;(Price)10c/20c/30c/40c/50c
