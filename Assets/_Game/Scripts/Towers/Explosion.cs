@@ -1,3 +1,5 @@
+using __Project.Systems.NUpgradeSystem;
+using _NueCore.NStatSystem;
 using UnityEngine;
 
 public class Explosion : MonoBehaviour
@@ -6,8 +8,28 @@ public class Explosion : MonoBehaviour
     [SerializeField] private float _damage = 5f;
     [SerializeField] private LayerMask _enemyLayer;
 
+    
+    
+    private float _damageBoostRate;
+    
+    public float GetTotalDamage(float baseDamage)
+    {
+        var d = baseDamage;
+        d += (d * _damageBoostRate / 100f);
+
+        return d;
+    }
+
+
+    public void SetDamageBoost(float bonusPercent)
+    {
+        _damageBoostRate = bonusPercent;
+    }
+
+    
     private void Start()
     {
+        SetDamageBoost(UpgradeStatic.GetTotalStat(NStatEnum.CannonTower_Damage));
         // 1. Find everyone in range
         Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, _radius, _enemyLayer);
 
@@ -17,7 +39,7 @@ public class Explosion : MonoBehaviour
             EnemyHealth enemy = hit.GetComponent<EnemyHealth>();
             if (enemy != null)
             {
-                enemy.TakeDamage(_damage);
+                enemy.TakeDamage(GetTotalDamage(_damage));
             }
         }
 

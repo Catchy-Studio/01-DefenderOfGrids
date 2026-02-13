@@ -1,3 +1,6 @@
+using __Project.Systems.NUpgradeSystem;
+using _NueCore.NStatSystem;
+using _NueExtras.StockSystem;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -28,7 +31,14 @@ public class EnemyHealth : MonoBehaviour
         // Access the Singleton to give money
         if (CurrencySystem.Instance != null)
         {
-            CurrencySystem.Instance.AddGold(_goldReward);
+            var totalGoldReward = _goldReward;
+            var bonusGoldReward = UpgradeStatic.GetTotalStat(NStatEnum.InGameGoldPerEnemy);
+            totalGoldReward += Mathf.RoundToInt(_goldReward * bonusGoldReward/100f);
+            CurrencySystem.Instance.AddGold(totalGoldReward);
+            if (UpgradeStatic.TryGetTotalRoundedStat(NStatEnum.CoinPerEnemy,out var coin))
+            {
+                StockStatic.IncreaseStock(StockTypes.Coin,coin);
+            }
             GameManager.Instance.OnEnemyDestroyed();
         }
         Debug.Log("Enemy Died and gave gold!");

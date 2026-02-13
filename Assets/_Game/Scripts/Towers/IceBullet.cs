@@ -1,3 +1,5 @@
+using __Project.Systems.NUpgradeSystem;
+using _NueCore.NStatSystem;
 using UnityEngine;
 
 public class IceBullet : MonoBehaviour
@@ -9,6 +11,23 @@ public class IceBullet : MonoBehaviour
 
     private Transform _target;
 
+    private float _damageBoostRate;
+    
+    public float GetTotalDamage(float baseDamage)
+    {
+        var d = baseDamage;
+        d += (d * _damageBoostRate / 100f);
+
+        return d;
+    }
+
+
+    public void SetDamageBoost(float bonusPercent)
+    {
+        _damageBoostRate = bonusPercent;
+    }
+
+    
     public void Seek(Transform target)
     {
         _target = target;
@@ -36,11 +55,13 @@ public class IceBullet : MonoBehaviour
 
     private void HitTarget()
     {
+        SetDamageBoost(UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Damage));
+
         // 1. Deal Damage
         EnemyHealth health = _target.GetComponent<EnemyHealth>();
         if (health != null)
         {
-            health.TakeDamage(_damage);
+            health.TakeDamage(GetTotalDamage(_damage));
         }
 
         // 2. Apply Slow

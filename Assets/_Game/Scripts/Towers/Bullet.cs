@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     private float _damageBoostRate;
     
-    public float GetTotalDamage(TowerTypes towerType, float baseDamage)
+    public float GetTotalDamage(float baseDamage)
     {
         var d = baseDamage;
         d += (d * _damageBoostRate / 100f);
@@ -58,7 +58,7 @@ public class Bullet : MonoBehaviour
         EnemyHealth health = _target.GetComponent<EnemyHealth>();
         if (health != null)
         {
-            health.TakeDamage(_damage);
+            health.TakeDamage(GetTotalDamage(_damage));
         }
 
         Destroy(gameObject); // Destroy bullet on impact
