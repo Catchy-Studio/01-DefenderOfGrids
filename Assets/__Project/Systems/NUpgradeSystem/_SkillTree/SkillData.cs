@@ -37,6 +37,7 @@ namespace __Project.Systems.NUpgradeSystem._SkillTree
         private List<NStatRequirement> revealStatRequirements = new List<NStatRequirement>();
         [SerializeField] private List<SkillTier> skillTierList = new List<SkillTier>();
         [SerializeField] private List<SkillData> requiredSkillList = new List<SkillData>();
+        [SerializeField] private List<SkillData> chainPurchaseList = new List<SkillData>();
         [SerializeField] private bool requireMaxSkills;
         [SerializeField] private UnityEvent purchasedEvent;
         
@@ -56,7 +57,9 @@ namespace __Project.Systems.NUpgradeSystem._SkillTree
         public UnityEvent PurchasedEvent => purchasedEvent;
 
         public bool RequireMaxSkills => requireMaxSkills;
-        
+
+        public List<SkillData> ChainPurchaseList => chainPurchaseList;
+
         #region Methods
 
         public string GetID()

@@ -160,6 +160,7 @@ namespace __Project.Systems.NUpgradeSystem._SkillTree
             Data.PurchasedEvent?.Invoke();
             UpdateNode();
             RBuss.Publish(new SkillTreeREvents.SkillNodePurchasedEvent(this));
+          
         }
         protected virtual void OnPurchased()
         {

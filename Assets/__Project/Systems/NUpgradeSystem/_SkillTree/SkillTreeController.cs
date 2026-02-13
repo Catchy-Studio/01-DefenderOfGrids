@@ -51,6 +51,14 @@ namespace __Project.Systems.NUpgradeSystem._SkillTree
                 //     foreach (var reqNode in connections.RequiredNodeList)
                 //         reqNode.UpdateNode();
                 // }
+                foreach (var chain in ev.Node.Data.ChainPurchaseList)
+                {
+                    var dt =AllNodeList.Find(x => x.Data == chain);
+                    if (dt)
+                    {
+                        dt.Purchase();
+                    }
+                }
                 foreach (var nodeBase in allNodeList)
                     nodeBase.UpdateNode();
             }).AddTo(gameObject);
