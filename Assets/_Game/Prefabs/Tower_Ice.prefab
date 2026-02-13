@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324cc677c67a05b47ba573f36743eaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerController
+  data: {fileID: 11400000, guid: e7cfc53632a26f04eab80ed0364d2e0a, type: 2}
   _range: 2
   _fireRate: 1
   _bulletPrefab: {fileID: 5265841869654832092, guid: 2000a01a770e75e4f8df72de81dd1efc,
@@ -266,6 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324cc677c67a05b47ba573f36743eaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerController
+  data: {fileID: 0}
   _range: 2
   _fireRate: 1
   _bulletPrefab: {fileID: 5265841869654832092, guid: 2000a01a770e75e4f8df72de81dd1efc,

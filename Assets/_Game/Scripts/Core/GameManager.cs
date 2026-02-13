@@ -1,3 +1,4 @@
+using __Project.Systems.RunSystem;
 using _NueExtras.StockSystem;
 using UnityEngine;
 using TMPro;
@@ -60,6 +61,11 @@ public class GameManager : MonoBehaviour
         Debug.Log($"Defeat! But awarded {_defeatXpReward} XP for trying.");
     }
 
+    public void OpenSkillTree()
+    {
+        var temp = RunStatic.Temp;
+        temp.SetState(RunState.Transition);
+    }
     // Call this from the Restart Button
     public void RestartGame()
     {

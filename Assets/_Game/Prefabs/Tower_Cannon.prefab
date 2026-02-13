@@ -107,6 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324cc677c67a05b47ba573f36743eaa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerController
+  data: {fileID: 11400000, guid: 69812645df1d1f94c8e342e9380bfb4e, type: 2}
   _range: 3
   _fireRate: 1
   _bulletPrefab: {fileID: 5045668645305553535, guid: 9986d181bf6644245bf3d5d5f844dc10,

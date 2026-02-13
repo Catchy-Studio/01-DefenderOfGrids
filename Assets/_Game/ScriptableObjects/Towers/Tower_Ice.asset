@@ -15,3 +15,4 @@ MonoBehaviour:
   towerName: Ice Tower
   cost: 75
   prefab: {fileID: 4037261084930090777, guid: cc21cd8cb185fc34d9d1525807e6771e, type: 3}
+  towerType: 2
