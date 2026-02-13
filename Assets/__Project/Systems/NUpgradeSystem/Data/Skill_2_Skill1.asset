@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
+  m_Name: Skill_2_Skill1
+  m_EditorClassIdentifier: 
+  id: skill_2_skill1
+  sprite: {fileID: 3873779795923698762, guid: 29f298ec17c3de74eb7c912bd7d82288, type: 3}
+  title: Skill 1
+  description: <FAME>
+  rarity: 0
+  tags: 4
+  category: 0
+  revealDepth: 1
+  isAutoUnlocked: 0
+  isPermaLocked: 0
+  targetSkillsToRevealList: []
+  revealStatRequirements: []
+  skillTierList:
+  - statList:
+      statList:
+      - statEnum: 1001
+        key: 
+        container: {fileID: 0}
+        value: 1
+        statCategory: 0
+    requiredResourceList: []
+  requiredSkillList:
+  - {fileID: 11400000, guid: 5b75cb0ec0f360a41a37c26fba068092, type: 2}
+  requireMaxSkills: 0
+  purchasedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  requiredSkillPortTypes:
+  - BottomInput
+  requiredSkillOutputPortTypes:
+  - TopOutput
+  tierConfigString: (Unlock_Hero)1
