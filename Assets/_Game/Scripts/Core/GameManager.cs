@@ -1,3 +1,4 @@
+using _NueExtras.StockSystem;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement; // Required for reloading the scene
@@ -16,6 +17,7 @@ public class GameManager : MonoBehaviour
 
     [Header("Level Settings")]
     [SerializeField] private int _xpReward = 100;
+    [SerializeField] private int _defeatXpReward = 20;
 
     public int CurrentLives { get; private set; }
     public bool IsGameOver { get; private set; }
@@ -53,6 +55,9 @@ public class GameManager : MonoBehaviour
         {
             _gameOverPanel.SetActive(true);
         }
+        
+        StockStatic.IncreaseStock(StockTypes.Coin, _defeatXpReward); 
+        Debug.Log($"Defeat! But awarded {_defeatXpReward} XP for trying.");
     }
 
     // Call this from the Restart Button
@@ -100,20 +105,9 @@ public class GameManager : MonoBehaviour
         if (_victoryPanel != null) _victoryPanel.SetActive(true);
         Time.timeScale = 0;
 
-        // --- NEW SAVE LOGIC ---
-        // 1. Load existing data
-        PlayerData data = SaveSystem.Load();
 
-        // 2. Add rewards
-        data.TotalXP += _xpReward;
-
-        // Optional: Track level progress
-        // if (currentLevelIndex > data.HighestLevelBeat) data.HighestLevelBeat = currentLevelIndex;
-
-        // 3. Save it back
-        SaveSystem.Save(data);
-
-        Debug.Log($"Saved! New Total XP: {data.TotalXP}");
+        StockStatic.IncreaseStock(StockTypes.Coin, _xpReward); 
+        Debug.Log($"Awarded {StockTypes.Coin} XP via StockStatic!");
         // ----------------------
     }
 
