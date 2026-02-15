@@ -13,11 +13,6 @@ MonoBehaviour:
   m_Name: Tile_Grass
   m_EditorClassIdentifier: Assembly-CSharp::TileData
   tiles:
-  - {fileID: 11400000, guid: 800ce93dc7feaac46b0c8f467ffb2747, type: 2}
-  - {fileID: 11400000, guid: 835bd79902c98df42b4e08e3ac28b806, type: 2}
-  - {fileID: 11400000, guid: c9fd433447d426b4fb6063f14f45bee1, type: 2}
-  - {fileID: 11400000, guid: 9fe703e4588c28c4c9696220d0530ef5, type: 2}
-  - {fileID: 11400000, guid: e805c343fd1cc4d41ad4b28c26a0b1d4, type: 2}
   - {fileID: 11400000, guid: cdf67c5726eb7d940a94a142d7f27b3b, type: 2}
   isWalkable: 0
   isBuildable: 1

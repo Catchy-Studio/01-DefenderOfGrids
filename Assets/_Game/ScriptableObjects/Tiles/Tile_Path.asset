@@ -16,9 +16,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 16060ede6b7c94144add626ce13b26b5, type: 2}
   - {fileID: 11400000, guid: 4aef0ff93f8779349a491b0fc4cd0da7, type: 2}
   - {fileID: 11400000, guid: f1f7a8f1e750c784a804d111a8e17e09, type: 2}
-  - {fileID: 11400000, guid: 9306823cd3eb060449c0531b43f66504, type: 2}
-  - {fileID: 11400000, guid: 8d82df83b7c18574fb9ce1565307ab1f, type: 2}
   - {fileID: 11400000, guid: d05a708d738cc4740989cf216d53b27f, type: 2}
+  - {fileID: 11400000, guid: 094e96d35b4760d448a8432d1eacd551, type: 2}
+  - {fileID: 11400000, guid: 8ee73d651a3bb9a49afacb9547309a1e, type: 2}
   isWalkable: 1
   isBuildable: 0
   movementCost: 1
