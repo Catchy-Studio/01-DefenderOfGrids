@@ -17,6 +17,7 @@ public class TowerController : MonoBehaviour
     [SerializeField] private GameObject _bulletPrefab;
     [SerializeField] private Transform _firePoint;
     [SerializeField] private LayerMask _enemyLayer; // We will select "Enemy" here
+    [SerializeField] private Transform _weaponPart;
 
     private Transform _target;
     private float _fireCountdown = 0f;
@@ -90,6 +91,13 @@ public class TowerController : MonoBehaviour
     {
         if (_target == null) return;
 
+        Vector3 direction = _target.position - _weaponPart.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        
+        // Rotate ONLY the weapon part. If your sprite was drawn facing RIGHT, this works perfectly.
+        // If it was drawn facing UP, you might need: angle - 90f
+        _weaponPart.rotation = Quaternion.Euler(0f, 0f, angle);
+        
         if (_fireCountdown <= 0f)
         {
             Shoot();
@@ -97,6 +105,8 @@ public class TowerController : MonoBehaviour
         }
 
         _fireCountdown -= Time.deltaTime;
+        
+        
     }
 
     /* OLD SHOOT
