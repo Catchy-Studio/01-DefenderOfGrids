@@ -32,6 +32,16 @@ MonoBehaviour:
         container: {fileID: 0}
         value: 1
         statCategory: 0
+      - statEnum: 1003
+        key: 
+        container: {fileID: 0}
+        value: 1
+        statCategory: 0
+      - statEnum: 1004
+        key: 
+        container: {fileID: 0}
+        value: 1
+        statCategory: 0
     requiredResourceList: []
   requiredSkillList: []
   chainPurchaseList:
