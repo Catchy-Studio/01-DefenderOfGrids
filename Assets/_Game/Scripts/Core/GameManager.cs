@@ -120,8 +120,18 @@ public class GameManager : MonoBehaviour
     public void OpenMainMenu()
     {
         // Make sure your Level 1 scene is added to Build Settings!
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
+    
+    public void GoToUpgradeScene()
+        {
+            // 1. Reset time! Because GameOver sets Time.timeScale = 0, 
+            // the next scene will be frozen if you don't reset it to 1.
+            Time.timeScale = 1f; 
+    
+            // 2. Load the scene by its exact string name
+            SceneManager.LoadScene("Upgrade Scene");
+        }
 
     public void QuitGame()
     {
