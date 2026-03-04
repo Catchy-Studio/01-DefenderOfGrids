@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_10_IceTowerDamageI
   m_EditorClassIdentifier: 
   id: skill_10_icetowerdamagei
-  sprite: {fileID: -6754239384357436178, guid: 7aed58475aff7e74fa47b6c08c707014, type: 3}
+  sprite: {fileID: -1722739758, guid: 722e13c91e0769043ad3c9acd1a960c7, type: 3}
   title: Ice Tower Damage I
   description: 'Increase <ICE_TOWER> damage by +#IceTower_Damage%
 

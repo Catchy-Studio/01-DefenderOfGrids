@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_3_ArrowTowerDamageI
   m_EditorClassIdentifier: 
   id: skill_3_arrowtowerdamage
-  sprite: {fileID: -958176161520186388, guid: a8b1dd7129ba96e40952d4b211187385, type: 3}
+  sprite: {fileID: -983839780, guid: 49c4807111c4413448ae20cd03610c3c, type: 3}
   title: Arrow Tower Damage I
   description: 'Increase <ARROW_TOWER> damage by +#ArrowTower_Damage%
 

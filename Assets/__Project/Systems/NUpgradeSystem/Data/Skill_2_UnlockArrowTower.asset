@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_2_UnlockArrowTower
   m_EditorClassIdentifier: 
   id: skill_2_unlockarrowtower
-  sprite: {fileID: -7630237011073246913, guid: 4a34d5f78f29f494c90fa0bf6d7983ca, type: 3}
+  sprite: {fileID: -1559457742, guid: 8beabdc2935e86f47bec692f973ccf42, type: 3}
   title: Unlock Arrow Tower
   description: Unlock <ARROW_TOWER>
   rarity: 0

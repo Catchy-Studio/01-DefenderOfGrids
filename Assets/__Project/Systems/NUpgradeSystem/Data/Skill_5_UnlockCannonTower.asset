@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_5_UnlockCannonTower
   m_EditorClassIdentifier: 
   id: skill_5_unlockcannontower
-  sprite: {fileID: -6204943402206193772, guid: c23b227411756e844b62de3f55fbd9b0, type: 3}
+  sprite: {fileID: -1193610034, guid: 315a9be37afdf2d44bbd558a467e0a8d, type: 3}
   title: Unlock Cannon Tower
   description: Unlock <CANNON_TOWER>
   rarity: 0

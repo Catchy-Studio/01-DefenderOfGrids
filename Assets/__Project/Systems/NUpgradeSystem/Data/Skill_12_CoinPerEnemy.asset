@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_12_CoinPerEnemy
   m_EditorClassIdentifier: 
   id: skill_12_coinperenemy
-  sprite: {fileID: 6856901680134642022, guid: c9e7c0a7aa180674585b8d2e13e7a9c3, type: 3}
+  sprite: {fileID: 1184396942, guid: 0be271f3e858dc34b8805fdb0aaea23f, type: 3}
   title: Coin Per Enemy
   description: 'Increase <COIN> drop per <ENEMY> by +#CoinPerEnemy
 

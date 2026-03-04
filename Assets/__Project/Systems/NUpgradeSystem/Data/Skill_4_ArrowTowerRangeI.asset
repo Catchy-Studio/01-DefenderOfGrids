@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_4_ArrowTowerRangeI
   m_EditorClassIdentifier: 
   id: skill_4_arrowtowerrangei
-  sprite: {fileID: 5676588645026460789, guid: 19ce1c848743c42419f21e2bc26a957d, type: 3}
+  sprite: {fileID: -816664481, guid: 313ccdd0df184b946b9cb70c35586be8, type: 3}
   title: Arrow Tower Range I
   description: 'Increase <ARROW_TOWER> range by +#ArrowTower_Range%
 

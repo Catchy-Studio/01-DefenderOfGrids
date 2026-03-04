@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_7_CannonTowerRangeI
   m_EditorClassIdentifier: 
   id: skill_7_cannontowerrangei
-  sprite: {fileID: 21300000, guid: d83d26a46db2b504fbcfa6f2aae590b6, type: 3}
+  sprite: {fileID: 1976850133, guid: d4532edaddecfc5449cef7b50cb9a7e4, type: 3}
   title: Cannon Tower Range I
   description: 'Increase <CANNON_TOWER> range by +#CannonTower_Range%
 

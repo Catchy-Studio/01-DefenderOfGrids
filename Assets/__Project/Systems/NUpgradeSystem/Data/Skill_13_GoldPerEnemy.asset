@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_13_GoldPerEnemy
   m_EditorClassIdentifier: 
   id: skill_13_goldperenemy
-  sprite: {fileID: -8953913159172069822, guid: b883d2db32245d44e84df2ec6572792e, type: 3}
+  sprite: {fileID: 1184396942, guid: 0be271f3e858dc34b8805fdb0aaea23f, type: 3}
   title: Gold Per Enemy
   description: 'Increase <GOLD> drop per <ENEMY> by +#InGameGoldPerEnemy%
 

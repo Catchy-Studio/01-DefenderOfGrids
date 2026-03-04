@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_6_CannonTowerDamageI
   m_EditorClassIdentifier: 
   id: skill_6_cannontowerdamagei
-  sprite: {fileID: 21300000, guid: a3bf4125a98dbfa49b3f0c1b5fbbadcd, type: 3}
+  sprite: {fileID: 659652369, guid: a0d1e08a041438948a16d88310bd5a8d, type: 3}
   title: Cannon Tower Damage I
   description: 'Increase <CANNON_TOWER> damage by +#CannonTower_Damage%
 

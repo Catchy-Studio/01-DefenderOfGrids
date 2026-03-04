@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_8_UnlockIceTower
   m_EditorClassIdentifier: 
   id: skill_8_unlockicetower
-  sprite: {fileID: -1604862082099773515, guid: 9691ae6c4ba11bf4da9aa4246a5044f0, type: 3}
+  sprite: {fileID: -1081656274, guid: 2384bc00738b40a4098aaf35eebd4f61, type: 3}
   title: Unlock Ice Tower
   description: Unlock <ICE_TOWER>
   rarity: 0

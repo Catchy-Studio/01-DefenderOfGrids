@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_9_IceTowerRangeI
   m_EditorClassIdentifier: 
   id: skill_9_icetowerrangei
-  sprite: {fileID: -5391499930902814504, guid: adcafeb81d9a7db45b4e8a9d8aefe166, type: 3}
+  sprite: {fileID: 640773516, guid: e363820150b780245b4d1b3ff1254484, type: 3}
   title: Ice Tower Range I
   description: 'Increase <ICE_TOWER> range by +#IceTower_Range%
 

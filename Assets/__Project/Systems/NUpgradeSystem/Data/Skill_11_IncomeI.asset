@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_11_IncomeI
   m_EditorClassIdentifier: 
   id: skill_11_incomei
-  sprite: {fileID: 2100262628, guid: fd5385e4cea8b844ea50af9da11e09fc, type: 3}
+  sprite: {fileID: 1184396942, guid: 0be271f3e858dc34b8805fdb0aaea23f, type: 3}
   title: Income I
   description: 'Increase <COIN> gain by +#Global_IncomePercent%
 
