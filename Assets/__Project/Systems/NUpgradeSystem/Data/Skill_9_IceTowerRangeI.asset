@@ -79,6 +79,7 @@ MonoBehaviour:
       Amount: 250
   requiredSkillList:
   - {fileID: 11400000, guid: 8e58a6e4b7991b440ab8472c72839f2b, type: 2}
+  chainPurchaseList: []
   requireMaxSkills: 0
   purchasedEvent:
     m_PersistentCalls:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Skill_1_StartJourney
   m_EditorClassIdentifier: 
   id: skill_1_startjourney
-  sprite: {fileID: 1992276910926926483, guid: c5e175adba2ac57409de20d267bbe6fb, type: 3}
+  sprite: {fileID: -326676844, guid: 0ff6d59b10997584d81259cadefc4583, type: 3}
   title: Start Journey
   description: Start building towers
   rarity: 0
