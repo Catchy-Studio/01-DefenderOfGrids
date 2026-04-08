@@ -15,7 +15,7 @@ public class SniperTowerAttack : MonoBehaviour, ITowerAttackBehaviour
     private TowerController _owner;
     private float _fireCooldown;
     private float _retargetCooldown;
-    private Transform _target;
+    private bool _hasTargetInLine;
 
     public void Initialize(TowerController owner)
     {
@@ -30,18 +30,13 @@ public class SniperTowerAttack : MonoBehaviour, ITowerAttackBehaviour
         if (_retargetCooldown <= 0f)
         {
             _retargetCooldown = _metrics.retargetInterval;
-            _target = AcquireTarget();
-        }
-
-        if (_target != null)
-        {
-            AimAt(_target.position);
+            _hasTargetInLine = HasEnemyInLine();
         }
 
         _fireCooldown -= deltaTime;
         if (_fireCooldown <= 0f)
         {
-            if (_target != null)
+            if (_hasTargetInLine)
             {
                 FireLine();
                 _fireCooldown = 1f / Mathf.Max(0.01f, _metrics.fireRate);
@@ -49,34 +44,23 @@ public class SniperTowerAttack : MonoBehaviour, ITowerAttackBehaviour
         }
     }
 
-    private Transform AcquireTarget()
+    private bool HasEnemyInLine()
     {
+        var origin = _firePoint.position;
+        var dir = _weaponPart.right.normalized; // Fixed forward direction; we do NOT rotate.
         var range = GetTotalRange();
-        var hits = Physics2D.OverlapCircleAll(transform.position, range, _enemyLayer);
-        if (hits == null || hits.Length == 0) return null;
 
-        var bestDist = float.PositiveInfinity;
-        Transform best = null;
-
-        for (var i = 0; i < hits.Length; i++)
+        RaycastHit2D hit;
+        if (_metrics.lineThickness > 0f)
         {
-            var t = hits[i].transform;
-            var d = Vector2.Distance(transform.position, t.position);
-            if (d < bestDist)
-            {
-                bestDist = d;
-                best = t;
-            }
+            hit = Physics2D.CircleCast(origin, _metrics.lineThickness, dir, range, _enemyLayer);
+        }
+        else
+        {
+            hit = Physics2D.Raycast(origin, dir, range, _enemyLayer);
         }
 
-        return best;
-    }
-
-    private void AimAt(Vector3 worldPosition)
-    {
-        var direction = worldPosition - _weaponPart.position;
-        var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        _weaponPart.rotation = Quaternion.Euler(0f, 0f, angle);
+        return hit.collider != null;
     }
 
     private float GetTotalRange()
