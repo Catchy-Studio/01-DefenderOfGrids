@@ -152,6 +152,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &266790006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266790008}
+  - component: {fileID: 266790007}
+  m_Layer: 0
+  m_Name: DevDebugPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &266790007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266790006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecc5e97e69cc084697a8d5655956252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::__Project.Systems.DevDebugUI.DevDebugPanel
+  startVisible: 1
+  toggleKey: 96
+  addCurrencyKey: 99
+  failKey: 102
+  currencyA: 0
+  currencyAAmount: 100
+  currencyB: 1
+  currencyBAmount: 10
+  failTransitionTarget: 4
+  uiFont: {fileID: 0}
+--- !u!4 &266790008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266790006}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &355315563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,3 +1835,4 @@ SceneRoots:
   - {fileID: 653428371}
   - {fileID: 217897901}
   - {fileID: 974340905}
+  - {fileID: 266790008}
