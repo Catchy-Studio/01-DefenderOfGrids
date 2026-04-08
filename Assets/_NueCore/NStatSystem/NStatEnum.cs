@@ -31,11 +31,15 @@ namespace _NueCore.NStatSystem
         
         CannonTower_Damage = 20200,
         CannonTower_Range = 20201,
+        
+        SniperTower_Damage = 20300,
+        SniperTower_Range = 20301,
        
         Unlock_Game = 1001,
         Unlock_ArrowTower =1002,
         Unlock_CannonTower =1003,
-        Unlock_IceTower =1004
+        Unlock_IceTower =1004,
+        Unlock_SniperTower =1005
         
     }
     public static class NCustomStats

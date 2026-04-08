@@ -19,6 +19,7 @@ public class TowerController : MonoBehaviour
     [SerializeField] private LayerMask _enemyLayer; // We will select "Enemy" here
     [SerializeField] private Transform _weaponPart;
 
+    private ITowerAttackBehaviour _attackBehaviour;
     private Transform _target;
     private float _fireCountdown = 0f;
     public float GetTotalRange()
@@ -36,6 +37,10 @@ public class TowerController : MonoBehaviour
         else if (towerType is TowerTypes.Ice)
         {
             t += (t*UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Range)/100f);
+        }
+        else if (towerType is TowerTypes.Sniper)
+        {
+            t += (t*UpgradeStatic.GetTotalStat(NStatEnum.SniperTower_Range)/100f);
         }
         return t;
     }
@@ -56,6 +61,12 @@ public class TowerController : MonoBehaviour
 
     private void Start()
     {
+        _attackBehaviour = GetComponent<ITowerAttackBehaviour>();
+        if (_attackBehaviour != null)
+        {
+            _attackBehaviour.Initialize(this);
+            return;
+        }
         InvokeRepeating(nameof(UpdateTarget), 0f, 0.5f);
     }
 
@@ -89,6 +100,11 @@ public class TowerController : MonoBehaviour
 
     private void Update()
     {
+        if (_attackBehaviour != null)
+        {
+            _attackBehaviour.Tick(Time.deltaTime);
+            return;
+        }
         if (_target == null) return;
 
         Vector3 direction = _target.position - _weaponPart.position;
@@ -147,6 +163,10 @@ public class TowerController : MonoBehaviour
         else if (towerType is TowerTypes.Ice)
         {
             d = UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Damage);
+        }
+        else if (towerType is TowerTypes.Sniper)
+        {
+            d = UpgradeStatic.GetTotalStat(NStatEnum.SniperTower_Damage);
         }
 
         return d;

@@ -4,6 +4,7 @@
     {
         Arrow =0,
         Cannon =1,
-        Ice =2
+        Ice =2,
+        Sniper =3
     }
 }

@@ -82,6 +82,11 @@ public class TowerShopButton : MonoBehaviour
             reason = "Unlock Ice Tower to play!";
             return false;
         }
+        if (towerType is TowerTypes.Sniper && !UpgradeStatic.HasStat(NStatEnum.Unlock_SniperTower))
+        {
+            reason = "Unlock Sniper Tower to play!";
+            return false;
+        }
         
         return true;
     }
