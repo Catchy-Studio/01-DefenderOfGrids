@@ -1,6 +1,7 @@
 using __Project.Systems.NUpgradeSystem;
 using _Game.Scripts.Data;
 using _NueCore.NStatSystem;
+using System;
 using UnityEngine;
 
 public class TowerController : MonoBehaviour
@@ -19,6 +20,7 @@ public class TowerController : MonoBehaviour
     [SerializeField] private LayerMask _enemyLayer; // We will select "Enemy" here
     [SerializeField] private Transform _weaponPart;
 
+    private ITowerAttackBehaviour _attackBehaviour;
     private Transform _target;
     private float _fireCountdown = 0f;
     public float GetTotalRange()
@@ -36,6 +38,10 @@ public class TowerController : MonoBehaviour
         else if (towerType is TowerTypes.Ice)
         {
             t += (t*UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Range)/100f);
+        }
+        else if (towerType is TowerTypes.Sniper)
+        {
+            t += (t*UpgradeStatic.GetTotalStat(NStatEnum.SniperTower_Range)/100f);
         }
         return t;
     }
@@ -56,7 +62,37 @@ public class TowerController : MonoBehaviour
 
     private void Start()
     {
+        // Sniper towers must never use the base controller targeting/rotation.
+        // Prefer the concrete behaviour if present, then fall back to interface scan.
+        if (data != null && data.TowerType == TowerTypes.Sniper && TryGetComponent<SniperTowerAttack>(out var sniper))
+        {
+            _attackBehaviour = sniper;
+        }
+        else
+        {
+            // Unity's GetComponent<T>() is not always reliable for interface types across versions.
+            // Use MonoBehaviour scan so custom attack behaviours always take over.
+            _attackBehaviour = FindAttackBehaviour();
+        }
+        if (_attackBehaviour != null)
+        {
+            _attackBehaviour.Initialize(this);
+            return;
+        }
         InvokeRepeating(nameof(UpdateTarget), 0f, 0.5f);
+    }
+
+    private ITowerAttackBehaviour FindAttackBehaviour()
+    {
+        var behaviours = GetComponents<MonoBehaviour>();
+        for (var i = 0; i < behaviours.Length; i++)
+        {
+            if (behaviours[i] is ITowerAttackBehaviour attack)
+            {
+                return attack;
+            }
+        }
+        return null;
     }
 
     private void UpdateTarget()
@@ -89,6 +125,16 @@ public class TowerController : MonoBehaviour
 
     private void Update()
     {
+        // Safety: even if the custom behaviour is missing, Sniper towers should not rotate/auto-shoot via this base controller.
+        if (data != null && data.TowerType == TowerTypes.Sniper && _attackBehaviour == null)
+        {
+            return;
+        }
+        if (_attackBehaviour != null)
+        {
+            _attackBehaviour.Tick(Time.deltaTime);
+            return;
+        }
         if (_target == null) return;
 
         Vector3 direction = _target.position - _weaponPart.position;
@@ -147,6 +193,10 @@ public class TowerController : MonoBehaviour
         else if (towerType is TowerTypes.Ice)
         {
             d = UpgradeStatic.GetTotalStat(NStatEnum.IceTower_Damage);
+        }
+        else if (towerType is TowerTypes.Sniper)
+        {
+            d = UpgradeStatic.GetTotalStat(NStatEnum.SniperTower_Damage);
         }
 
         return d;

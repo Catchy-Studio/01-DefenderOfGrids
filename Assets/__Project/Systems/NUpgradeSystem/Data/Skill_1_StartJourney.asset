@@ -42,6 +42,11 @@ MonoBehaviour:
         container: {fileID: 0}
         value: 1
         statCategory: 0
+      - statEnum: 1005
+        key: 
+        container: {fileID: 0}
+        value: 1
+        statCategory: 0
     requiredResourceList: []
   requiredSkillList: []
   chainPurchaseList:
@@ -52,4 +57,4 @@ MonoBehaviour:
       m_Calls: []
   requiredSkillPortTypes: []
   requiredSkillOutputPortTypes: []
-  tierConfigString: (Unlock_Game)1
+  tierConfigString: (Unlock_Game)1;(Unlock_SniperTower)1

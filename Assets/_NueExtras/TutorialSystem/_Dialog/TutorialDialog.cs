@@ -1,7 +1,6 @@
 ﻿using _NueCore.Common.NueLogger;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
-using Febucci.UI;
 using NueGames.NTooltip._Keyword;
 using Sirenix.OdinInspector;
 using TMPro;
@@ -17,9 +16,11 @@ namespace _NueExtras.TutorialSystem._Dialog
         [SerializeField,TabGroup("Dialog")] private Transform root;
         [SerializeField,TabGroup("Dialog")] private CanvasGroup canvasGroup;
         [SerializeField,TabGroup("Dialog")] private TMP_Text dialogText;
-        [SerializeField,TabGroup("Dialog")] private TextAnimator_TMP textAnimator;
         [SerializeField,TabGroup("Dialog")] private Ease ease;
         [SerializeField,TabGroup("Dialog")] private float openDuration = 0.5f;
+
+        [SerializeField, TabGroup("Dialog")] private bool useFallbackTypewriter = true;
+        [SerializeField, TabGroup("Dialog"), Min(1f)] private float fallbackCharsPerSecond = 40f;
         
         [SerializeField,TabGroup("Speaker")] private Transform speakerRoot;
         [SerializeField,TabGroup("Speaker")] private TMP_Text speakerName;
@@ -30,7 +31,7 @@ namespace _NueExtras.TutorialSystem._Dialog
         #region Cache
 
         private Tween _speakerTween;
-        private TypewriterByCharacter _typeWriter;
+        private Component _typeWriter;
         private Tween _openTween;
         public bool IsFinished { get; private set; }
 
@@ -56,25 +57,39 @@ namespace _NueExtras.TutorialSystem._Dialog
         #region Typewrite
         public async UniTask CheckTypeWrite(TMP_Text text,bool continueToClick = false)
         {
-            _typeWriter =text.GetComponent<TypewriterByCharacter>();
-            if (_typeWriter == null)
-                return;
             text.text = text.text.ApplyKeywords();
-            var isFinished = false;
-            _typeWriter.onTextShowed.AddListener((() =>
+
+            // If Febucci's Typewriter is installed, drive it without a compile-time dependency.
+            // (GetComponent(string) keeps this file compiling even when the package is missing.)
+            _typeWriter = text.GetComponent("TypewriterByCharacter");
+            if (_typeWriter != null)
             {
-                isFinished = true;
-            }));
+                var isFinished = false;
 
-            gameObject.UpdateAsObservable().Where(_ => Input.GetMouseButtonDown(0)).Take(1).Subscribe(ev =>
-            { 
-                _typeWriter.SkipTypewriter();
-                isFinished = true;
-            }).AddTo(gameObject);
-            // var t =Observable.EveryEndOfFrame()
-            //     .Where(_ => Input.GetMouseButtonDown(0)).Take(1).Subscribe(xs => isFinished = true).AddTo(gameObject);
+                // Try to hook completion if the component exposes "onTextShowed" UnityEvent.
+                var evt = _typeWriter.GetType().GetField("onTextShowed");
+                if (evt != null)
+                {
+                    if (evt.GetValue(_typeWriter) is UnityEngine.Events.UnityEvent unityEvent)
+                    {
+                        unityEvent.AddListener(() => isFinished = true);
+                    }
+                }
 
-            await UniTask.WaitUntil(()=>isFinished);
+                gameObject.UpdateAsObservable().Where(_ => Input.GetMouseButtonDown(0)).Take(1).Subscribe(_ =>
+                {
+                    _typeWriter.SendMessage("SkipTypewriter", SendMessageOptions.DontRequireReceiver);
+                    isFinished = true;
+                }).AddTo(gameObject);
+
+                await UniTask.WaitUntil(() => isFinished);
+            }
+            else if (useFallbackTypewriter)
+            {
+                await RunFallbackTypewriter(text);
+            }
+            // else: no typewriter available, continue immediately.
+
             if (continueToClick)
             {
                 var isClicked = false;
@@ -82,6 +97,32 @@ namespace _NueExtras.TutorialSystem._Dialog
                     .Where(_ => Input.GetMouseButtonDown(0)).Take(1).Subscribe(xs => isClicked = true).AddTo(gameObject);
                 await UniTask.WaitUntil(() => isClicked);
             }
+        }
+
+        private async UniTask RunFallbackTypewriter(TMP_Text text)
+        {
+            var full = text.text ?? string.Empty;
+            if (full.Length == 0) return;
+
+            text.maxVisibleCharacters = 0;
+            var visible = 0;
+            var isFinished = false;
+
+            gameObject.UpdateAsObservable().Where(_ => Input.GetMouseButtonDown(0)).Take(1).Subscribe(_ =>
+            {
+                text.maxVisibleCharacters = int.MaxValue;
+                isFinished = true;
+            }).AddTo(gameObject);
+
+            var delay = 1f / Mathf.Max(1f, fallbackCharsPerSecond);
+            while (!isFinished && visible < full.Length)
+            {
+                visible++;
+                text.maxVisibleCharacters = visible;
+                await UniTask.Delay(System.TimeSpan.FromSeconds(delay), cancellationToken: gameObject.GetCancellationTokenOnDestroy());
+            }
+
+            text.maxVisibleCharacters = int.MaxValue;
         }
         #endregion
 
