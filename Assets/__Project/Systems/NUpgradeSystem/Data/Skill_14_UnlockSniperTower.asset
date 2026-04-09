@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
-  m_Name: Skill_1_StartJourney
+  m_Name: Skill_14_UnlockSniperTower
   m_EditorClassIdentifier: 
-  id: skill_1_startjourney
-  sprite: {fileID: -326676844, guid: 0ff6d59b10997584d81259cadefc4583, type: 3}
-  title: Start Journey
-  description: Start building towers
+  id: skill_14_unlocksnipertower
+  sprite: {fileID: 0}
+  title: Unlock Sniper Tower
+  description: Unlock <SNIPER_TOWER>
   rarity: 0
   tags: 4
   category: 0
-  revealDepth: 0
+  revealDepth: 1
   isAutoUnlocked: 0
   isPermaLocked: 0
   targetSkillsToRevealList: []
@@ -27,29 +27,23 @@ MonoBehaviour:
   skillTierList:
   - statList:
       statList:
-      - statEnum: 1001
+      - statEnum: 1005
         key: 
         container: {fileID: 0}
         value: 1
         statCategory: 0
-      - statEnum: 1003
-        key: 
-        container: {fileID: 0}
-        value: 1
-        statCategory: 0
-      - statEnum: 1004
-        key: 
-        container: {fileID: 0}
-        value: 1
-        statCategory: 0
-    requiredResourceList: []
-  requiredSkillList: []
-  chainPurchaseList:
-  - {fileID: 11400000, guid: 82ac3c53ca8c13843ae14e3968a2f96e, type: 2}
+    requiredResourceList:
+    - StockType: 0
+      Amount: 50
+  requiredSkillList:
+  - {fileID: 11400000, guid: 5b75cb0ec0f360a41a37c26fba068092, type: 2}
+  chainPurchaseList: []
   requireMaxSkills: 0
   purchasedEvent:
     m_PersistentCalls:
       m_Calls: []
-  requiredSkillPortTypes: []
-  requiredSkillOutputPortTypes: []
-  tierConfigString: (Unlock_Game)1
+  requiredSkillPortTypes:
+  - RightInput
+  requiredSkillOutputPortTypes:
+  - LeftOutput
+  tierConfigString: (Price)50c;(Unlock_SniperTower)1

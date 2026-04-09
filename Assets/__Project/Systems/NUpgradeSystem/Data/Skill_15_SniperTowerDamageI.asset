@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac706360eeb54087a78fa3e8ceb1aadd, type: 3}
+  m_Name: Skill_15_SniperTowerDamageI
+  m_EditorClassIdentifier: 
+  id: skill_15_snipertowerdamagei
+  sprite: {fileID: 0}
+  title: Sniper Tower Damage I
+  description: 'Increase <SNIPER_TOWER> damage by +#SniperTower_Damage%
+
+    (+<t_SniperTower_Damage>%)'
+  rarity: 0
+  tags: 4
+  category: 0
+  revealDepth: 1
+  isAutoUnlocked: 0
+  isPermaLocked: 0
+  targetSkillsToRevealList: []
+  revealStatRequirements: []
+  skillTierList:
+  - statList:
+      statList:
+      - statEnum: 20300
+        key: 
+        container: {fileID: 0}
+        value: 5
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 5
+  - statList:
+      statList:
+      - statEnum: 20300
+        key: 
+        container: {fileID: 0}
+        value: 5
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 10
+  - statList:
+      statList:
+      - statEnum: 20300
+        key: 
+        container: {fileID: 0}
+        value: 5
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 15
+  - statList:
+      statList:
+      - statEnum: 20300
+        key: 
+        container: {fileID: 0}
+        value: 5
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 20
+  - statList:
+      statList:
+      - statEnum: 20300
+        key: 
+        container: {fileID: 0}
+        value: 5
+        statCategory: 0
+    requiredResourceList:
+    - StockType: 0
+      Amount: 25
+  requiredSkillList:
+  - {fileID: 11400000, guid: 9f5f3d6d2d1b4f34a0f8356a6b5c9f11, type: 2}
+  chainPurchaseList: []
+  requireMaxSkills: 0
+  purchasedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  requiredSkillPortTypes:
+  - RightInput
+  requiredSkillOutputPortTypes:
+  - LeftOutput
+  tierConfigString: (SniperTower_Damage)5/5/5/5/5;(Price)5c/10c/15c/20c/25c
