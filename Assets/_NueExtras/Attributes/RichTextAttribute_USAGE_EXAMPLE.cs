@@ -11,6 +11,7 @@ namespace _NueExtras.Examples
     /// </summary>
     public class RichTextAttributeExample : MonoBehaviour
     {
+#pragma warning disable 0414 // Serialized fields are used by Unity via reflection/Inspector
         [Header("Temel Kullanım - Normal String")]
         [RichText]
         [SerializeField] private string simpleText = "Bu bir örnek metin";
@@ -68,6 +69,7 @@ namespace _NueExtras.Examples
         [SerializeField] private string redResult = 
             "<size=18><color=#FF0000><b>3 gün sonra...</b></color></size>\n\n" +
             "<color=#FFD700><b>100 Coin</b></color> kazandınız!";
+#pragma warning restore 0414
     }
 }
 

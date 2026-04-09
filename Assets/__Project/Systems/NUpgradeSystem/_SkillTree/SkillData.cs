@@ -1,4 +1,4 @@
-﻿﻿using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using __Project.Systems.NUpgradeSystem._SkillTree.Requirements;
@@ -576,7 +576,6 @@ namespace __Project.Systems.NUpgradeSystem._SkillTree
                 return NStatCategory.Custom3;
             
             return NStatCategory.Flat;
-            sprite = SpriteHelper.GetRandomSprite();
         }
         
         public void SetEditor()

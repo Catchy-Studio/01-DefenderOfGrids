@@ -13,7 +13,11 @@ namespace NueGames.NTooltip
             get
             {
                 if (_instance != null) return _instance;
+#if UNITY_2023_1_OR_NEWER
+                _instance = UnityEngine.Object.FindFirstObjectByType<NTooltipManager>();
+#else
                 _instance = FindObjectOfType<NTooltipManager>();
+#endif
                 if (_instance != null) return _instance;
                 var items =Resources.FindObjectsOfTypeAll<NTooltipManager>();
                 if (items.Length > 0)

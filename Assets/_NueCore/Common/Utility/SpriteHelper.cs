@@ -17,8 +17,9 @@ namespace _NueCore.Common.Utility
             var randomIndex = UnityEngine.Random.Range(0, assets.Length);
             var assetPath = AssetDatabase.GUIDToAssetPath(assets[randomIndex]);
             return AssetDatabase.LoadAssetAtPath<Sprite>(assetPath);
-#endif
+#else
             return null;
+#endif
         }
         public static string GetSpriteText(string itemName)
         {

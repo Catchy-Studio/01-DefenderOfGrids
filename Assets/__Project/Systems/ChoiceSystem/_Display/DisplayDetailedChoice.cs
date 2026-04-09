@@ -86,8 +86,6 @@ namespace __Project.Systems.ChoiceSystem._Display
             }
             
             nodeSlotList[0].Select();
-
-            var index = 0;
             // foreach (var kvp in RunStatic.ActiveRunner.AppliedModsDict)
             // {
             //     var sp = SpawnedPurchasedCardList.Find(x => x.Data.GetChoiceGroupID() == kvp.Key.GetChoiceGroupID());

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class DevDebugUIInstaller
 {
-    [MenuItem("Tools/DefenderOfGrids/Dev Debug UI/Add To Current Scene")]
+    [MenuItem("DoGTools/DefenderOfGrids/Dev Debug UI/Add To Current Scene")]
     public static void AddToCurrentScene()
     {
         var existing = Object.FindFirstObjectByType<DevDebugPanel>(FindObjectsInactive.Include);

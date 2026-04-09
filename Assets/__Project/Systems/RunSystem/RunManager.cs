@@ -51,10 +51,11 @@ namespace __Project.Systems.RunSystem
             StartRunAsync().AttachExternalCancellation(gameObject.GetCancellationTokenOnDestroy()).Forget();
         }
 
-        private async UniTask StartRunAsync()
+        private UniTask StartRunAsync()
         {
             var temp = RunStatic.Temp;
             temp.SetState(RunState.Game);
+            return UniTask.CompletedTask;
         }
 
         private void RegisterButtons()

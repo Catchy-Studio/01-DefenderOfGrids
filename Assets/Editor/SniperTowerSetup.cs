@@ -15,7 +15,7 @@ public static class SniperTowerSetup
     private const string SniperMetricsPath = TowersSoFolder + "/SniperTowerMetrics_Default.asset";
     private const string SniperTowerDataPath = TowersSoFolder + "/Tower_Sniper.asset";
 
-    [MenuItem("Tools/DefenderOfGrids/Setup Sniper Tower (Create Assets + Prefab)")]
+    [MenuItem("DoGTools/DefenderOfGrids/Setup Sniper Tower (Create Assets + Prefab)")]
     public static void SetupSniperTowerAssets()
     {
         EnsureFolderExists("Assets/Editor");
@@ -30,12 +30,12 @@ public static class SniperTowerSetup
 
         EditorUtility.DisplayDialog(
             "Sniper Tower Setup",
-            $"Created/updated:\n- {SniperMetricsPath}\n- {SniperPrefabPath}\n- {SniperTowerDataPath}\n\nNext: run 'Tools/DefenderOfGrids/Add Sniper To Shop (Current Scene)' to add a shop button in the open scene.",
+            $"Created/updated:\n- {SniperMetricsPath}\n- {SniperPrefabPath}\n- {SniperTowerDataPath}\n\nNext: run 'DoGTools/DefenderOfGrids/Add Sniper To Shop (Current Scene)' to add a shop button in the open scene.",
             "OK"
         );
     }
 
-    [MenuItem("Tools/DefenderOfGrids/Add Sniper To Shop (Current Scene)")]
+    [MenuItem("DoGTools/DefenderOfGrids/Add Sniper To Shop (Current Scene)")]
     public static void AddSniperToShopInCurrentScene()
     {
         var towerData = AssetDatabase.LoadAssetAtPath<TowerData>(SniperTowerDataPath);

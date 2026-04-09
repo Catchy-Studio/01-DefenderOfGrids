@@ -17,8 +17,15 @@ namespace UnityToolbarExtender
 		
 		static ToolbarCallback()
 		{
+#if UNITY_6000_3_OR_NEWER
+			// Unity 6.3+ provides a supported main toolbar API; this reflection-based injection
+			// is treated as unsupported and triggers editor warnings. Disable it to keep the
+			// editor warning-free (you can re-implement via Toolbars.MainToolbar later).
+			return;
+#else
 			EditorApplication.update -= OnUpdate;
 			EditorApplication.update += OnUpdate;
+#endif
 		}
 
 		static void OnUpdate()

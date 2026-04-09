@@ -19,7 +19,11 @@ namespace _NueCore.ManagerSystem.SingletonSystems
             get
             {
                 if (_instance != null) return _instance;
+#if UNITY_2023_1_OR_NEWER
+                _instance = (T)UnityEngine.Object.FindFirstObjectByType(typeof(T));
+#else
                 _instance = (T)FindObjectOfType(typeof(T));
+#endif
 
                 if (_instance != null) return _instance;
                 

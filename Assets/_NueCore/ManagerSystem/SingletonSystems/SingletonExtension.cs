@@ -85,7 +85,11 @@ namespace _NueCore.ManagerSystem.SingletonSystems
                 if (MonoInstances.TryGetValue(type, out var instance))
                     return instance;
 
+#if UNITY_2023_1_OR_NEWER
+                instance = Object.FindFirstObjectByType(type);
+#else
                 instance = Object.FindObjectOfType(type);
+#endif
                 if (instance == null)
                     return null;
                 

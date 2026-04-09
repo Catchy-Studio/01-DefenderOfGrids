@@ -1,4 +1,5 @@
 ﻿using UnityEditor;
+using UnityEditor.Build;
 using UnityEngine;
 
 namespace _NueExtras.NPanSystem.Editor
@@ -25,7 +26,12 @@ namespace _NueExtras.NPanSystem.Editor
         private static void AddDefineSymbol(string define)
         {
             var buildTargetGroup = EditorUserBuildSettings.selectedBuildTargetGroup;
+#if UNITY_2023_1_OR_NEWER
+            var namedTarget = NamedBuildTarget.FromBuildTargetGroup(buildTargetGroup);
+            var defines = PlayerSettings.GetScriptingDefineSymbols(namedTarget);
+#else
             var defines = PlayerSettings.GetScriptingDefineSymbolsForGroup(buildTargetGroup);
+#endif
 
             if (!defines.Contains(define))
             {
@@ -38,7 +44,11 @@ namespace _NueExtras.NPanSystem.Editor
                     defines += ";" + define;
                 }
 
+#if UNITY_2023_1_OR_NEWER
+                PlayerSettings.SetScriptingDefineSymbols(namedTarget, defines);
+#else
                 PlayerSettings.SetScriptingDefineSymbolsForGroup(buildTargetGroup, defines);
+#endif
                 Debug.Log($"NPanSystem: Added {define} scripting define symbol for Cinemachine 3.0+ support");
             }
         }

@@ -34,7 +34,11 @@ public class SuperScreenshot : EditorWindow {
 		// Camera
 		Camera[] CamerasScene = SceneView.GetAllSceneCameras();
 		Camera CameraScene = CamerasScene.Length > 0 ? CamerasScene[0] : null;
+#if UNITY_2023_1_OR_NEWER
+		Camera CameraMain = Camera.main ?? UnityEngine.Object.FindFirstObjectByType<Camera>();
+#else
 		Camera CameraMain = Camera.main ?? FindObjectOfType<Camera>();
+#endif
 		EditorGUILayout.Space();
 		EditorGUILayout.LabelField("Camera", EditorStyles.boldLabel);
 		if (CaptureCamera == null) CaptureCamera = CameraMain ?? CameraScene;

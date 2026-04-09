@@ -184,7 +184,6 @@ namespace NueGames.NTooltip
                 return;
             if (Application.isPlaying)
                 return;
-            return;
             foreach (var tmp in tmpFieldList)
             {
                 if (tmp.Field)
