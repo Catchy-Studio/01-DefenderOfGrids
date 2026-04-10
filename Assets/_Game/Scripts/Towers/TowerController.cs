@@ -18,6 +18,8 @@ public class TowerController : MonoBehaviour
     [SerializeField] private GameObject _bulletPrefab;
     [SerializeField] private Transform _firePoint;
     [SerializeField] private LayerMask _enemyLayer; // We will select "Enemy" here
+    public LayerMask EnemyLayer => _enemyLayer;
+    public TowerData Data => data;
     [SerializeField] private Transform _weaponPart;
 
     private ITowerAttackBehaviour _attackBehaviour;
@@ -42,6 +44,10 @@ public class TowerController : MonoBehaviour
         else if (towerType is TowerTypes.Sniper)
         {
             t += (t*UpgradeStatic.GetTotalStat(NStatEnum.SniperTower_Range)/100f);
+        }
+        else if (towerType is TowerTypes.Aura)
+        {
+            t = data.aoeRadius + (data.aoeRadius * UpgradeStatic.GetTotalStat(NStatEnum.AuraTower_Range) / 100f);
         }
         return t;
     }
@@ -178,7 +184,7 @@ public class TowerController : MonoBehaviour
         }
     }*/
 
-    private float GetDamageBoost()
+    public float GetDamageBoost()
     {
         var d = 0f;
         var towerType = data.TowerType;
@@ -197,6 +203,10 @@ public class TowerController : MonoBehaviour
         else if (towerType is TowerTypes.Sniper)
         {
             d = UpgradeStatic.GetTotalStat(NStatEnum.SniperTower_Damage);
+        }
+        else if (towerType is TowerTypes.Aura)
+        {
+            d = UpgradeStatic.GetTotalStat(NStatEnum.AuraTower_Damage);
         }
 
         return d;

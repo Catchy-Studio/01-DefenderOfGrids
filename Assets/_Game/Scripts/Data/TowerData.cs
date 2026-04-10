@@ -10,4 +10,8 @@ public class TowerData : ScriptableObject
     public GameObject prefab; // The 2D sprite prefab with TowerController
     [SerializeField] private TowerTypes towerType;
     public TowerTypes TowerType => towerType;
+
+    [Header("AoE Settings")]
+    public float aoeRadius = 3f;
+    public float damagePerSecond = 5f;
 }

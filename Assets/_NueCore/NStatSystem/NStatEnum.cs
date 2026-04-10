@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using NueGames.NTooltip._Keyword;
 
 namespace _NueCore.NStatSystem
@@ -34,12 +34,16 @@ namespace _NueCore.NStatSystem
         
         SniperTower_Damage = 20300,
         SniperTower_Range = 20301,
+        
+        AuraTower_Damage = 20400,
+        AuraTower_Range = 20401,
        
         Unlock_Game = 1001,
         Unlock_ArrowTower =1002,
         Unlock_CannonTower =1003,
         Unlock_IceTower =1004,
-        Unlock_SniperTower =1005
+        Unlock_SniperTower =1005,
+        Unlock_AuraTower = 1006
         
     }
     public static class NCustomStats
