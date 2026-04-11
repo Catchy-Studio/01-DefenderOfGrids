@@ -22,9 +22,6 @@ public class AoETowerAttack : MonoBehaviour, ITowerAttackBehaviour
                 sr = _auraVisual.gameObject.AddComponent<SpriteRenderer>();
             }
 
-            // Load the circle sprite (using GUID)
-            // Note: In a real project we'd serialise this or use Addressables, 
-            // but for this task we'll ensure it's set.
             sr.color = new Color(1f, 0f, 0f, 0.3f);
             sr.sortingOrder = 50;
         }
@@ -43,15 +40,28 @@ public class AoETowerAttack : MonoBehaviour, ITowerAttackBehaviour
 
     private IEnumerator AuraDamageRoutine()
     {
+        SpriteRenderer visualSR = _auraVisual != null ? _auraVisual.GetComponent<SpriteRenderer>() : null;
+
         while (true)
         {
             if (_owner == null) yield break;
 
             float currentRadius = _owner.GetTotalRange();
             
-            // Update Visual Scale (Scale is diameter, so radius * 2)
-            if (_auraVisual != null)
+            // Correct Visual Scale (Visual bounds matched to Physics diameter)
+            if (visualSR != null && visualSR.sprite != null)
             {
+                float spriteBaseSizeX = visualSR.sprite.bounds.size.x;
+                // Avoid divide by zero
+                if (spriteBaseSizeX > 0.01f)
+                {
+                    float targetScale = (currentRadius * 2f) / spriteBaseSizeX;
+                    _auraVisual.localScale = new Vector3(targetScale, targetScale, 1f);
+                }
+            }
+            else if (_auraVisual != null)
+            {
+                // Fallback if no sprite assigned
                 _auraVisual.localScale = new Vector3(currentRadius * 2f, currentRadius * 2f, 1f);
             }
 

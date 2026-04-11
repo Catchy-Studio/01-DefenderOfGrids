@@ -16,18 +16,31 @@ public class TowerController : MonoBehaviour
 
     [Header("Setup")]
     [SerializeField] private GameObject _bulletPrefab;
+    public GameObject BulletPrefab => _bulletPrefab;
     [SerializeField] private Transform _firePoint;
+    public Transform FirePoint => _firePoint;
     [SerializeField] private LayerMask _enemyLayer; // We will select "Enemy" here
     public LayerMask EnemyLayer => _enemyLayer;
     public TowerData Data => data;
     [SerializeField] private Transform _weaponPart;
+    public Transform WeaponPart => _weaponPart;
+    public float FireRate => _fireRate;
 
     private ITowerAttackBehaviour _attackBehaviour;
     private Transform _target;
+    public Transform Target => _target;
     private float _fireCountdown = 0f;
     public float GetTotalRange()
     {
+        if (data == null) return _range;
+
         var t = _range;
+        if (!Application.isPlaying) 
+        {
+            if (data.TowerType == TowerTypes.Aura) return data.aoeRadius;
+            return t;
+        }
+
         var towerType = data.TowerType;
         if (towerType is TowerTypes.Arrow)
         {
@@ -79,18 +92,23 @@ public class TowerController : MonoBehaviour
             // Unity's GetComponent<T>() is not always reliable for interface types across versions.
             // Use MonoBehaviour scan so custom attack behaviours always take over.
             _attackBehaviour = FindAttackBehaviour();
+            
+            // If no attack behaviour is found, and this is NOT an Aura tower, attach the default BasicTowerAttack
+            if (_attackBehaviour == null && (data == null || data.TowerType != TowerTypes.Aura))
+            {
+                _attackBehaviour = gameObject.AddComponent<BasicTowerAttack>();
+            }
         }
         if (_attackBehaviour != null)
         {
             _attackBehaviour.Initialize(this);
-            return;
         }
         InvokeRepeating(nameof(UpdateTarget), 0f, 0.5f);
     }
 
     private ITowerAttackBehaviour FindAttackBehaviour()
     {
-        var behaviours = GetComponents<MonoBehaviour>();
+        var behaviours = GetComponentsInChildren<MonoBehaviour>(); // Search children too
         for (var i = 0; i < behaviours.Length; i++)
         {
             if (behaviours[i] is ITowerAttackBehaviour attack)
@@ -131,58 +149,11 @@ public class TowerController : MonoBehaviour
 
     private void Update()
     {
-        // Safety: even if the custom behaviour is missing, Sniper towers should not rotate/auto-shoot via this base controller.
-        if (data != null && data.TowerType == TowerTypes.Sniper && _attackBehaviour == null)
-        {
-            return;
-        }
         if (_attackBehaviour != null)
         {
             _attackBehaviour.Tick(Time.deltaTime);
-            return;
         }
-        if (_target == null) return;
-
-        Vector3 direction = _target.position - _weaponPart.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        
-        // Rotate ONLY the weapon part. If your sprite was drawn facing RIGHT, this works perfectly.
-        // If it was drawn facing UP, you might need: angle - 90f
-        _weaponPart.rotation = Quaternion.Euler(0f, 0f, angle);
-        
-        if (_fireCountdown <= 0f)
-        {
-            Shoot();
-            _fireCountdown = 1f / _fireRate;
-        }
-
-        _fireCountdown -= Time.deltaTime;
-        
-        
     }
-
-    /* OLD SHOOT
-    private void Shoot()
-    {
-        GameObject bulletGO = Instantiate(_bulletPrefab, transform.position, Quaternion.identity);
-
-        // Try to find ANY script that has a "Seek" method
-        // Ideally we would use an Interface "IProjectile", but let's be fast.
-
-        Bullet normalBullet = bulletGO.GetComponent<Bullet>();
-        if (normalBullet != null)
-        {
-            normalBullet.Seek(_target);
-            return;
-        }
-
-        ExplosiveBullet explosive = bulletGO.GetComponent<ExplosiveBullet>();
-        if (explosive != null)
-        {
-            explosive.Seek(_target);
-            return;
-        }
-    }*/
 
     public float GetDamageBoost()
     {
@@ -210,17 +181,6 @@ public class TowerController : MonoBehaviour
         }
 
         return d;
-    }
-    private void Shoot()
-    {
-        GameObject bulletGO = Instantiate(_bulletPrefab, _firePoint.position, Quaternion.identity);
-        if (bulletGO.TryGetComponent<Bullet>(out var bullet))
-        {
-            bullet.SetDamageBoost(GetDamageBoost());
-        }
-        // This line searches for ANY method named "Seek" on the bullet and calls it.
-        // It works for Bullet, ExplosiveBullet, AND IceBullet automatically!
-        bulletGO.SendMessage("Seek", _target, SendMessageOptions.DontRequireReceiver);
     }
 
     public void Upgrade()

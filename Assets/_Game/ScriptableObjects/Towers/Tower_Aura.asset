@@ -16,5 +16,5 @@ MonoBehaviour:
   cost: 150
   prefab: {fileID: 4037261084930090777, guid: 0b1762c45f959d8469b1884ea8e98058, type: 3}
   towerType: 4
-  aoeRadius: 0.5
+  aoeRadius: 3
   damagePerSecond: 12
