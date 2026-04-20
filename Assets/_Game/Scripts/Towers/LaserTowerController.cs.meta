@@ -1,2 +1,13 @@
 fileFormatVersion: 2
 guid: 6828ea8fb860b624cb4c8db4640a0bc2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - towerData: {fileID: 11400000, guid: 099d3e40620f6b447bac931244755a90, type: 2}
+  - firePoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

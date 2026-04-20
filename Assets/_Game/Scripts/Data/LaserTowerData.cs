@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Laser Tower", menuName = "Tower Defense/Laser Tower Data")]
-public class LaserTowerData : ScriptableObject
+public class LaserTowerData : TowerData
 {
     [Header("Targeting")]
     public float range = 5f;

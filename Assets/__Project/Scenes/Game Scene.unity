@@ -7220,7 +7220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7df97c347bf17b468496dac1f53b00c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TowerShopButton
-  _towerData: {fileID: 11400000, guid: e810caf7080519c479b6bbcec488b77a, type: 2}
+  _towerData: {fileID: 11400000, guid: 099d3e40620f6b447bac931244755a90, type: 2}
   _costText: {fileID: 958752146}
   _nameText: {fileID: 648437299}
 --- !u!114 &1530105251
