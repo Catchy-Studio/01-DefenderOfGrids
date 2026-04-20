@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6401afd75727a144dada92c795188881, type: 3}
   m_Name: Tower_Bowling
   m_EditorClassIdentifier: Assembly-CSharp::BowlingTowerData
-  fireCooldown: 3
+  towerName: Basic Tower
+  cost: 50
+  prefab: {fileID: 4037261084930090777, guid: 6681619ff0f819945ac8574a872c7b41, type: 3}
+  towerType: 0
+  aoeRadius: 3
+  damagePerSecond: 5
+  fireCooldown: 1
   ballSpeed: 5
-  damage: 5
+  damage: 1
   stunDuration: 1.5

@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Bowling Tower", menuName = "Tower Defense/Bowling Tower Data")]
-public class BowlingTowerData : ScriptableObject
+public class BowlingTowerData : TowerData
 {
     [Header("Firing Stats")]
     public float fireCooldown = 3f;
