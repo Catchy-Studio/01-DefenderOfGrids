@@ -9,15 +9,18 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private float _maxHealth = 10f;
     private float _currentHealth;
 
-    // 1. Multiplier variable
+    // Multiplier variable
     private float incomingDamageMultiplier = 1f;
+    
+    // Reference to movement script
+    private EnemyMovement _enemyMovement;
 
     private void Start()
     {
         _currentHealth = _maxHealth;
+        _enemyMovement = GetComponent<EnemyMovement>();
     }
 
-    // 2. Merged TakeDamage function using the multiplier
     public void TakeDamage(float amount)
     {
         float finalDamage = amount * incomingDamageMultiplier;
@@ -33,7 +36,6 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        // Access the Singleton to give money
         if (CurrencySystem.Instance != null)
         {
             var totalGoldReward = _goldReward;
@@ -52,7 +54,6 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // 3. Public methods so the laser can talk to the enemy
     public void SetDamageMultiplier(float multiplier)
     {
         incomingDamageMultiplier = multiplier;
@@ -61,5 +62,14 @@ public class EnemyHealth : MonoBehaviour
     public void ResetDamageMultiplier()
     {
         incomingDamageMultiplier = 1f;
+    }
+
+    // Bridge method for the Bowling Ball to call
+    public void ApplyStun(float duration)
+    {
+        if (_enemyMovement != null)
+        {
+            _enemyMovement.ApplyStun(duration);
+        }
     }
 }
