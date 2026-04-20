@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.Tilemaps;
+using System.Linq;
 
 public class BowlingTowerController : MonoBehaviour
 {
@@ -6,26 +8,80 @@ public class BowlingTowerController : MonoBehaviour
     public BowlingTowerData towerData;
     public GameObject ballPrefab;
     public Transform firePoint;
-    public LayerMask obstacleMask; // Set this to the layer of your walls/off-path areas
+
+    [Header("Tilemap Setup")]
+    public Tilemap levelTilemap;
+    public TileBase[] roadTiles; // Assign your grey road tiles here in the Inspector!
 
     private float fireTimer;
     private Vector2 bestDirection;
+    private float maxRollDistance;
 
     private void Start()
     {
-        // Find the longest path direction as soon as the tower is placed
-        bestDirection = FindLongestPathDirection();
+        // If the tilemap wasn't assigned, find it automatically in the scene!
+        if (levelTilemap == null)
+        {
+            levelTilemap = FindObjectOfType<Tilemap>();
+        }
+
+        FindLongestPath();
     }
 
     private void Update()
     {
-        fireTimer -= Time.deltaTime;
+        if (maxRollDistance <= 0) return; // Don't fire if no valid path was found
 
+        fireTimer -= Time.deltaTime;
         if (fireTimer <= 0f)
         {
             FireBall();
             fireTimer = towerData.fireCooldown;
         }
+    }
+
+    private void FindLongestPath()
+    {
+        Vector2[] directions = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
+        int maxTiles = 0;
+        
+        // Convert the tower's position to a Tilemap Grid coordinate
+        Vector3Int startCell = levelTilemap.WorldToCell(firePoint.position);
+
+        foreach (Vector2 dir in directions)
+        {
+            int distanceInTiles = 0;
+            Vector3Int currentCell = startCell;
+            
+            // Define the grid step direction
+            Vector3Int step = new Vector3Int(Mathf.RoundToInt(dir.x), Mathf.RoundToInt(dir.y), 0);
+
+            while (true)
+            {
+                currentCell += step;
+                TileBase tileAtCell = levelTilemap.GetTile(currentCell);
+
+                // If a tile exists here AND it matches one of your assigned grey road tiles
+                if (tileAtCell != null && roadTiles.Contains(tileAtCell))
+                {
+                    distanceInTiles++;
+                }
+                else
+                {
+                    break; // We hit a green grid tile or empty space
+                }
+            }
+
+            if (distanceInTiles > maxTiles)
+            {
+                maxTiles = distanceInTiles;
+                bestDirection = dir;
+            }
+        }
+
+        // Convert the number of tiles back into actual Unity distance
+        // (Assuming your tiles are 1x1 unit. If they are different, use levelTilemap.cellSize.x)
+        maxRollDistance = maxTiles * levelTilemap.cellSize.x; 
     }
 
     private void FireBall()
@@ -35,30 +91,8 @@ public class BowlingTowerController : MonoBehaviour
         
         if (ballScript != null)
         {
-            ballScript.Initialize(towerData, bestDirection);
+            // We pass the maximum distance to the ball
+            ballScript.Initialize(towerData, bestDirection, maxRollDistance);
         }
-    }
-
-    private Vector2 FindLongestPathDirection()
-    {
-        Vector2[] directions = { Vector2.up, Vector2.down, Vector2.left, Vector2.right };
-        Vector2 bestDir = Vector2.up;
-        float maxDistance = 0f;
-
-        foreach (Vector2 dir in directions)
-        {
-            // Cast a ray in this direction to see how far it goes before hitting an obstacle
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, dir, 100f, obstacleMask);
-
-            float distance = hit.collider != null ? hit.distance : 100f; // If it hits nothing, assume it's an open path
-
-            if (distance > maxDistance)
-            {
-                maxDistance = distance;
-                bestDir = dir;
-            }
-        }
-
-        return bestDir;
     }
 }
