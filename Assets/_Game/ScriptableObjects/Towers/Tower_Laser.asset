@@ -18,5 +18,5 @@ MonoBehaviour:
   towerType: 0
   aoeRadius: 3
   damagePerSecond: 5
-  range: 5
+  range: 2.5
   damageMultiplier: 1.5
