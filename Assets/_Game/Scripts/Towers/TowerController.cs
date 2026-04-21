@@ -208,4 +208,13 @@ public class TowerController : MonoBehaviour
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(transform.position, GetTotalRange());
     }
+
+    public interface IBuffable
+    {
+        // Applies a percentage-based reduction to the attack cooldown
+        void ApplySpeedBuff(float buffPercentage);
+        
+        // Removes the buff and resets to base speed
+        void RemoveSpeedBuff(float buffPercentage);
+}
 }

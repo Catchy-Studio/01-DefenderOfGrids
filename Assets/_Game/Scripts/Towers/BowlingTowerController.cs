@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using System.Linq;
 
-public class BowlingTowerController : MonoBehaviour
+public class BowlingTowerController : MonoBehaviour, IBuffable
 {
     [Header("References")]
     public BowlingTowerData towerData;
@@ -26,6 +26,8 @@ public class BowlingTowerController : MonoBehaviour
         }
 
         FindLongestPath();
+
+        currentSpawnCooldown = baseSpawnCooldown;
     }
 
     private void Update()
@@ -38,6 +40,18 @@ public class BowlingTowerController : MonoBehaviour
             FireBall();
             fireTimer = towerData.fireCooldown;
         }
+    }
+
+    public void ApplySpeedBuff(float buffPercentage)
+    {
+        // Reduce the cooldown by the percentage (e.g., 3.0 * (1 - 0.15) = 2.55 seconds)
+        currentSpawnCooldown = baseSpawnCooldown * (1f - buffPercentage);
+    }
+
+    public void RemoveSpeedBuff(float buffPercentage)
+    {
+        // Reset back to standard
+        currentSpawnCooldown = baseSpawnCooldown;
     }
 
     private void FindLongestPath()
