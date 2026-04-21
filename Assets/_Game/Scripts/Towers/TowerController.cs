@@ -104,6 +104,9 @@ public class TowerController : MonoBehaviour
             _attackBehaviour.Initialize(this);
         }
         InvokeRepeating(nameof(UpdateTarget), 0f, 0.5f);
+
+        // Notify listeners (e.g. SpeedBufferTower) that a new tower is ready
+        TowerEvents.NotifyTowerBuilt(gameObject);
     }
 
     private ITowerAttackBehaviour FindAttackBehaviour()

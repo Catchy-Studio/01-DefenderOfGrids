@@ -17,6 +17,9 @@ public class BowlingTowerController : MonoBehaviour, IBuffable
     private Vector2 bestDirection;
     private float maxRollDistance;
 
+    private float baseSpawnCooldown;
+    private float currentSpawnCooldown;
+
     private void Start()
     {
         // If the tilemap wasn't assigned, find it automatically in the scene!
@@ -27,7 +30,11 @@ public class BowlingTowerController : MonoBehaviour, IBuffable
 
         FindLongestPath();
 
+        baseSpawnCooldown = towerData.fireCooldown;
         currentSpawnCooldown = baseSpawnCooldown;
+
+        // Notify listeners (e.g. SpeedBufferTower) that a new tower is ready
+        TowerEvents.NotifyTowerBuilt(gameObject);
     }
 
     private void Update()
@@ -38,7 +45,7 @@ public class BowlingTowerController : MonoBehaviour, IBuffable
         if (fireTimer <= 0f)
         {
             FireBall();
-            fireTimer = towerData.fireCooldown;
+            fireTimer = currentSpawnCooldown;
         }
     }
 

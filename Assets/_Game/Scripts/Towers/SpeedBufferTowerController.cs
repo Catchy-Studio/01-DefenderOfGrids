@@ -17,6 +17,48 @@ public class SpeedBufferTowerController : MonoBehaviour
         ApplyBuffsToSurroundings();
     }
 
+    private void OnEnable()
+    {
+        TowerEvents.OnTowerBuilt += OnNewTowerBuilt;
+    }
+
+    private void OnDisable()
+    {
+        TowerEvents.OnTowerBuilt -= OnNewTowerBuilt;
+    }
+
+    /// <summary>
+    /// Called whenever any tower is placed on the grid.
+    /// Checks if the new tower falls within our buff range and applies the buff if so.
+    /// </summary>
+    private void OnNewTowerBuilt(GameObject newTower)
+    {
+        if (newTower == null || newTower == gameObject) return;
+
+        IBuffable buffable = newTower.GetComponent<IBuffable>();
+        if (buffable == null) return;
+
+        // Check if this new tower is in one of our buff offsets
+        // We can use world position proximity as a simpler alternative to grid lookup.
+        // Assuming tiles are 1×1, a neighbouring cell is within ~1.5 units.
+        List<Vector2Int> offsets = GetOffsetsForCurrentTier();
+        Vector3 myPos = transform.position;
+
+        foreach (Vector2Int offset in offsets)
+        {
+            // Convert offset to world-space expected position
+            Vector3 expectedPos = myPos + new Vector3(offset.x, offset.y, 0f);
+
+            // Tolerance check (half a tile is generous enough for cell-center snapping)
+            if (Vector3.Distance(newTower.transform.position, expectedPos) < 0.6f)
+            {
+                buffable.ApplySpeedBuff(towerData.baseCooldownReduction);
+                currentlyBuffedTowers.Add(buffable);
+                return; // One tower can only occupy one cell
+            }
+        }
+    }
+
     private void ApplyBuffsToSurroundings()
     {
         // 1. Clear old buffs if this is called during an upgrade
